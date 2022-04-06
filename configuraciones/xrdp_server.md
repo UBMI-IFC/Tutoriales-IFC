@@ -28,3 +28,13 @@ Con esto es  suficiente para que el escritorio se lance en vez del escritorio qu
 sudo update-alternatives --config x-terminal-emulator
 ```
 y se elige cualquiera de las opciones listadas.
+
+4. Para mejorar la velocidad de conexión hay que editar el archivo:
+```bash
+/etc/xrdp/xrdp.ini
+```
+en el campo:
+```bash
+crypt_level=high
+```
+se puede sustituir por **low** ó **none** según sea necesario.
