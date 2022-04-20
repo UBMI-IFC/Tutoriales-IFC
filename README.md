@@ -11,7 +11,9 @@ Para consultar los servicios de la Unidad de Bioinformática y Manejo de la Info
 
 ## Contribuye
 
-Si quieres compartir tu experiencia con el resto de la comunidad al usar una función o programa en la red UBMI-IFC puedes publicarlo aquí siguiendo estos pasos:
+Puedes contribuir de dos formas: 1) puedes solicitar la creación de un tutorial que creas que te puede ayudar a ti o a la comunidad del IFC o puedes ¡¡crear uno y lo publicamos aquí!!
+
+Si quieres compartir tu experiencia con el resto de la comunidad al usar una función o programa en la red UBMI-IFC sigue estos pasos:
 
   - Crea un tutorial en [markdown](https://markdown.es/sintaxis-markdown/), no olvides dar los créditos correspondientes
   - Solicita [revisión](mailto:ubmi@ifc.unam.mx) para su publicación en el sitio web del IFC.
