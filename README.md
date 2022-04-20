@@ -10,7 +10,7 @@ Para consultar los servicios de la Unidad de Bioinformática y Manejo de la Info
 
 ## Programas útiles
 
-- [Software recomendado](https://ubmi-ifc.github.io/Tutoriales-IFC/notas/software_util)
+- Lista de [software](https://ubmi-ifc.github.io/Tutoriales-IFC/notas/software_util) que nos parece útil 
 - Domina (casi) cualquier programa usando [tldr](https://ubmi-ifc.github.io/Tutoriales-IFC/programas_utiles/tldr)
 
 ## Contribuye
