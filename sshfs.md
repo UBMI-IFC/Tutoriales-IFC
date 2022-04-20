@@ -1,7 +1,7 @@
 # Usar directorios remotos con SSHFS
 
 ## De un vistazo
-Si sólo estás leyendo esto para recordar los comandos aquí están:
+Si sólo estás leyendo esto para recordar los comandos; aquí están:
 
 __Montar__ 
 ```bash
