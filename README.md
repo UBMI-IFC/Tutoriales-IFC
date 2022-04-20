@@ -4,18 +4,18 @@
 
 En este sitio encontrarás tutoriales y recomendaciones que hemos preparado para tí!
 
-[Página principal](https://sites.google.com/ifc.unam.mx/ubmi-ifc/)
+Página principal de la [UBMI](https://sites.google.com/ifc.unam.mx/ubmi-ifc/)
 
-## Tutoriales
+### Tutoriales
 - Monta directorios remotos con [__sshfs__](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/sshfs)
 - Usa un escritorio remoto con el cliente de [Remmina](https://ubmi-ifc.github.io/Tutoriales-IFC/configuraciones/remmina_client)
 
-## Programas útiles
+### Programas útiles
 
 - Lista de [software](https://ubmi-ifc.github.io/Tutoriales-IFC/notas/software_util) que nos parece útil 
 - Domina (casi) cualquier programa usando [tldr](https://ubmi-ifc.github.io/Tutoriales-IFC/programas_utiles/tldr)
 
-## Contribuye
+### Contribuye
 
 Puedes contribuir de dos formas: 1) puedes solicitar la creación de un tutorial que creas que te puede ayudar a ti o a la comunidad del IFC ó 2) puedes crear uno y lo publicamos aquí
 
