@@ -11,7 +11,7 @@ Para consultar los servicios de la Unidad de Bioinformática y Manejo de la Info
 
 ## Contribuye
 
-Puedes contribuir de dos formas: 1) puedes solicitar la creación de un tutorial que creas que te puede ayudar a ti o a la comunidad del IFC o puedes ¡¡crear uno y lo publicamos aquí!!
+Puedes contribuir de dos formas: 1) puedes solicitar la creación de un tutorial que creas que te puede ayudar a ti o a la comunidad del IFC ó 2) puedes crear uno y lo publicamos aquí
 
 Si quieres compartir tu experiencia con el resto de la comunidad al usar una función o programa en la red UBMI-IFC sigue estos pasos:
 
