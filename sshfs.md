@@ -7,6 +7,10 @@ __Montar__
 ```bash
 $ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio /ruta/al/directorio_que_creamos_como_punto_de_montaje
 ```
+__Montar con UBMI Portal__
+```bash
+$ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio -o ssh_command='ssh -t -p puerto_de_UBMI_Portal usuario_UBMI_Portal@dirección_IP_de_UBMI_portal  ssh '
+```
 __Desmontar__
 ```bash
 $ fusermount -u /ruta/al/directorio_que_creamos_como_punto_de_montaje
@@ -114,14 +118,18 @@ en el ejemplo existen dos lineas que inician con la palabra __inet__ la primera 
    - Por el momento se pueden crear los siguientes esquemas de montaje:
         1- Directorio de computadora personal en red del IFC -> servidor UBMI
         2- Directorio de servidor UBMI -> computadora personal en red del IFC
+	3- __Con credenciales de acceso a UBMI Portal__ Directorio de servidor UBMI -> computadora personal fuera de la red del IFC
         
-        _si requieres otro tipo de esquema contacta al personal de la UBMI_
-       
+             
   - La ruta del directorio que deseamos montar la podemos conocer usando el comando `pwd`estando dentro de dicho directorio
 
 3 - Con los datos anteriores __en el equipo en el que deseamos montar el directorio remoto__ escribiremos en la terminal: 
 ```bash
 $ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio /ruta/al/directorio_que_creamos_como_punto_de_montaje
+```
+si el usuario cuenta con credenciales para acceso fuera de la red del IFC:
+```bash
+$ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio -o ssh_command='ssh -t -p puerto_de_UBMI_Portal usuario_UBMI_Portal@dirección_IP_de_UBMI_portal  ssh '
 ```
 
 4 - Con esto podemos ingresar al directorio y modificar su contenido desde la linea de comandos o desde la interfaz gráfica.
