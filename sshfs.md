@@ -58,7 +58,7 @@ __Requisito indispensable:__ se deben contar con privilegios de administrador en
 3. Verificar que el usuario forme parte del grupo __fuse__: 
    - Revisar si el grupo fuse existe: `$ cat /etc/group/ | grep fuse`, de existir la terminal nos devolverá un resultado similar a este donde la palabra __fuse__ debe encontrarse al __principio__ de la linea: 
    ```bash
-   fuse:x:27:acph,cperalta
+   fuse:x:27:tu_usuario,otro_usuario
 	```	
 si esto ocurre sólo resta verificar que tu nombre de usuario se encuentre escrito __en el mismo renglón__ 
 
