@@ -9,7 +9,7 @@ $ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio /ruta/al/directorio_que
 ```
 __Montar con UBMI Portal__
 ```bash
-$ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio -o ssh_command='ssh -t -p puerto_de_UBMI_Portal usuario_UBMI_Portal@dirección_IP_de_UBMI_portal  ssh '
+$ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio /ruta/al/directorio_que_creamos_como_punto_de_montaje -o ssh_command='ssh -t -p puerto_de_UBMI_Portal usuario_UBMI_Portal@dirección_IP_de_UBMI_portal  ssh '
 ```
 __Desmontar__
 ```bash
@@ -129,7 +129,7 @@ $ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio /ruta/al/directorio_que
 ```
 si el usuario cuenta con credenciales para acceso fuera de la red del IFC:
 ```bash
-$ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio -o ssh_command='ssh -t -p puerto_de_UBMI_Portal usuario_UBMI_Portal@dirección_IP_de_UBMI_portal  ssh '
+$ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio /ruta/al/directorio_que_creamos_como_punto_de_montaje -o ssh_command='ssh -t -p puerto_de_UBMI_Portal usuario_UBMI_Portal@dirección_IP_de_UBMI_portal  ssh '
 ```
 
 4 - Con esto podemos ingresar al directorio y modificar su contenido desde la linea de comandos o desde la interfaz gráfica.
