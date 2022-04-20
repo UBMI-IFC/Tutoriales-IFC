@@ -15,18 +15,8 @@ Página principal de la [UBMI](https://sites.google.com/ifc.unam.mx/ubmi-ifc/)
 - Lista de [software](https://ubmi-ifc.github.io/Tutoriales-IFC/notas/software_util) que nos parece útil 
 - Domina (casi) cualquier programa usando [tldr](https://ubmi-ifc.github.io/Tutoriales-IFC/programas_utiles/tldr)
 
-### Contribuye
-
-Puedes contribuir de dos formas: 1) puedes solicitar la creación de un tutorial que creas que te puede ayudar a ti o a la comunidad del IFC ó 2) puedes crear uno y lo publicamos aquí
-
-Si quieres compartir tu experiencia con el resto de la comunidad al usar una función o programa en la red UBMI-IFC sigue estos pasos:
-
-  - Crea un tutorial en [markdown](https://markdown.es/sintaxis-markdown/), no olvides dar los créditos correspondientes
-  - Solicita [revisión](mailto:ubmi@ifc.unam.mx) para su publicación en el sitio web del IFC.
-  - Coméntanos si deseas que usemos tu nombre y laboratorio para darte el crédito correspondiente y listo!
-
-#### Contacto
-[UBMI-IFC](mailto:ubmi@ifc.unam.mx)
+### Participa
+Puedes ayudar a mejorar esta pagina solicitando o [creando un tutorial](https://ubmi-ifc.github.io/Tutoriales-IFC/colabora), no dudes en [contactarnos](mailto:ubmi@ifc.unam.mx)
 
 
 
