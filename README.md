@@ -1,8 +1,10 @@
-# Hola mundo!
+# UBMI-IFC
 
-La comunidad UMBI-IFC te dá la bienvenida.
+## Página de la comunidad
 
-Para consultar los servicios de la Unidad de Bioinformática y Manejo de la Información del Instituto de Fisiología Celular de la UNAM, haz click [aqui](https://sites.google.com/ifc.unam.mx/ubmi-ifc/)
+En este sitio encontrarás tutoriales y recomendaciones que hemos preparado para tí!
+
+[Página principal](https://sites.google.com/ifc.unam.mx/ubmi-ifc/)
 
 ## Tutoriales
 - Monta directorios remotos con [__sshfs__](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/sshfs)
