@@ -130,3 +130,5 @@ $ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio /ruta/al/directorio_que
 ```bash
 $ fusermount -u /ruta/al/directorio_que_creamos_como_punto_de_montaje
 ```
+
+[fuente](https://geekland.eu/montar-sistema-archivos-remoto-con-sshfs/)
