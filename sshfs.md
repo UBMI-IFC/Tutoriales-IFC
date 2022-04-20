@@ -10,25 +10,14 @@ Como usuario de la red __UBMI-IFC__ puedes usar SSHFS para montar en tu computad
 Puedes solicitar apoyo para realizar este procedimiento al personal de la [UBMI](https://sites.google.com/ifc.unam.mx/ubmi-ifc/contacto), pero te recomendamos que antes intentes seguir el siguiente tutorial
 
 ## Tutorial
-(Dificultad: media)
 
-1. __Uso básico__: Usar sshfs para montar directorios desde una computadora remota. (sshfs conectado a la red del IFC)
-2. __Uso avanzado__: Usar sshfs para montar directorios desde una computadora remota a traves de un tunel ssh (sshfs a los servidores UBMI-IFC desde una red externa)  
-
-## Requisitos
+#### Requisitos
 - Computadora con una instalación de GNU/Linux ó con MacOS.
     - Los usuarios de Windows[^1]  deberán utilizar [alternativas](https://www.raulprietofernandez.net/blog/gnu-linux/como-montar-un-sistema-de-ficheros-remoto-con-sshfs) o bien crear una [máquina virtual](https://osl.ugr.es/2020/09/29/como-instalar-ubuntu-en-virtual-box/) con GNU/Linux pero; crear una [partición](https://www.xataka.com/basics/como-instalar-linux-a-windows-10-ordenador) en su disco duro suele ser la mejor opción.
 - Acceso a Internet o a una red local
 - Usuario y contraseña en una computadora remota
 
-```bash
-$ sshfs carlos@10.10.10.10
-```
-
-
 [^1]: La Unidad  de Bioinformática y Manejo de la Información no es responsable por el contenido de páginas de terceros, los vínculos de internet proporcionados son con fines de orientación.
-
-### notas de implementacion (eliminar antes de publicar el tutorial)
 
 #### Instalación del software necesario.
 
@@ -76,3 +65,52 @@ Si esto ha funcionado correctamente __pasa a la siguiente sección__
 	- Finalmente verificaremos nuevamente con: `$ cat /etc/group/ | grep fuse` que el grupo exista y nuestro usuario forme parte del mismo
 	
 	
+#### Montar un directorio remoto
+
+Para usar un directorio de otro equipo en nuestra computadora seguiremos los siguientes pasos:
+
+
+1 - Crearemos un directorio vacio que servira de punto de montaje; por ejemplo: `$ mkdir /home/tu_nombre_de_usuario_local/directorio_nuevo`
+2- Ubicaremos los siguientes datos del equipo remoto: dirección IP, nombre de usuario con el cual accedes a dicho equipo y la ruta absoluta del directorio que quieres montar.
+    - Si quieres montar un directorio que se encuentra en algún equipo administrado por la UBMI la dirección IP y el usuario te fueron proporcionados por los administradores y son los mismos con los cuales accedes vía SSH
+    - Si por el contrario quieres montar un directorio de tu computadora personal o del laboratorio en uno de los servidores de la UBMI, __estando conectado desde la red del IFC__ en la terminal de tu equipo escribe `$ echo $USER`para conocer tu nombre de usuario y `ip ad`o `ifconfig` en los resultados de estos comandos busca la linea que comience por la palabra __inet__ los números que le siguen esta palabra son tu dirección , por ejemplo:
+  
+  ```bash
+$ ip ad
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp5s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN group default qlen 1000
+    link/ether 04:42:1a:0c:30:4f brd ff:ff:ff:ff:ff:ff
+3: enp6s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 04:42:1a:0c:30:50 brd ff:ff:ff:ff:ff:ff
+    inet 10.10.180.37/24 brd 10.10.180.255 scope global noprefixroute enp6s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::572a:1318:b7ef:b5e1/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+```
+en el ejemplo existen dos lineas que inician con la palabra __inet__ la primera `inet 127.0.0.1/8 scope host lo`corresponde a la dirección local y no es la que estamos buscando, en cambio la segunda ` inet 10.10.180.37/24 brd 10.10.180.255 scope global noprefixroute enp6s0`es la que deseamos, dentro de la red del IFC las direcciones IP de los equipos siempre serán `10.10.1xx.xxx`para conexiones alámbricas y `10.10.2xx.xxx`para conexiones inalámbricas, nota que la dirección que deberás utilizar en este caso sería: `10.10.180.37` omitiendo la diagonal y los dígitos que le siguen.
+
+   - Por el momento se pueden crear los siguientes esquemas de montaje:
+        1- Directorio de computadora personal en red del IFC -> servidor UBMI
+        2- Directorio de servidor UBMI -> computadora personal en red del IFC
+        
+        _si requieres otro tipo de esquema contacta al personal de la UBMI_
+       
+  - La ruta del directorio que deseamos montar la podemos conocer usando el comando `pwd`estando dentro de dicho directorio
+
+3 - Con los datos anteriores __en el equipo en el que deseamos montar el directorio remoto__ escribiremos en la terminal: 
+```bash
+$ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio /ruta/al/directorio_que_creamos_como_punto_de_montaje
+```
+
+4 - Con esto podemos ingresar al directorio y modificar su contenido desde la linea de comandos o desde la interfaz gráfica.
+
+5 - Para desmonar el directorio remoto usaremos : 
+```bash
+$ fusermount -u /ruta/al/directorio_que_creamos_como_punto_de_montaje
+```
