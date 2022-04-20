@@ -1,5 +1,21 @@
 # Usar directorios remotos con SSHFS
-## ¿Qué es SSHFS?
+
+## De un vistazo
+Si sólo estás leyendo esto para recordar los comandos aquí están:
+
+__Montar__ 
+```bash
+$ sshfs usuario_remoto@dirección_IP:/ruta/al/directorio /ruta/al/directorio_que_creamos_como_punto_de_montaje
+```
+__Desmontar__
+```bash
+$ fusermount -u /ruta/al/directorio_que_creamos_como_punto_de_montaje
+```
+Si necesitas mas ayuda sigue leyendo ...
+
+## Tutorial
+
+### ¿Qué es SSHFS?
 
 [__SSHFS__](https://es.wikipedia.org/wiki/Secure_Shell_Filesystem) es un programa de la interfáz de línea de comandos de GNU/Linux que nos ayuda a trabajar con __directorios__ que  <ins>no</ins> están en nuestra computadora local, sino en una computadora o servidor al cual tenemos acceso mediante __SSH__.
 
@@ -9,9 +25,9 @@ Como usuario de la red __UBMI-IFC__ puedes usar SSHFS para montar en tu computad
 
 Puedes solicitar apoyo para realizar este procedimiento al personal de la [UBMI](https://sites.google.com/ifc.unam.mx/ubmi-ifc/contacto), pero te recomendamos que antes intentes seguir el siguiente tutorial
 
-## Tutorial
 
-#### Requisitos
+
+### Requisitos
 - Computadora con una instalación de GNU/Linux ó con MacOS.
     - Los usuarios de Windows[^1]  deberán utilizar [alternativas](https://www.raulprietofernandez.net/blog/gnu-linux/como-montar-un-sistema-de-ficheros-remoto-con-sshfs) o bien crear una [máquina virtual](https://osl.ugr.es/2020/09/29/como-instalar-ubuntu-en-virtual-box/) con GNU/Linux pero; crear una [partición](https://www.xataka.com/basics/como-instalar-linux-a-windows-10-ordenador) en su disco duro suele ser la mejor opción.
 - Acceso a Internet o a una red local
@@ -19,7 +35,7 @@ Puedes solicitar apoyo para realizar este procedimiento al personal de la [UBMI]
 
 [^1]: La Unidad  de Bioinformática y Manejo de la Información no es responsable por el contenido de páginas de terceros, los vínculos de internet proporcionados son con fines de orientación.
 
-#### Instalación del software necesario.
+### Instalación del software necesario.
 
 Los equipos de cómputo administrados por la UBMI cuentan con el software necesario para permitir que se monten sus directorios en otros equipos y para montar directorios de otros equipos en ellos.
 
@@ -65,7 +81,7 @@ Si esto ha funcionado correctamente __pasa a la siguiente sección__
 	- Finalmente verificaremos nuevamente con: `$ cat /etc/group/ | grep fuse` que el grupo exista y nuestro usuario forme parte del mismo
 	
 	
-#### Montar un directorio remoto
+### Montar un directorio remoto
 
 Para usar un directorio de otro equipo en nuestra computadora seguiremos los siguientes pasos:
 
