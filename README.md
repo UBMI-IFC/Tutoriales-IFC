@@ -5,9 +5,12 @@ La comunidad UMBI-IFC te dá la bienvenida.
 Para consultar los servicios de la Unidad de Bioinformática y Manejo de la Información del Instituto de Fisiología Celular de la UNAM, haz click [aqui](https://sites.google.com/ifc.unam.mx/ubmi-ifc/)
 
 ## Tutoriales
-- Monta directorios remotos con [__sshfs__](https://ubmi-ifc.github.io/Tutoriales-IFC/sshfs)
+- Monta directorios remotos con [__sshfs__](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/sshfs)
+- Usa un escritorio remoto con el cliente de [Remmina](https://ubmi-ifc.github.io/Tutoriales-IFC/configuraciones/remmina_client)
 
 ## Programas útiles
+
+- Domina (casi) cualquier programa usando [tldr](https://ubmi-ifc.github.io/Tutoriales-IFC/programas_utiles/tldr)
 
 ## Contribuye
 
