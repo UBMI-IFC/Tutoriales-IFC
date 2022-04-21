@@ -2,13 +2,7 @@ theme: jekyll-theme-cayman
 
 # Setup
 title:        Comunidad UBMI
-tagline:      Tutoriales y recursos para los usuarios
-baseurl:      "https://ubmi-ifc.github.io/Tutoriales-IFC/"
-locale:       "es"
+description:      Tutoriales y recursos para los usuarios
 
-# About/contact
-author:
-  name:       UBMI-IFC
-  url:        https://sites.google.com/ifc.unam.mx/ubmi-ifc/ 
 
 
