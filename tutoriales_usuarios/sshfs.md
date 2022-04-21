@@ -113,7 +113,7 @@ $ ip ad
        valid_lft forever preferred_lft forever
 
 ```
-en el ejemplo existen dos lineas que inician con la palabra __inet__ la primera `inet 127.0.0.1/8 scope host lo`corresponde a la dirección local y no es la que estamos buscando, en cambio la segunda ` inet 10.10.180.37/24 brd 10.10.180.255 scope global noprefixroute enp6s0`es la que deseamos, dentro de la red del IFC las direcciones IP de los equipos siempre serán `10.10.1xx.xxx`para conexiones alámbricas y `10.10.2xx.xxx`para conexiones inalámbricas, nota que la dirección que deberás utilizar en este caso sería: `10.10.180.37` omitiendo la diagonal y los dígitos que le siguen.
+en el ejemplo existen dos lineas que inician con la palabra __inet__ la primera `inet 127.0.0.1/8 scope host lo`corresponde a la dirección local y no es la que estamos buscando, en cambio la segunda `inet 10.10.180.37/24 brd 10.10.180.255 scope global noprefixroute enp6s0` es la que deseamos, dentro de la red del IFC las direcciones IP de los equipos siempre serán `10.10.xxx.xxx` , nota que la dirección que deberás utilizar en este caso sería: `10.10.180.37` omitiendo la diagonal y los dígitos que le siguen.
 
    - Por el momento se pueden crear los siguientes esquemas de montaje:
         1- Directorio de computadora personal en red del IFC -> servidor UBMI
