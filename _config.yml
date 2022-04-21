@@ -13,9 +13,4 @@ author:
   name:       UBMI-IFC
   url:        https://sites.google.com/ifc.unam.mx/ubmi-ifc/ 
 
-# Gems
-gems:
-  - jekyll-paginate
 
-#Others
-markdown: kramdown
