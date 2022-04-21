@@ -7,7 +7,7 @@ En este sitio encontrarás tutoriales y recomendaciones que hemos preparado para
 Página principal de la [UBMI](https://sites.google.com/ifc.unam.mx/ubmi-ifc/)
 
 ### Tutoriales
-- Monta directorios remotos con [__sshfs__](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/sshfs)
+- Monta directorios remotos con [sshfs](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/sshfs)
 - Usa un escritorio remoto con el cliente de [Remmina](https://ubmi-ifc.github.io/Tutoriales-IFC/configuraciones/remmina_client)
 
 ### Programas útiles
