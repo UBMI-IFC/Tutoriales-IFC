@@ -19,4 +19,4 @@ Si aún no lo tienes instalado en tu computadora instálalo con:
 $ sudo apt-get install tldr
 ```
 
-Cónoce mas en su [pagina](https://tldr.sh/) oficial
+Cónoce más en su [pagina](https://tldr.sh/) oficial
