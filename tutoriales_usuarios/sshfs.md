@@ -33,7 +33,7 @@ Puedes solicitar apoyo para realizar este procedimiento al personal de la [UBMI]
 
 ### Requisitos
 - Computadora con una instalación de GNU/Linux ó con MacOS.
-    - Los usuarios de Windows[^1]  deberán utilizar [alternativas](https://www.raulprietofernandez.net/blog/gnu-linux/como-montar-un-sistema-de-ficheros-remoto-con-sshfs) o bien crear una [máquina virtual](https://osl.ugr.es/2020/09/29/como-instalar-ubuntu-en-virtual-box/) con GNU/Linux pero; crear una [partición](https://www.xataka.com/basics/como-instalar-linux-a-windows-10-ordenador) en su disco duro suele ser la mejor opción.
+- Los usuarios de Windows[^1]  deberán utilizar [alternativas](https://www.raulprietofernandez.net/blog/gnu-linux/como-montar-un-sistema-de-ficheros-remoto-con-sshfs) o bien crear una [máquina virtual](https://osl.ugr.es/2020/09/29/como-instalar-ubuntu-en-virtual-box/) con GNU/Linux pero; crear una [partición](https://www.xataka.com/basics/como-instalar-linux-a-windows-10-ordenador) en su disco duro suele ser la mejor opción.
 - Acceso a Internet o a una red local
 - Usuario y contraseña en una computadora remota
 
