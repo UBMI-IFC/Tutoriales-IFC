@@ -1,4 +1,5 @@
-theme: jekyll-theme-minimal
+remote_theme : /bitbrain/jekyll-dash
+#theme: jekyll-theme-minimal
 title: Comunidad UBMI
 description: Tutoriales y recursos para los usuarios
 logo: /logo.png
