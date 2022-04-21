@@ -47,13 +47,10 @@ dash:
   social_links:
     - url: https://sites.google.com/ifc.unam.mx/ubmi-ifc/
       icon: web
-      color: cyan
     - url: https://github.com/UBMI-IFC
       icon: github
-      color: red
     - url: mailto:ubmi@ifc.unam.mx
-      icon: envelope
-      color: mail
+      icon: mail
   
   # wether the author box should be displayed or not
   show_author: true
