@@ -1,56 +1,21 @@
-remote_theme : bitbrain/jekyll-dash
-#theme: jekyll-theme-minimal
-title: Comunidad UBMI
-description: Tutoriales y recursos para los usuarios
-#logo: /logo.png
-show_downloads: false
-google_analytics:
+#remote_theme : bitbrain/jekyll-dash
+theme: jekyll-theme-cayman
 
-# custom theme
-# required by disqus to display comments
-#url: https://your-site-url
+# Setup
+title:        Comunidad UBMI
+tagline:      Tutoriales y recursos para los usuarios
+baseurl:      ""
+paginate:     1
+locale:       "es"
 
-# jekyll-paginate
-paginate: 5
-paginate_path: "/blog/page:num/"
+# About/contact
+author:
+  name:       UBMI-IFC
+  url:        https://sites.google.com/ifc.unam.mx/ubmi-ifc/ 
 
-# jekyll-tagging (optional)
-tag_permalink_style: pretty
-tag_page_layout: tag_page
-tag_page_dir: tag
+# Gems
+gems:
+  - jekyll-paginate
 
-# for github pages custom domains:
-# include: [CNAME]
-
-dash:
-  # the way how dates should be displayed
-  date_format: "%b %-d, %Y"
-
-  # (optional) discqus comment configuration
-  disqus:
-    shortname: <your-disqus-shortname>  
-
-  # the animation speed of the post scroll-in effect
-  animation_speed: 50
-
-  # wether to enable Right-to-Left support or not
-  rtl: false
-
-  # Replaces the default avatar provider (gravatar)
-  #avatar_source: github
-  #github_username: bitbrain
-  #avatar_source: local
-  #avatar_path: /assets/avatar.png
-
-  # generate social links in footer
-  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
-  social_links:
-    - url: https://sites.google.com/ifc.unam.mx/ubmi-ifc/
-      icon: web
-    - url: https://github.com/UBMI-IFC
-      icon: github
-    - url: mailto:ubmi@ifc.unam.mx
-      icon: mail
-  
-  # wether the author box should be displayed or not
-  show_author: true
+#Others
+markdown: kramdown
