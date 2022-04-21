@@ -2,5 +2,5 @@ theme: jekyll-theme-minimal
 title: Comunidad UBMI
 description: Tutoriales y recursos para los usuarios
 logo: /logo.png
-show_downloads: true
+show_downloads: false
 google_analytics:
