@@ -77,8 +77,10 @@ __Importante verificar los IDs antes de crear usuarios o grupos nuevos, especial
 - [ ] La instalación típica se realiza con: `$ sudo python3 InstallSEISbio.py -d mambaforge --debian --debupgrade` pero se puede usar `python3 InstallSEISbio.py -h`para ver otras opciones
 
 ##  Interfaces de usuario
+
 ### SSH
 __Aquí va lo del MOTD personalizado__
+
 ### XRDP
 - [ ] Instalar y optimizar el servicio de XRDP, ver esta [liga](https://ubmi-ifc.github.io/Tutoriales-IFC/configuraciones/xrdp_server)
 
