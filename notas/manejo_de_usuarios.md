@@ -32,5 +32,5 @@ sudo userdel -r [usuario]
 ```
 - Asignar password a un usuario en una linea
 ```bash
-echo [usuario]:[password] | chpasswd -m
+echo [usuario]:[password] | sudo chpasswd -m
 ```
