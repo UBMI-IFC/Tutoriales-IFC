@@ -1,7 +1,9 @@
 # Configuración para xrdp-server
 
 ## Instalación de xrpd
-**Pendiente**
+```bash
+sudo apt install xrdp
+```
 
 ## Optimización del servidor
 
