@@ -5,7 +5,7 @@ ___
 
 ## Respaldo (reinstalación)
 
-- [ ] Respaldar ambientes de anaconda con [condaCloner](https://github.com/UBMI-IFC/condaCloner) (repositorio privado)
+- [ ] Respaldar ambientes de anaconda con [condaCloner](https://github.com/UBMI-IFC/condaCloner) 
 - [ ] Respaldar `/etc/bash.bashrc`,  `/etc/passwd` , `/etc/group` y  `/etc/fstab` 
 - [ ] Respaldar scripts _ad hoc_ de `/opt/`
 - [ ] Si existe una instalación de snakePipes; puede ser deseable recopilar que organismos están instalados, es posible saberlo a través del listado de sus respectivos archivos '.yml'  ejecutando : 
@@ -73,15 +73,24 @@ __Importante verificar los IDs antes de crear usuarios o grupos nuevos, especial
 
 ## Instalación de SEISbio
 
+- [ ] Descargar o clonar el repositorio de SEISBio `$ wget https://github.com/UBMI-IFC/SEISbio/archive/refs/heads/main.zip && unzip main.zip`
+- [ ] La instalación típica se realiza con: `$ sudo python3 InstallSEISbio.py -d mambaforge --debian --debupgrade` pero se puede usar `python3 InstallSEISbio.py -h`para ver otras opciones
+
 ##  Interfaces de usuario
 ### SSH
 __Aquí va lo del MOTD personalizado__
 ### XRDP
-__Aqui va  la configuración del servidor xrdp__s
+- [ ] Instalar y optimizar el servicio de XRDP, ver esta [liga](https://ubmi-ifc.github.io/Tutoriales-IFC/configuraciones/xrdp_server)
 
 ## NAS
-- [ ] Si la IP del equipo ya cuenta con permisos en el(los) NAS montar el sistema de archivos en su punto de anclaje correspondiente  __NOTA__ agregar como __NOTA__
+- [ ] Si la IP del equipo ya cuenta con permisos en el(los) NAS montar el sistema de archivos en su punto de anclaje correspondiente  __NOTA__ agregar como se hace__NOTA__
 
-##  V.A.C.A.
+##  V.A.C.A. (EXPERIMENTAL)
+Por el momento el sistema de Vigilancia Automática de Computo y Almacenamiento requiere de Monitorix
+__ESTOS PASOS SON PRELIMINARES Y CAMBIAN RÁPIDAMENTE A MEDIDA QUE EVOLUCIONA EL SISTEMA V.A.C.A.__
 
-## 
+El [repositorio](https://github.com/UBMI-IFC/vaca) de V.A.C.A es privado por ahora, hasta que se elimine información sensible del mismo
+
+- [ ] El monitoreo básico requiere únicamente la instalación de monitorix `$ sudo apt install monitorix`
+- [ ] Si se cuenta con un archivo de configuración para ese equipo se puede descargar desde el repositiorio de V.A.C.A y colocarlo en `/etc/monitorix/conf.d` 
+- [ ] Los scripts de alerta deben colocarse en `/vaca/` y los logs en `/vaca/logs` existe o debería de existir un script de instalación en el repositorio para automatizar este paso `$ sudo bash vaca_installer.sh`
