@@ -92,6 +92,10 @@ __Aquí va lo del MOTD personalizado__
 ## Acceso a NAS
 - [ ] Si la IP del equipo ya cuenta con permisos en el(los) NAS montar el sistema de archivos en su punto de anclaje correspondiente  __NOTA__ agregar como se hace__NOTA__
 
+## Instalar programas de GUI
+
+- Los programas con GUI por ahora deben instalarse manualmente (Inkscape, Rstudio, GIMP etc) hasta que el instalador de SEISBio tenga las opciones necesarias para especificar si la instalación contempla este tipo de programas.
+
 ##  V.A.C.A. (EXPERIMENTAL)
 Por el momento el sistema de Vigilancia Automática de Computo y Almacenamiento requiere de Monitorix
 __ESTOS PASOS SON PRELIMINARES Y CAMBIAN RÁPIDAMENTE A MEDIDA QUE EVOLUCIONA EL SISTEMA V.A.C.A.__
