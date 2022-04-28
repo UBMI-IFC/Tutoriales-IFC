@@ -47,8 +47,9 @@ ___
 
 ___
 
-## Instalación de Singularity y creación de la carpeta de containers
+## Instalación de Singularity
 
+- [ ] Instalamos Singularity con el script [install_singularity.sh](https://github.com/UBMI-IFC/singularity-test/blob/main/install_singularity.sh), (que por el momento está en un contenedor privado)
 ___
 
 ## Creación de grupos y usuarios
