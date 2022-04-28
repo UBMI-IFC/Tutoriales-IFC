@@ -96,6 +96,10 @@ __Aquí va lo del MOTD personalizado__
 
 - Los programas con GUI por ahora deben instalarse manualmente (Inkscape, Rstudio, GIMP etc) hasta que el instalador de SEISBio tenga las opciones necesarias para especificar si la instalación contempla este tipo de programas.
 
+## Instalar drivers de tarjetas gráficas
+
+- Otra tarea que aún no se puede automatizar del todo es instalar los controladores de nvidia, las diferentes distros ofrecen: instaladores, detectores de los drivers necesarios en programas de la CLI p ej `nvidia-detect` pero varía en cada caso. __este es un recordatorio para no olvidar instalar dichos controladores__
+
 ##  V.A.C.A. (EXPERIMENTAL)
 Por el momento el sistema de Vigilancia Automática de Computo y Almacenamiento requiere de Monitorix
 __ESTOS PASOS SON PRELIMINARES Y CAMBIAN RÁPIDAMENTE A MEDIDA QUE EVOLUCIONA EL SISTEMA V.A.C.A.__
