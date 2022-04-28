@@ -50,6 +50,7 @@ ___
 ## Instalación de Singularity
 
 - [ ] Instalamos Singularity con el script [install_singularity.sh](https://github.com/UBMI-IFC/singularity-test/blob/main/install_singularity.sh), (que por el momento está en un contenedor privado)
+
 ___
 
 ## Creación de grupos y usuarios
@@ -81,6 +82,8 @@ echo estudiante:otroPassword | chpasswd -m
 ```
 __Importante verificar los IDs antes de crear usuarios o grupos nuevos, especialmente los propios__
 
+___
+
 ##  Interfaces de usuario
 
 ### Personalización SSH
@@ -89,16 +92,25 @@ __Aquí va lo del MOTD personalizado__
 ### Servidor XRDP
 - [ ] Instalar y optimizar el servicio de XRDP, ver esta [liga](https://ubmi-ifc.github.io/Tutoriales-IFC/configuraciones/xrdp_server)
 
+___
+
 ## Acceso a NAS
 - [ ] Si la IP del equipo ya cuenta con permisos en el(los) NAS montar el sistema de archivos en su punto de anclaje correspondiente  __NOTA__ agregar como se hace__NOTA__
+
+___
 
 ## Instalar programas de GUI
 
 - Los programas con GUI por ahora deben instalarse manualmente (Inkscape, Rstudio, GIMP etc) hasta que el instalador de SEISBio tenga las opciones necesarias para especificar si la instalación contempla este tipo de programas.
 
+
+___
+
 ## Instalar drivers de tarjetas gráficas
 
 - Otra tarea que aún no se puede automatizar del todo es instalar los controladores de nvidia, las diferentes distros ofrecen: instaladores, detectores de los drivers necesarios en programas de la CLI p ej `nvidia-detect` pero varía en cada caso. __este es un recordatorio para no olvidar instalar dichos controladores__
+
+___
 
 ##  V.A.C.A. (EXPERIMENTAL)
 Por el momento el sistema de Vigilancia Automática de Computo y Almacenamiento requiere de Monitorix
@@ -109,3 +121,5 @@ El [repositorio](https://github.com/UBMI-IFC/vaca) de V.A.C.A es privado por aho
 - [ ] El monitoreo básico requiere únicamente la instalación de monitorix `$ sudo apt install monitorix`
 - [ ] Si se cuenta con un archivo de configuración para ese equipo se puede descargar desde el repositiorio de V.A.C.A y colocarlo en `/etc/monitorix/conf.d` 
 - [ ] Los scripts de alerta deben colocarse en `/vaca/` y los logs en `/vaca/logs` existe o debería de existir un script de instalación en el repositorio para automatizar este paso `$ sudo bash vaca_installer.sh`
+
+___
