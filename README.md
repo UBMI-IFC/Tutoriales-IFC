@@ -18,7 +18,6 @@ Página principal de la [UBMI](https://sites.google.com/ifc.unam.mx/ubmi-ifc/)
 ### Participa
 Puedes ayudar a mejorar esta pagina solicitando o [creando un tutorial](https://ubmi-ifc.github.io/Tutoriales-IFC/colabora), no dudes en [contactarnos](mailto:ubmi@ifc.unam.mx)
 
+___
 
-
-
-
+[Administradores](https://ubmi-ifc.github.io/Tutoriales-IFC/admin)
