@@ -7,4 +7,5 @@ ____
 ## Contenido
 
 - [Manual de configuración de servidor xrdp](https://ubmi-ifc.github.io/Tutoriales-IFC/configuraciones/xrdp_server)
-- [Protocolo de equipo nuevo o reinstalación](https://ubmi-ifc.github.io/Tutoriales-IFC/configuraciones/protocolo_reinstalacion)
+- [Protocolo de equipo nuevo o reinstalación](https://ubmi-ifc.github.io/Tutoriales-IFC/configuraciones/protocolo_reinstalación)
+- [Comandos para la creación de cuentas de usuario](https://ubmi-ifc.github.io/Tutoriales-IFC/notas/manejo_de_usuarios)
