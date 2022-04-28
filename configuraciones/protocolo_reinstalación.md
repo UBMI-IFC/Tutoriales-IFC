@@ -37,7 +37,17 @@ ___
 
 - [ ] Conectarse al internet mediante cable ethernet o wifi
 - [ ] __PENDIENTE__ establecer/reestablecer la IP fija __PENDIENTE__
-- [ ] Habilitar ssh `$ sudo apt update && sudo apt install openssh-server` para permitir que muchos de los siguientes pasos se puedan realizar de forma remota, el servicio debería iniciarse automáticamente verificar con: `sudo systemctl status ssh`  __NOTA__ ver si conviene instalar primero seisbio antes de la creacion de usuarios para omitir este paso __NOTA__
+
+___
+
+## Instalación de SEISbio
+
+- [ ] Descargar o clonar el repositorio de SEISBio `$ wget https://github.com/UBMI-IFC/SEISbio/archive/refs/heads/main.zip && unzip main.zip`
+- [ ] La instalación típica se realiza con: `$ sudo python3 InstallSEISbio.py -d mambaforge --debian --debupgrade` pero se puede usar `python3 InstallSEISbio.py -h`para ver otras opciones
+
+___
+
+## Instalación de Singularity y creación de la carpeta de containers
 
 ___
 
@@ -70,21 +80,15 @@ echo estudiante:otroPassword | chpasswd -m
 ```
 __Importante verificar los IDs antes de crear usuarios o grupos nuevos, especialmente los propios__
 
-
-## Instalación de SEISbio
-
-- [ ] Descargar o clonar el repositorio de SEISBio `$ wget https://github.com/UBMI-IFC/SEISbio/archive/refs/heads/main.zip && unzip main.zip`
-- [ ] La instalación típica se realiza con: `$ sudo python3 InstallSEISbio.py -d mambaforge --debian --debupgrade` pero se puede usar `python3 InstallSEISbio.py -h`para ver otras opciones
-
 ##  Interfaces de usuario
 
-### SSH
+### Personalización SSH
 __Aquí va lo del MOTD personalizado__
 
-### XRDP
+### Servidor XRDP
 - [ ] Instalar y optimizar el servicio de XRDP, ver esta [liga](https://ubmi-ifc.github.io/Tutoriales-IFC/configuraciones/xrdp_server)
 
-## NAS
+## Acceso a NAS
 - [ ] Si la IP del equipo ya cuenta con permisos en el(los) NAS montar el sistema de archivos en su punto de anclaje correspondiente  __NOTA__ agregar como se hace__NOTA__
 
 ##  V.A.C.A. (EXPERIMENTAL)
