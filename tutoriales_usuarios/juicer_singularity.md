@@ -9,7 +9,7 @@
 $ juicer_singularity <comando>
 ```
 
-- Entrar en modo shell ('acceder' al contenedor como si fuese una computadora distinta, __PRECAUCIÓN: puede resultar bastante confuso si no se sabe lo que se hace, ó incluso si se sabe lo que se hace)
+- Entrar en modo shell ('acceder' al contenedor como si fuese una computadora distinta, __PRECAUCIÓN: puede resultar bastante confuso si no se sabe lo que se hace, ó incluso si se sabe lo que se hace__)
 ```bash
 $ juicer_singularity_shell
 ```
