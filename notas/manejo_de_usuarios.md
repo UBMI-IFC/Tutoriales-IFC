@@ -34,3 +34,28 @@ sudo userdel -r [usuario]
 ```bash
 echo [usuario]:[password] | sudo chpasswd -m
 ```
+
+___
+
+## Manejo de usuarios en "masa"
+__Las siguientes lineas son una versión posiblemente desactualizada de la documentación de los scripts para manejo de usuarios del repositorio privado "[servidores](https://github.com/UBMI-IFC/servidores/tree/main/scripts/manejo_usuarios)" de la UBMI, los scripts a los que se hacen referencia se encuentran depositados ahí__
+___
+
+- check_user_in_hosts.sh
+
+Permite revisar qué servidores tienen registrados los usuarios de una lista
+
+```Bash
+# Ejecución
+$ ./check_user_in_hosts.sh [archivo con usernames] [archivo con hostnames/IPs/usuario@IPs]
+```
+- rm_userlist.sh
+
+Permite eliminar a todos los usuarios de una lista __Debe ejecutarse con `$ sudo`__
+
+```Bash
+# Ejecución
+$ sudo ./rm_userlist.sh [archivo con usernames] 
+```
+
+
