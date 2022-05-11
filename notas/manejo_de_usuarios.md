@@ -45,14 +45,14 @@ ___
 
 Permite revisar qué servidores tienen registrados los usuarios de una lista
 
-```Bash
+```bash
  ./check_user_in_hosts.sh [archivo con usernames] [archivo con hostnames/IPs/usuario@IPs]
 ```
 - rm_userlist.sh
 
 Permite eliminar a todos los usuarios de una lista __Debe ejecutarse con `$ sudo`__
 
-```Bash
+```bash
 sudo ./rm_userlist.sh [archivo con usernames] 
 ```
 
