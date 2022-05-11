@@ -39,7 +39,6 @@ ___
 
 ## Manejo de usuarios en "masa"
 __Las siguientes lineas son una versión posiblemente desactualizada de la documentación de los scripts para manejo de usuarios del repositorio privado "[servidores](https://github.com/UBMI-IFC/servidores/tree/main/scripts/manejo_usuarios)" de la UBMI, los scripts a los que se hacen referencia se encuentran depositados ahí__
-___
 
 - check_user_in_hosts.sh
 
