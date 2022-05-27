@@ -17,6 +17,7 @@ sudo apt install xfce4 xfce4-terminal
 /etc/xrdp/startwm.sh
 ```
 yo comenté las ultimas lineas del script y agregué la instrucción para iniciar el escritorio de xfce :
+
 ```bash
 #test -x /etc/X11/Xsession && exec /etc/X11/Xsession
 #exec /bin/sh /etc/X11/Xsession
@@ -26,6 +27,7 @@ startxfce4
 Con esto es  suficiente para que el escritorio se lance en vez del escritorio que tenga por default el servidor, el único problema detectado al momento es que al tratar de ejecutar la terminal pulsando el ícono o desde el gestor de archivos no sucede nada, pero desde el menú de aplicaciones es posible iniciar cualquiera de las terminales instaladas.
 
 3. Para resolver el problema anterior **con una sesión grafica iniciada en xfce en el servidor, ya sea local o remotamente** :
+
 ```bash
 sudo update-alternatives --config x-terminal-emulator
 ```
