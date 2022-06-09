@@ -13,13 +13,13 @@ posible.
 ¿Dónde empezamos? Ncesitarás familiarizarte con dos elementos
 esenciales:
 
--   Modelo Oculto de Markov (MOM o perfil), que actuará como
-    “muestrario”. Contiene todas las características que definen a tu
-    secuencia problema (proteínas, dominios proteicos, etc.) y es lo que
-    HMMER utiliza para escanear el siguiente elemento esencial.
--   La base de datos. Puedes verla como una gran biblioteca de
-    secuencias, en la cual HMMER buscará y valorará homologías con el
-    perfil que se le haya dado.
+- Modelo Oculto de Markov (MOM o perfil), que actuará como
+  “muestrario”. Contiene todas las características que definen a tu
+  secuencia problema (proteínas, dominios proteicos, etc.) y es lo que
+  HMMER utiliza para escanear el siguiente elemento esencial.
+- La base de datos. Puedes verla como una gran biblioteca de
+  secuencias, en la cual HMMER buscará y valorará homologías con el
+  perfil que se le haya dado.
 
 Los resultados que obtengas de un ejercicio como el que haremos a
 continuación serán el **valor de probabilidad de que tus coincidencias
@@ -40,8 +40,8 @@ en la documentación de HMMER.
 
 Encontrarás en este tutorial 2 carpetas principales:
 
-1.  Secuencias_semilla
-2.  Base_de_datos
+1. Secuencias_semilla
+2. Base_de_datos
 
 La carpeta de Secuencias_semilla contiene 5 secuencias proteicas de
 Quitina Sintasa. Las llamaremos **secuencias semilla** ya que a partir
@@ -70,14 +70,14 @@ trabajo, pero no podemos cargar archivo por archivo a HMMER. Necesitamos
 podrías copiar y pegar una por una en un solo archivo, pero con Linux
 podemos acortar esta tediosa tarea!
 
-1.  **Ubica** todas tus secuencias a trabajar en una sola carpeta. Es
-    importante que todos tus archivos tengan la misma extensión (.FASTA,
-    .fa, .txt, etc).
-2.  Las secuencias frecuentemente vienen con nombres y claves extensas.
-    Ya que necesitaremos más adelante poder ver los nombres de nuestras
-    secuencias rápidamente, **modifica** lo más posible el encabezado de
-    tus archivos de modo que podamos ver la información escencial para
-    reconocerlas.
+1. **Ubica** todas tus secuencias a trabajar en una sola carpeta. Es
+   importante que todos tus archivos tengan la misma extensión (.FASTA,
+   .fa, .txt, etc).
+2. Las secuencias frecuentemente vienen con nombres y claves extensas.
+   Ya que necesitaremos más adelante poder ver los nombres de nuestras
+   secuencias rápidamente, **modifica** lo más posible el encabezado de
+   tus archivos de modo que podamos ver la información escencial para
+   reconocerlas.
 
 Por ejemplo:
 
@@ -89,12 +89,12 @@ Después:
 
     > Q5KDB2_CRYNJ Chitin synthase [Cryptococcus neoformans var. neoformans serotype D] 
 
-4.  Ubica tu terminal en la carpeta de todas tus secuencias, o bien
-    navega hasta ella.
+4. Ubica tu terminal en la carpeta de todas tus secuencias, o bien
+   navega hasta ella.
 
-5.  Ejecuta el siguiente comando:
-
-    `$ cat *.fasta > secuencias_unidas.fasta`
+5. Ejecuta el siguiente comando:
+   
+   `$ cat *.fasta > secuencias_unidas.fasta`
 
 Lo que hace es buscar todos los archivos que cuenten con la extensión
 que le indiques (.fasta en este caso) y los juntará en un nuevo archivo
@@ -124,11 +124,11 @@ a la última parte de nuestro trabajo!
 
 El comando `hmmbuild` toma dos argumentos principales:
 
-1.  El nombre que le pondrás a tu perfil
+1. El nombre que le pondrás a tu perfil
 
-2.  El alineamiento múltiple. En este caso tu **archivo alineado**
-
-    `hmmbuild modelo_hmm.hmm archivo_alineado.fasta`
+2. El alineamiento múltiple. En este caso tu **archivo alineado**
+   
+   `hmmbuild modelo_hmm.hmm archivo_alineado.fasta`
 
 Con esto habrás creado tu perfil con el nombre que especificaste. Puedes
 revisarlo de esta manera:
@@ -146,8 +146,8 @@ utilizaremos un fragmento del RefSeq a modo de ejemplo para practicar.
 Utilizar `hmmsearch` es bastante sencillo, el comando toma dos
 argumentos principales:
 
-1.  El perfil con el que trabajarás (modelo_hmm.hmm)
-2.  La base de datos a escanear (databased.faa)
+1. El perfil con el que trabajarás (modelo_hmm.hmm)
+2. La base de datos a escanear (databased.faa)
 
 De modo que tu línea de código quedará:
 
@@ -162,7 +162,7 @@ revisar la
 [documentación](http://eddylab.org/software/hmmer/Userguide.pdf) de
 *hmmsearch* para más información.
 
-![Imágen de ejemplo](imagenes/ratonNippo_tsne.png "Revisa el path de esta imágen :P"
+![Imágen de ejemplo](./imagenes/ratonNippo_tsne.png "Revisa el path de esta imágen :P")
 
 ![Imágen 1. Ejemplo de hoja de resultados normal con un alineamiento
 hecho con MAFFT (Editor de
@@ -189,5 +189,6 @@ determinado resultado se haya dado al azar o no. Por ello entre menor
 sea el valor, más seguros podemos estar que no se dió por simple
 casualidad!
 
-``` python
+```python
+
 ```
