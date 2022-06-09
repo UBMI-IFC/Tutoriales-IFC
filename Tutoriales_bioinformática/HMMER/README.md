@@ -162,6 +162,8 @@ revisar la
 [documentación](http://eddylab.org/software/hmmer/Userguide.pdf) de
 *hmmsearch* para más información.
 
+![Imágen de ejemplo](imagenes/ratonNippo_tsne.png "Revisa el path de esta imágen :P"
+
 ![Imágen 1. Ejemplo de hoja de resultados normal con un alineamiento
 hecho con MAFFT (Editor de
 Textos).](/home/roliro/Dropbox/IFC/Informe%20SS/Tutorial/Editor_mafft_o "Imágen 1. Ejemplo de hoja de resultados normal con un alineamiento hecho con MAFFT (Editor de Textos).")
