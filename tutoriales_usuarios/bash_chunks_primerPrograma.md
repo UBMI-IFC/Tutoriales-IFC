@@ -8,7 +8,7 @@ ____
 
 ### De un vistazo
 
-    1. Escribe en un documento de texto los comandos que quieras que la computadora realice en el orden que requieres sean realizados.
+    1. Escribe en orden en un documento de texto los comandos que quieras que la computadora realice.
     2. Guarda el documento de texto con la extensión .sh
     3. Ejecuta tu programa desde la carpeta que lo contiene escribiendo el comando `bash` seguido del nombre del programa 
 
