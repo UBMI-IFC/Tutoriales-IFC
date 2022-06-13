@@ -31,7 +31,7 @@ La forma más facil y menos eficiente es (si tenemos acceso a la interfáz gráf
 
 Pero no siempre esto es posible, ya sea por que sólo tenemos acceso a una terminal de texto o por que la cantidad de veces que tenemos que hacer esta operación es muy grande.
 
-Lo que podemos hacer entonces es decirle a la computadora __exactamente lo que queremos hacer__ escribiendo los comandos en un documento de texto:
+Lo que podemos hacer entonces es decirle a la computadora __exactamente lo que queremos hacer__ escribiendo los comandos en un documento de texto.
 
 Vamos a identificar cuáles son las instrucciones que debemos darle a la computadora:
 
