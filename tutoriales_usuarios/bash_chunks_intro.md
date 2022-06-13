@@ -4,15 +4,19 @@ ____
 
 #  Programa en Bash sin saber programación
 
-## 1 Creando nuestro primer programa
+## Creando nuestro primer programa
 
-Bash es la interfáz de usario / lenguaje de programación mas común en GNU/Linux es extremadamente útil para automatizar tareas pero puede ser muy desafiante para los nuevos usuarios, especialmente si no tienen fundamentos de programación.
+### De un vistazo
 
-Esta es una lista de microtutoriales / ejemplos para que aún sin saber programar puedas automatizar tareas usando Bash.
+1. Escribe en un documento de texto los comandos que quieras que la computadora realice en el orden que requieres sean realizados.
+2. Guarda el documento de texto con la extensión .sh
+3. Ejecuta tu programa desde la carpeta que lo contiene escribiendo el comando `bash` seguido del nombre del programa 
 
-Para segur estos ejemplos __NO necesitas saber programar__ lo único que requieres es que la tarea que quieras automatizar la puedas dividir en una serie de pasos
+### Paso a paso
 
-Supongamos por ejemplo que tenemos una carpeta con el siguiente contenido:
+Un programa es una serie de instrucciones que la computadora puede entender, la forma mas fácil de hacer un programa es darle a la computadora una serie de pasos ordenados que queremos que siga.
+
+Supongamos que tenemos una carpeta que contiene estos archivos: 
 
 ```bash
 usuario@UBMI02:~/tmpDir$ ls
