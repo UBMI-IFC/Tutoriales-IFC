@@ -35,9 +35,11 @@ Lo que podemos hacer entonces es decirle a la computadora __exactamente lo que q
 mkdir Microscopía Documentos
 ```
 2. Vamos a relocalizar los archivos relacionados a microscopía usando una caracteristica en común a ellos; si observamos todos ellos tienen en común la palabra "microscopio" , lo aprovecharemos:
+
 ```bash
 mv microscopio* Microscopía
 ```
+
 usamos el asterisco para indicarle a la computadora que ejecute la accion de mover ```mv```  __todos__ los archivos que __comiencen__ con la palabra "microscopio" si escribiésemos: \*microscopio le pediríamos que mueva los archivos que terminen con "microscopio" y si usáramos \*microscopio\* lo haría con todas las archivos que contengan la palabra microscopio en su nombre
 
 3. La siguiente y parte final del programa la podemos hacer de muchas formas diferentes, las formas mas eficientes requieren saber mas de programación, pero aún sin saber, podemos resolver el problema con lo que hemos aprendido hasta ahora
@@ -46,10 +48,13 @@ usamos el asterisco para indicarle a la computadora que ejecute la accion de mov
 mv *txt Documentos
 mv *pdf Documentos
 ```
+
 Como no comparten una palabra en común lo hemos hecho en dos pasos (aunque hay maneras de hacerlo en uno sólo). Nota: es cierto que en este momento pudimos haber intentado:
+
 ```bash
 mv * Documentos
 ```
+
 El problema es que esta operación que se interpreta como mover __todo__ el contenido de la carpeta actual a la carpeta  _Documentos_ también hubiera movido la carpeta _Microscopía_ dentro de _Documentos_ 
 
 Ya hemos traducido los pasos que queremos realizar a un lenguaje que la computadora pueda entender, ahora los escribiremos en un archivo de texto en orden y ya tendremos nuestro programa para ello una forma sencilla es usando el programa __Nano__ :
