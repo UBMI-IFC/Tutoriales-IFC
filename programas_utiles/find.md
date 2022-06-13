@@ -1,6 +1,6 @@
 # `find` programa para buscar archivos en línea de comandos.
 
-'find' es un programa que encontrarás en todos los sistemas *GNU/Linux*.
+`find` es un programa que encontrarás en todos los sistemas *GNU/Linux*.
 Es útil para encontrar archivos en el árbol de directorios y tiene muchas
 opciones.
 
@@ -11,9 +11,7 @@ Para buscar un archivo **por nombre** en el árbol de directorios de la carpeta 
 usar el siguiente comando:
 
 ``bash
-
 find . -name archivo.txt 
-
 ``
 
 En algunos sistemas es necesario agregar la expresión `-print` al final
