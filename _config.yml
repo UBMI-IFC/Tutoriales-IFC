@@ -3,6 +3,4 @@ theme: jekyll-theme-hacker
 # Setup
 title:        Comunidad UBMI
 description:      Tutoriales y recursos para los usuarios
-
-
-
+markdown: GFM
