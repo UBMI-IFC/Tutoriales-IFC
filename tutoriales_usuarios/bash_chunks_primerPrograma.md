@@ -10,7 +10,7 @@ ____
 
     1. Escribe en un documento de texto los comandos en el orden que quieras que la computadora realice.
     2. Guarda el documento de texto con la extensión .sh
-    3. Ejecuta tu programa escribiendo el comando `bash` seguido del nombre del programa 
+    3. Ejecuta tu programa escribiendo el comando **bash** seguido del nombre del programa 
 
 ### Paso a paso
 
