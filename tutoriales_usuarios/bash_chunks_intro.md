@@ -62,6 +62,7 @@ Ya hemos traducido los pasos que queremos realizar a un lenguaje que la computad
 ```bash
 nano programa.sh
 ```
+![image](https://user-images.githubusercontent.com/13229623/173385960-001659a5-e4ff-4425-bdd5-4a5533c201d3.png)
 
 utilizamos la extensión __.sh__ para recordarnos que se trata de un programa escrito en Bash y lo salvamos utilizando Ctrl+S y Salimos de nano usando Ctrl+X (en la parte inferior del editor de nano aparecen las combinatorias de teclas para realizar varias operaciones, ahí la tecla Ctrl está representada por el caracter "^")
 
