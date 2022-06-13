@@ -1,7 +1,3 @@
-[Siguiente >](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/bash_chunks_primerPrograma)
-
-____
-
 #  Programa en Bash sin saber programación
 
 ## Introducción 
