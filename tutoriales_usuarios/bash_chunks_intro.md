@@ -1,3 +1,6 @@
+Siguiente [>](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/bash_chunks_intro)
+____
+
 #  Programa en Bash sin saber programación
 
 ## 1. Introducción y creando nuestro primer programa
@@ -29,12 +32,12 @@ Pero no siempre esto es posible, ya sea por que sólo tenemos acceso a una termi
 
 Lo que podemos hacer entonces es decirle a la computadora __exactamente lo que queremos hacer__ en un documento de texto:
 
-1. Crearemos las carpetas del paso 1 y 2 de manera simultanea
+- Crearemos las carpetas del paso 1 y 2 de manera simultanea
 
 ```bash
 mkdir Microscopía Documentos
 ```
-2. Vamos a relocalizar los archivos relacionados a microscopía usando una caracteristica en común a ellos; si observamos todos ellos tienen en común la palabra "microscopio" , lo aprovecharemos:
+- Vamos a relocalizar los archivos relacionados a microscopía usando una caracteristica en común a ellos; si observamos todos ellos tienen en común la palabra "microscopio" , lo aprovecharemos:
 
 ```bash
 mv microscopio* Microscopía
@@ -42,7 +45,7 @@ mv microscopio* Microscopía
 
 usamos el asterisco para indicarle a la computadora que ejecute la accion de mover ```mv```  __todos__ los archivos que __comiencen__ con la palabra "microscopio" si escribiésemos: \*microscopio le pediríamos que mueva los archivos que terminen con "microscopio" y si usáramos \*microscopio\* lo haría con todas las archivos que contengan la palabra microscopio en su nombre
 
-3. La siguiente y parte final del programa la podemos hacer de muchas formas diferentes, las formas mas eficientes requieren saber mas de programación, pero aún sin saber, podemos resolver el problema con lo que hemos aprendido hasta ahora
+- La siguiente y parte final del programa la podemos hacer de muchas formas diferentes, las formas mas eficientes requieren saber mas de programación, pero aún sin saber, podemos resolver el problema con lo que hemos aprendido hasta ahora
 
 ```bash
 mv *txt Documentos
@@ -94,4 +97,6 @@ microscopio_foto2.png  microscopio_video.mp4
 
 ```
 El programa ha funcionado como lo deseábamos! , hay que notar que el documento programa.sh no se ha movido de su ubicación original esto no es un error, tampoco se trata de que este no pueda o deba ser movido de ahí, simplemente como no le indicamos a la computadora que hiciera nada con  ese documento simplemente no lo ha movido de su lugar.
+____
 
+Siguiente [>](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/bash_chunks_intro)
