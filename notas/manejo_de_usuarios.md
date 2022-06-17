@@ -8,13 +8,11 @@ sudo groupadd -g [número del grupo] [nombre del grupo]
 ```
 - Agregar usuario jefe de laboratorio 
 
-
     En este caso el nombre del grupo debería ser el nombre de usuario
 ```bash
 sudo useradd -u [número de usuario] -g [nombre del grupo] -m -s /bin/bash -c '[nombre humano],,[correo del usuario],' [nombre del usuario]
 ```
 - Agregar usuario miembro de un laboratorio
-
 
     **Nótese el cambio a mayusculas en la opción "-G"**
     El nombre del grupo es el nombre de usuario del jefe del laboratorio
@@ -30,6 +28,11 @@ sudo usermod -a -G [grupo] [usuario]
 ```bash
 sudo userdel -r [usuario]
 ```
+- Eliminar un grupo
+```bash
+sudo groupdel [nombre del grupo] 
+```
+
 - Asignar password a un usuario en una linea
 ```bash
 echo [usuario]:[password] | sudo chpasswd -m
