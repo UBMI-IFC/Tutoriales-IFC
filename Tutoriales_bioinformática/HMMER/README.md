@@ -8,7 +8,7 @@ común, la pregunta natural sería ¿cómo lo confirmó? HMMER utiliza
 modelos probabilísticos para que la respuesta sea lo más precisa
 posible.
 
-¿Dónde empezamos? Ncesitarás familiarizarte con dos elementos
+¿Dónde empezamos? Necesitarás familiarizarte con dos elementos
 esenciales:
 
 - Modelo Oculto de Markov (MOM o perfil), que actuará como
@@ -22,14 +22,14 @@ esenciales:
 Los resultados que obtengas de un ejercicio como el que haremos a
 continuación serán el **valor de probabilidad de que tus coincidencias
 se hayan dado al azar**, por lo que entre menor sea el *e-value* mejores
-noticias son para ti! Aqui aprenderás a utilizar HMMER para que con un
+noticias son para ti! Aquí aprenderás a utilizar HMMER para que con un
 MOM puedas escanear una base de datos entera en busca de homologías de
 tu secuencia problema.
 
 ## Instrucciones
 
 Descarga e instala [HMMER](http://hmmer.org/) para comenzar. De
-preferencia utuliza un sistema de Linux, pero si trabajas con Windows
+preferencia utuliza un sistema Linux, pero si trabajas con Windows
 puedes instalarlo mediante [Anaconda
 Navigator](https://anaconda.org/anaconda/anaconda-navigator). Sigue las
 [instrucciones para su
