@@ -162,16 +162,16 @@ revisar la
 [documentación](http://eddylab.org/software/hmmer/Userguide.pdf) de
 *hmmsearch* para más información.
 
-![Imágen de ejemplo](./imagenes/ratonNippo_tsne.png "Revisa el path de esta imágen :P")
 
-![Imágen 1. Ejemplo de hoja de resultados normal con un alineamiento
-hecho con MAFFT (Editor de
-Textos).](/home/roliro/Dropbox/IFC/Informe%20SS/Tutorial/Editor_mafft_o "Imágen 1. Ejemplo de hoja de resultados normal con un alineamiento hecho con MAFFT (Editor de Textos).")
+Imágen 1. Ejemplo de hoja de resultados normal con un alineamiento
+hecho con MAFFT (Editor de Textos).![Terminal_mafft_t](https://user-images.githubusercontent.com/78200223/174672480-2d7b9a7b-871e-4f7d-b863-9ba1dbffd181.png)
 
-![Imágen 2. Ejemplo de tabla de resultados con un alineamiento hecho con
+
+Imágen 2. Ejemplo de tabla de resultados con un alineamiento hecho con
 MAFFT
-(Terminal).](/home/roliro/Dropbox/IFC/Informe%20SS/Tutorial/Terminal_mafft_t "Imágen 2. Ejemplo de tabla de resultados con un alineamiento hecho con MAFFT (Terminal).")
-\## Interpretación de resultados
+![Editor_mafft_o](https://user-images.githubusercontent.com/78200223/174672499-21703801-0a22-4a2c-bfa4-f7f38fcc7f54.png)
+
+## Interpretación de resultados
 
 Notarás que tus resultados contienen mucha información útil. Los
 “mejores” resultados aparecen al principio de tus resultados con un
