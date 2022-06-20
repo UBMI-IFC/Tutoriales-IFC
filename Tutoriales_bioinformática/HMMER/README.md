@@ -1,5 +1,3 @@
-# QS_Markdows
-
 # Creación de Modelos Ocultos de Markov y su uso para análisis de secuencias proteicas con HMMER: Una guía de uso
 
 **¿Porqué es esto útil para mi?** HMMER es una herramienta muy útil en
