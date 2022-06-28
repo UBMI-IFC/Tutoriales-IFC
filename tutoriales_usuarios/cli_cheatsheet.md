@@ -26,7 +26,7 @@ ___
 	- Cockpit
 	- Monitorix
 	- NEMS
-- Trabajando con nombres de archivos con espacios en el nombre
+- Trabajando con nombres de archivos con espacios
 
 ___
 
@@ -261,9 +261,11 @@ b) utilizar el caractér de escape
 ```bash
 user@UBMI02:~/Downloads/tempdir$ rm documento\ muestra.otp
 ```
+Sin duda la mejor manera de no tener que lidiar con este problema es no incluir espacios en los nombres de los archivos. ;)
 ____
 
-(imágen de navaja suiza  Michael.germini/CC-BY-SA-3.0)
+Créditos
+imágen de navaja suiza  Michael.germini/CC-BY-SA-3.0
 
 
 [Volver a la página principal](https://ubmi-ifc.github.io/Tutoriales-IFC)
