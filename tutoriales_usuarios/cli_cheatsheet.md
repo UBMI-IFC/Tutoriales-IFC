@@ -87,80 +87,80 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 
 ### Navegación general
 
-| Comando                                                    | Descripción                                                                                            |
-|----------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| cd [/path/objetivo]                                        | Cambia de directorio a la dirección especificada                                                       |
-| cd ..                                                      | Nos devuelve un nivel en el arbol de directorios                                                       |
-| cd -                                                       | Nos regresa a la carpeta anterior en la que estábamos                                                  |
-| ls                                                         | Enlista los contenidos de la carpeta actual                                                            |
-| ls [/path/objetivo/]                                       | Enlista los contenidos de la carpeta indicada                                                          |
-| ls -1                                                      | ls en forma de lista                                                                                   |
-| ls -lh                                                     | ls en forma de lista detallada y en formato mas legible                                                |
-| ls -a                                                      | ls enlistando también archivos ocultos                                                                 |
-| ls *                                                       | ls recursivo sobre los directorios de la carpeta actual                                                |
-| tree                                                       | Funciona como un ls * pero con la recursividad se extiende hasta que no haya mas archivos que enlistar |
-| tree -fi                                                   | Cambia el formato de "arbol" default por uno con el path completo de los archivos enlistados           |
-| tree -fi `\|` grep [parte del nombre de un archivo]        | Permite buscar un archivo con parte del nombre y regresa el path completo                              |
-| find [path/objetivo] -name [parte del nombre de un archivo | Igual que el anterior                                                                                  |
-| pwd                                                        | Nos dice en que directorio nos encontramos actualmente con un path absoluto                            |
-| history                                                    | enlista los últimos n comandos que hemos utilizado (n varía en cada equipo)                            |
-| history `\|` grep [parte de un comando]                    | Nos permite buscar entre los últimos comandos usando una fracción del deseado, es mejor usar simplemente Ctrl+r |
-| tldr [nombre de un comando]                                | Ayuda simplificada de uso de muchos comandos                                                           |
-| man [nombre de un comando                                  | Ayuda en extenso de uso de muchos comandos                                                             |
+| Comando                                                    | Descripción |
+|----------------------------------------------------------|--------------|
+|``` cd [/path/objetivo] ``` | Cambia de directorio a la dirección especificada |
+| ```cd ..``` | Nos devuelve un nivel en el arbol de directorios  |
+| ``` cd - ``` | Nos regresa a la carpeta anterior en la que estábamos |
+|``` ls ```| Enlista los contenidos de la carpeta actual |
+|``` ls [/path/objetivo/]``` | Enlista los contenidos de la carpeta indicada  |
+|``` ls -1 ```                                                     | ls en forma de lista|
+|``` ls -lh  ```| ls en forma de lista detallada y en formato mas legible |
+|``` ls -a  ```| ls enlistando también archivos ocultos |
+| ```ls *``` | ls recursivo sobre los directorios de la carpeta actual |
+|``` tree``` | Funciona como un ls * pero con la recursividad se extiende hasta que no haya mas archivos que enlistar |
+| ```tree -fi ``` | Cambia el formato de "arbol" default por uno con el path completo de los archivos enlistados|
+|``` tree -fi \| grep [parte del nombre de un archivo]  ```      | Permite buscar un archivo con parte del nombre y regresa el path completo |
+| ```find [path/objetivo] -name [parte del nombre de un archivo ``` | Igual que el anterior |
+|``` pwd ```|  Nos dice en que directorio nos encontramos actualmente con un path absoluto|
+|``` history ``` | enlista los últimos n comandos que hemos utilizado (n varía en cada equipo) |
+|``` history \| grep [parte de un comando] ```                   | Nos permite buscar entre los últimos comandos usando una fracción del deseado, es mejor usar simplemente Ctrl+r |
+| ```tldr [nombre de un comando]``` | Ayuda simplificada de uso de muchos comandos  |
+|``` man [nombre de un comando]``` | Ayuda en extenso de uso de muchos comandos |
 
 ### Manipulación de archivos
 
 | Comando                                          | Descripción                                                               |
 |-----------------------------------------------|-------------------------------------------------------------------------|
-| mv [archivo] [/path/a/otra/ubicación             | Mueve un archivo o carpeta de la carpeta actual a otro sitio              |
-| mv [/path/a/un/archivo] [/path/a/otra/ubicación/ | Mueve un archivo en otra carpeta diferente a la actual de un lugar a otro |
-| mv [archivo] [otro nombre] | renombra un archivo de la carpeta actual, si la carpeta de origen es igual que la de destino y el nombre es distinto: mv renombra los archivos simplemente  |
-| rm [archivo(s)]                | Elimina los archivos permanentemente __NO hay vuelta atrás__ |
-| rm -rf [directorio]     |  Elimina un directorio y todo su contenido recursivamente       |
-| touch [archivo(s)]   | Crea archivos vacios en la carpeta actual                                                                           |
-| mkdir [directorio(s)]  | Crea directorios vacios en la carpeta actual |                                                                           |
-| rmdir [directorio(s)] | Elimina  directorios vacios |
-| grep "[patrón]" [archivo de texto] | Devuelve las lineas que contienen un patron de texto en un archivo | 
-| grep "[patrón]" [archivo de texto] -i  | Devuelve las lineas que contienen un patron de texto en un archivo ignorando mayúsculas y minúsculas | 
-| grep "[patrón]" [archivo de texto] -v  | Devuelve las lineas que __NO__  contienen un patron de texto en un archivo |
-| cualquierComando \| grep "[patrón]" | Busca el patrón en el resultado de la ejecución de otro programa |
-| cat [archivo]  | Muestra en pantalla el contenido de cualquier archivo de texto |
-| zcat [archivo_comprimido] | Muestra en pantalla el contenido de cualquier archivo de texto que esté comprimido |
-| less [archivo] | Muestra en pantalle el contenido de un archivo pero permite desplazarse interactivamente y búsqueda |
-| head [archivo] --lines [número] | Muestra las primeras lineas , especificadas en ```--lines``` en pantalla de archivos de texto |
-| tail [archivo] --lines [número] | Muestra las últimas lineas , especificadas en ```--lines``` en pantalla de archivos de texto |
-| nano [nombre de archivo existente o por crear] | Editor de texto para modificar archivos las opciones son interactivas y se presentan en la parte de abajo de la pantalla, la tecla Ctrl está representado con el caractér "^" en el menú | 
+| ```mv [archivo] [/path/a/otra/ubicación]```             | Mueve un archivo o carpeta de la carpeta actual a otro sitio              |
+|``` mv [/path/a/un/archivo] [/path/a/otra/ubicación/]``` | Mueve un archivo en otra carpeta diferente a la actual de un lugar a otro |
+|``` mv [archivo] [otro nombre]``` | renombra un archivo de la carpeta actual, si la carpeta de origen es igual que la de destino y el nombre es distinto: mv renombra los archivos simplemente  |
+|``` rm [archivo(s)]   ```             | Elimina los archivos permanentemente __NO hay vuelta atrás__ |
+| ```rm -rf [directorio] ```    |  Elimina un directorio y todo su contenido recursivamente       |
+|``` touch [archivo(s)]```   | Crea archivos vacios en la carpeta actual                                                                           |
+|``` mkdir [directorio(s)] ``` | Crea directorios vacios en la carpeta actual |                                                                           |
+|``` rmdir [directorio(s)] ```| Elimina  directorios vacios |
+|``` grep "[patrón]" [archivo de texto]``` | Devuelve las lineas que contienen un patron de texto en un archivo | 
+|``` grep "[patrón]" [archivo de texto] -i ``` | Devuelve las lineas que contienen un patron de texto en un archivo ignorando mayúsculas y minúsculas | 
+|``` grep "[patrón]" [archivo de texto] -v ``` | Devuelve las lineas que __NO__  contienen un patron de texto en un archivo |
+| ```cualquierComando \| grep "[patrón]"``` | Busca el patrón en el resultado de la ejecución de otro programa |
+| ```cat [archivo]```  | Muestra en pantalla el contenido de cualquier archivo de texto |
+| ```zcat [archivo_comprimido]``` | Muestra en pantalla el contenido de cualquier archivo de texto que esté comprimido |
+| ```less [archivo]``` | Muestra en pantalle el contenido de un archivo pero permite desplazarse interactivamente y búsqueda |
+| ```head [archivo] --lines [número] ```| Muestra las primeras lineas , especificadas en ```--lines``` en pantalla de archivos de texto |
+|``` tail [archivo] --lines [número]``` | Muestra las últimas lineas , especificadas en ```--lines``` en pantalla de archivos de texto |
+|``` nano [nombre de archivo existente o por crear]``` | Editor de texto para modificar archivos las opciones son interactivas y se presentan en la parte de abajo de la pantalla, la tecla Ctrl está representado con el caractér "^" en el menú | 
  
 
 ### Sesiones locales, remotas y red
 
 | Comando  | Descripción  |
 |-|-|
-| ssh [usuario]@[dirección IP]  | Permite crear una sesión en una computadora remota a través de la línea de comandos   |
-| ssh [usuario]@[dirección IP] -p [número de puerto]  | ssh especificando el puerto de red  |
-| sshfs   | Monta una carpeta de un equipo en otro ,[ver tutorial](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/sshfs) |
-| scp [archivo local] [usuario]@[dirección IP]:[/path/remoto/]   | Copia un archivo local en una computadora remota  |
-| scp [usuario]@[dirección IP]:[/path/remoto/] [/path/local]   | Copia un archivo remoto en una carpeta local | 
-| wget [dirección web] [carpeta local]  | Descarga un archivo desde la internet en la carpeta especificada   |
-| nohup [comando con sus opciones] &   | Permite 'dejar corriendo' un programa sin riesgo de que se interrumpa por un fallo en la conexión   |
-| byobu  | Un modo interactivo de 'dejar corriendo programas' una vez dentro: F2 crea pantallas nuevas, F3 y F4 permite navegar entre pantallas, F6 permite salir __sin terminar los proceso__ ```$ exit`` en todas las pantallas es la manera de terminar con todos los procesos  |
-| exit  | Termina la sesión local o remota y todos los procesos asociados   |
+| ```ssh  [usuario]@[dirección IP] ``` | Permite crear una sesión en una computadora remota a través de la línea de comandos   |
+|``` ssh [usuario]@[dirección IP] -p [número de puerto] ``` | ssh especificando el puerto de red  |
+|``` sshfs ```  | Monta una carpeta de un equipo en otro ,[ver tutorial](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/sshfs) |
+| ```scp [archivo local] [usuario]@[dirección IP]:[/path/remoto/] ```  | Copia un archivo local en una computadora remota  |
+|``` scp [usuario]@[dirección IP]:[/path/remoto/] [/path/local]  ``` | Copia un archivo remoto en una carpeta local | 
+|``` wget [dirección web] [carpeta local] ``` | Descarga un archivo desde la internet en la carpeta especificada   |
+|``` nohup [comando con sus opciones] & ```  | Permite 'dejar corriendo' un programa sin riesgo de que se interrumpa por un fallo en la conexión   |
+|``` byobu ``` | Un modo interactivo de 'dejar corriendo programas' una vez dentro: F2 crea pantallas nuevas, F3 y F4 permite navegar entre pantallas, F6 permite salir __sin terminar los proceso__ ```$ exit`` en todas las pantallas es la manera de terminar con todos los procesos  |
+|``` exit ``` | Termina la sesión local o remota y todos los procesos asociados   |
 
 ### Estado del equipo y procesos
 
 | Comando  | Descripción   |
 |-|-|
-| du -h [/path/objetivo]    | Despliega el tamaño de todos los archivos y carpetas a partir del path objetivo  |
-| du -sh [path/objetivo]   | Despliega sólo el total del tamaño que ocupa el path objetivo y su contenido   |
-| df -h   | Informa sobre el uso de los discos duros las carpetas críticas en el caso de la UBMI son las identificadas como "/" y "/home" |
-| free -h   | Informa sobre el uso de RAM actual   |
-| nvidia-smi  | En algunos equipos (workstations) informa del estado de las tarjetas gráficas   |
-| kill -9 [ID del proceso]  | Para terminar un proceso, __se necesita el PID__ (ver mas abajo)  |
-| ps ux  | Enlista los procesos y PID del usuario que lo ejecuta   |
-| ps aux  | Enlista todos los procesos y PID en el equipo   |
-| top  | Visualización interactiva de procesos, uso de memoria y CPU  |
-| htop  | Visualización interactiva ligeramente menos fea de procesos, uso de memoria y CPU  |
-| byobu  | Visualización interactiva significativamente menos fea de procesos, uso de memoria y CPU. (sólo workstations)  |
+|``` du -h [/path/objetivo] ```   | Despliega el tamaño de todos los archivos y carpetas a partir del path objetivo  |
+|``` du -sh [path/objetivo] ```  | Despliega sólo el total del tamaño que ocupa el path objetivo y su contenido   |
+|``` df -h```   | Informa sobre el uso de los discos duros las carpetas críticas en el caso de la UBMI son las identificadas como "/" y "/home" |
+|``` free -h  ``` | Informa sobre el uso de RAM actual   |
+|``` nvidia-smi```  | En algunos equipos (workstations) informa del estado de las tarjetas gráficas   |
+|``` kill -9 [ID del proceso] ``` | Para terminar un proceso, __se necesita el PID__ (ver mas abajo)  |
+|``` ps ux ``` | Enlista los procesos y PID del usuario que lo ejecuta   |
+| ```ps aux ``` | Enlista todos los procesos y PID en el equipo   |
+|``` top ``` | Visualización interactiva de procesos, uso de memoria y CPU  |
+|``` htop```  | Visualización interactiva ligeramente menos fea de procesos, uso de memoria y CPU  |
+|``` byobu ``` | Visualización interactiva significativamente menos fea de procesos, uso de memoria y CPU. (sólo workstations)  |
 
 #### Cockpit
 
