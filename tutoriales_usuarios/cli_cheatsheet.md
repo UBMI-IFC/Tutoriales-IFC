@@ -2,6 +2,8 @@
 
 # Guía de GNU/Linux para usuarios de la UBMI
 
+![Debian_Swiss_army_knife](https://user-images.githubusercontent.com/13229623/176309676-22b56dad-dfae-401d-888b-48c9c1b46e5f.jpg)
+
 ## Antes de comenzar
 
 Este es un tutorial que contiene lo básico necesario para usar la interfaz de línea de comandos de los servidores de la UBMI
@@ -24,6 +26,7 @@ ___
 	- Cockpit
 	- Monitorix
 	- NEMS
+- Trabajando con nombres de archivos con espacios en el nombre
 
 ___
 
@@ -65,7 +68,7 @@ ___
  
 ## Comodines (_wildcards_)
 
-En GNU/Linux podemos usar carácteres comodín para realizar operaciones sobre archivos o líneas de texto con parte del nombre en común, existen [muchos tipos](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm) de comodín pero los que se utilizan con mas frecuencia son:
+En GNU/Linux podemos usar carácteres comodín para realizar operaciones mas fácilmente, evitando escribir grandes porciones de texto, existen [muchos tipos](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm) de comodín pero los que se utilizan con mas frecuencia son:
 
 | Comodín | Uso                                                                                                                                                                                                                                                                    |
 |-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -73,7 +76,8 @@ En GNU/Linux podemos usar carácteres comodín para realizar operaciones sobre a
 | ?       | Representa cualquier caractér __una__ sola vez, en una carpeta con archivos llamados: "perros", "gatos" "ratos" "platos" la operación ```$ ls ?atos``` nos devolvería: ``` gatos ratos``` pero no "platos"                                                             |
 | ~       | Un atajo que hace referencia a la carpeta "_home_" del usuario que la escribe, permite sustituir por ejemplo: ```$ cd /home/miusuario/Documentos``` por ```$ cd ~/Documentos```                                                                                        |
 | ..      | Otro atajo que hacer referencia a la carpeta anterior en el arbol de directorios;  ```$ cd ..``` evita que tengamos que escribir la dirección completa si solo queremos regresar un nivel y puede usarse en sucesión para regresar varios niveles: ```$ cd ../../..``` |
-| . | Un atajo que representa el directorio actual | 
+| . | Un atajo que representa el directorio actual |
+| \ | Este caracter suele ser leido por la computadora como una señal para no interpretar literalmente el caractér siguiente, pudiendo ignorarlo o ejecutarlo según el contexto en que se use, por ejemplo la combinación `\t` puede significar el caractér "tabulación" mientras que `\n` indica un salto de linea |
 
 ___
  
@@ -195,7 +199,13 @@ Dentro de la red del instituto en un explorador web escribe: __[dirección ip de
 - Es altamente probable que el explorador web indique un riesgo de seguridad en acceder a Cockpit, simplemente hay que seleccionar que deseamos continuar al sitio web. 
 - Una vez ingresados los mismos usuario y contraseña que utilizas con ssh podrás acceder a la interfáz
 
+![image](https://user-images.githubusercontent.com/13229623/176310816-1a702d78-c40a-44e1-b6ee-94efcbb8c81e.png)
+
+
 Además del estado del equipo cockpit incluye un emulador de terminal con el cual podrás interactuar con el equipo.
+
+![image](https://user-images.githubusercontent.com/13229623/176311265-de787cfe-2a65-445c-b992-2e7587d35d8c.png)
+
 
 ### Monitorix
 
@@ -206,6 +216,9 @@ Dentro de la red del instituto en un explorador web escribe: __[dirección ip de
 - Este servicio no está disponible para UBMI-Portal
 - No se requiere usuario ni contraseña para acceder
 
+![image](https://user-images.githubusercontent.com/13229623/176310478-f2e54cf5-2237-4b02-95be-0749ec462517.png)
+
+
 ### NEMS 
 
 La UBMI cuenta con un servidor de monitoreo del estado de conexión de los servidores y workstations que administra, se pueden consultar las alertas y el estado de los servidores dándo click [aqui](http://10.10.180.153/tv/).
@@ -213,6 +226,44 @@ La UBMI cuenta con un servidor de monitoreo del estado de conexión de los servi
 - Servicio disponible sólo dentro de la red del IFC
 - No se requiere usuario ni contraseña para acceder
 
+![image](https://user-images.githubusercontent.com/13229623/176310194-de7b3fe6-bcfc-4588-a9a6-9787ff415032.png)
+
+
 ___
+
+## Lidiando con archivos con espacios en el nombre
+
+Algo a lo que nos enfrentaremos tarde o temprano es con archivos cuyo nombre contiene espacios, algo que no suele ser problemático en las interfaces gráficas actuales pero complica su uso en la línea de comandos.
+
+![image](https://user-images.githubusercontent.com/13229623/176306724-73b7e2ef-8d29-4c17-87f3-4928f7af0398.png)
+
+Si ejecutamos el comando ```$ ls ``` en su carpeta contenedora aparecerá entre comillas sencillas el nombre
+
+```bash
+user@UBMI02:~/Downloads/tempdir$ ls
+'documento muestra.otp'
+```
+y si intentamos por ejemplo borrarlo nos encontraremos con esto:
+
+```bash
+user@UBMI02:~/Downloads/tempdir$ rm documento muestra.otp
+rm: cannot remove 'documento': No such file or directory
+rm: cannot remove 'muestra.otp': No such file or directory
+```
+El intérprete de Bash cree que estamos queriendo eliminar dos archivos, que además, no existen. Para solucionarlo podemos utilizar las siguientes estrategias.
+
+a) utilizar las comillas sencillas
+```bash
+user@UBMI02:~/Downloads/tempdir$ rm 'documento muestra.otp'
+```
+
+b) utilizar el caractér de escape
+```bash
+user@UBMI02:~/Downloads/tempdir$ rm documento\ muestra.otp
+```
+____
+
+(imágen de navaja suiza  Michael.germini/CC-BY-SA-3.0)
+
 
 [Volver a la página principal](https://ubmi-ifc.github.io/Tutoriales-IFC)
