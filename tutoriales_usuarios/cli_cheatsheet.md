@@ -1,3 +1,5 @@
+[Volver a la página principal](https://ubmi-ifc.github.io/Tutoriales-IFC)
+
 # Guía de GNU/Linux para usuarios de la UBMI
 
 ## Antes de comenzar
@@ -72,6 +74,8 @@ En GNU/Linux podemos usar carácteres comodín para realizar operaciones sobre a
 | ~       | Un atajo que hace referencia a la carpeta "_home_" del usuario que la escribe, permite sustituir por ejemplo: ```$ cd /home/miusuario/Documentos``` por ```$ cd ~/Documentos```                                                                                        |
 | ..      | Otro atajo que hacer referencia a la carpeta anterior en el arbol de directorios;  ```$ cd ..``` evita que tengamos que escribir la dirección completa si solo queremos regresar un nivel y puede usarse en sucesión para regresar varios niveles: ```$ cd ../../..``` |
 | . | Un atajo que representa el directorio actual | 
+
+___
  
 ## Teclas amigas
 
@@ -209,7 +213,6 @@ La UBMI cuenta con un servidor de monitoreo del estado de conexión de los servi
 - Servicio disponible sólo dentro de la red del IFC
 - No se requiere usuario ni contraseña para acceder
 
+___
 
-
-
- 
+[Volver a la página principal](https://ubmi-ifc.github.io/Tutoriales-IFC)
