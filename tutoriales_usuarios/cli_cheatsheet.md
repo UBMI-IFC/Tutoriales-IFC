@@ -235,6 +235,8 @@ ___
 
 Algo a lo que nos enfrentaremos tarde o temprano es con archivos cuyo nombre contiene espacios, algo que no suele ser problemático en las interfaces gráficas actuales pero complica su uso en la línea de comandos.
 
+Consideremos un ejemplo con el siguiente archivo ...
+
 ![image](https://user-images.githubusercontent.com/13229623/176306724-73b7e2ef-8d29-4c17-87f3-4928f7af0398.png)
 
 Si ejecutamos el comando ```$ ls ``` en su carpeta contenedora aparecerá entre comillas sencillas el nombre
