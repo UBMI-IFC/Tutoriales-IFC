@@ -10,7 +10,7 @@ __Esta no es una guía exahustiva de uso de línea de comandos y hay muchas omis
 4.  En general, las opciones pueden combinarse por ejemplo: un programa con opciones -l -h -t -r puede ejecutarse cómo:
 
 ``` bash
-$ programa -l - h -t -r 
+$ programa -l -h -t -r 
 ```
 
 ó  como:
@@ -55,7 +55,7 @@ ___
 En GNU/Linux podemos usar carácteres comodín para realizar operaciones sobre archivos o líneas de texto con parte del nombre en común, existen [muchos tipos](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm) de comodín pero los que se utilizan con mas frecuencia son:
 
 | Comodín | Uso                                                                                                                                                                                                                                                                    |
-|:-------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *       | Representa cualquier caractér, cualquier número de veces, por ejemplo ```$ rm *txt``` borraría todos los archivos cuyo nombre termine en "txt", ```$ ls *fotos*``` enumeraría los archivos y directorios que contengan la palabra "fotos"                              |
 | ?       | Representa cualquier caractér __una__ sola vez, en una carpeta con archivos llamados: "perros", "gatos" "ratos" "platos" la operación ```$ ls ?atos``` nos devolvería: ``` gatos ratos``` pero no "platos"                                                             |
 | ~       | Un atajo que hace referencia a la carpeta "_home_" del usuario que la escribe, permite sustituir por ejemplo: ```$ cd /home/miusuario/Documentos``` por ```$ cd ~/Documentos```                                                                                        |
@@ -70,7 +70,7 @@ Nota:
 _La tecla Ctrl también suele ser representada como ^ en algunas documentaciones y archivos de ayuda_
 
 | Tecla(s)              | Función |
-|:---------------------:|-----|
+|---------------------|-----|
 | Tab                   | Habilita el autocompletado al escribir comandos y paths (casi siempre)|
 | Ctrl+ c               | Interrumpe la ejecucion de un programa |
 | Ctrl+ z               | Manda a segundo plano la ejecución del programa, no debe confundirse con terminar el programa, es el equivalente de minimizar una pantalla |
