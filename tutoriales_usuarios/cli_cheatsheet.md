@@ -116,10 +116,10 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` ls ```| Enlista los contenidos de la carpeta actual |
 |``` ls [/path/objetivo/]``` | Enlista los contenidos de la carpeta indicada  |
 |``` ls -1 ```                                                     | ls en forma de lista|
-|``` ls -lh  ```| ls en forma de lista detallada y en formato mas legible |
-|``` ls -a  ```| ls enlistando también archivos ocultos |
-| ```ls *``` | ls recursivo sobre los directorios de la carpeta actual |
-|``` tree``` | Funciona como un ls * pero con la recursividad se extiende hasta que no haya mas archivos que enlistar |
+|``` ls -lh  ```| ```ls``` en forma de lista detallada y en formato mas legible |
+|``` ls -a  ```| ```ls``` enlistando también archivos ocultos |
+| ```ls *``` | ```ls``` recursivo sobre los directorios de la carpeta actual |
+|``` tree``` | Funciona como un ```ls *``` pero con la recursividad se extiende hasta que no haya mas archivos que enlistar |
 | ```tree -fi ``` | Cambia el formato de "arbol" default por uno con el path completo de los archivos enlistados|
 |``` tree -fi \| grep [parte del nombre de un archivo]  ```      | Permite buscar un archivo con parte del nombre y regresa el path completo |
 | ```find [path/objetivo] -name [parte del nombre de un archivo ``` | Igual que el anterior |
@@ -165,6 +165,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` wget [dirección web] [carpeta local] ``` | Descarga un archivo desde la internet en la carpeta especificada   |
 |``` nohup [comando con sus opciones] & ```  | Permite 'dejar corriendo' un programa sin riesgo de que se interrumpa por un fallo en la conexión   |
 |``` byobu ``` | Un modo interactivo de 'dejar corriendo programas' una vez dentro: F2 crea pantallas nuevas, F3 y F4 permite navegar entre pantallas, F6 permite salir __sin terminar los procesos__ ```$ exit``` en todas las pantallas es la manera de terminar con todos los procesos  |
+|``` ip ad ```| permite conocer la(s) dirección(es) IP del equipo, por lo general aparecen después de la palabra ```inet```| 
 |``` exit ``` | Termina la sesión local o remota y todos los procesos asociados   |
 
 ### Estado del equipo y procesos
