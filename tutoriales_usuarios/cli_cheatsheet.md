@@ -143,7 +143,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` scp [usuario]@[dirección IP]:[/path/remoto/] [/path/local]  ``` | Copia un archivo remoto en una carpeta local | 
 |``` wget [dirección web] [carpeta local] ``` | Descarga un archivo desde la internet en la carpeta especificada   |
 |``` nohup [comando con sus opciones] & ```  | Permite 'dejar corriendo' un programa sin riesgo de que se interrumpa por un fallo en la conexión   |
-|``` byobu ``` | Un modo interactivo de 'dejar corriendo programas' una vez dentro: F2 crea pantallas nuevas, F3 y F4 permite navegar entre pantallas, F6 permite salir __sin terminar los proceso__ ```$ exit`` en todas las pantallas es la manera de terminar con todos los procesos  |
+|``` byobu ``` | Un modo interactivo de 'dejar corriendo programas' una vez dentro: F2 crea pantallas nuevas, F3 y F4 permite navegar entre pantallas, F6 permite salir __sin terminar los proceso__ ```$ exit``` en todas las pantallas es la manera de terminar con todos los procesos  |
 |``` exit ``` | Termina la sesión local o remota y todos los procesos asociados   |
 
 ### Estado del equipo y procesos
@@ -160,8 +160,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 | ```ps aux ``` | Enlista todos los procesos y PID en el equipo   |
 |``` top ``` | Visualización interactiva de procesos, uso de memoria y CPU  |
 |``` htop```  | Visualización interactiva ligeramente menos fea de procesos, uso de memoria y CPU  |
-|``` byobu ``` | Visualización interactiva significativamente menos fea de procesos, uso de memoria y CPU. (sólo workstations)  |
-
+|``` bpytop ``` | Visualización interactiva significativamente menos fea de procesos, uso de memoria y CPU. (sólo workstations)  |
 #### Cockpit
 
 Cockpit no es una apliación de la línea de comandos es un servidor web de monitoreo de los equipos de la UBMI- IFC que permite conocer el estado actual de un equipo y consultar varios parámetros de funcionamiento de un equipo de manera gráfica. 
