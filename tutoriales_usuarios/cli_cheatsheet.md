@@ -16,11 +16,11 @@ ___
 - Uso de comodines ó _wildcards_
 - Teclas amigas
 - Uso de comandos útiles
-  - Navegación
-  - Manipulación de archivos
-  - Sesiones locales remotas y red
-  - Estado del equipo
-  - Servidores web
+  	- Navegación
+  	- Manipulación de archivos
+  	- Sesiones locales remotas y red
+  	- Estado del equipo
+- Servidores web
 	- Cockpit
 	- Monitorix
 	- NEMS
