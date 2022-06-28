@@ -1,8 +1,31 @@
-# Lo elemental de la terminal de linea de comandos de GNU/Linux para usuarios de la UBMI
+# Guía de GNU/Linux para usuarios de la UBMI
 
 ## Antes de comenzar
 
+Este es un tutorial que contiene lo básico necesario para usar la interfaz de línea de comandos de los servidores de la UBMI
+
 __Esta no es una guía exahustiva de uso de línea de comandos y hay muchas omisiones intencionales en cuanto a las opciones y uso de los programas, pero hemos recopilado aquí lo que nos parece es un buen punto de partida para hacer mas agradable el uso de la terminal de GNU/Linux__
+
+Además de los comandos elementales incluimos herramientas web para monitorear el estado del equipo hacia el final del documento. 
+___
+
+## Contenido 
+- Notas importantes
+- Uso de comodines ó _wildcards_
+- Teclas amigas
+- Uso de comandos útiles
+  - Navegación
+  - Manipulación de archivos
+  - Sesiones locales remotas y red
+  - Estado del equipo
+  - Servidores web
+	- Cockpit
+	- Monitorix
+	- NEMS
+
+___
+
+## Notas importantes
 
 1.  Entre [ ] se encuentran los argumentos que deben ser sustituidos por el usuario.
 2.  Los ejemplos en este documento van acompañados del símbolo ```$``` indicando que es texto en una terminal, pero este no es necesario copiarlo o escribirlo para reproducir los ejemplos.
@@ -37,18 +60,6 @@ $ tldr [programa]
 6.  Por último, en la terminal de linea de comandos de GNU/Linux suelen haber programas con opciones de una letra tal como: ``` -h ```  y opciones de mas de una letra cómo ```--help``` estas últimas las distinguimos por que tienen dos guiones en vez de uno, y a diferencia de las opciones de una letra estas no pueden 'aplilarse' como en el punto 4 de esta lista, pero pueden usarse juntas en combinación con otras opciones de una o mas letras. 
 
 ___
-
-## Contenido 
-
-- Uso de comodines ó _wildcards_
-- Teclas amigas
-- Uso de comandos útiles
-  - Navegación
-  - Manipulación de archivos
-  - Sesiones locales remotas y red
-  - Estado del equipo
-	- Cockpit
-	- Monitorix
  
 ## Comodines (_wildcards_)
 
@@ -80,6 +91,8 @@ _La tecla Ctrl también suele ser representada como ^ en algunas documentaciones
 | Ctrl+r                | Nos permite buscar entre los comandos usados recientemente tecleando una fracción del mismo |
 | >                     | Permite escribir en un archivo de texto lo que de otra forma se representaría en pantalla como resultado de la ejecución de un programa, por ejemplo ``` $ ls > archivos.txt``` creará un archivo dónde escribirá el resultado de la operación ``` $ ls ``` utilizar de nuevo ```$ otro_comando  > archivos.txt``` sobreescribirá el archivo, mientras que: ```$ otro_comando  >> archivos.txt``` agregará el resultado del programa "otro_comando" al final del archivo "archivos.txt" |
 | `\|`  | El caracter pipe nos permite dar el resultado de un programa a otro programa por ejemplo: ```$ ls -l \| wc -l``` primero ejecutará "ls -l" para listar los archivos de una carpeta y el texto resultante en vez de ponerlo en pantalla se lo dará al programa "wc -l" que sirve para contar líneas de texto y este imprimirá en pantalla un número que representará el numero de renglones de la primera operación, que en este caso se traduce en el número de archivos de la carpeta actual. |
+
+___
 
 ## Comandos útiles 
 
@@ -161,9 +174,16 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` top ``` | Visualización interactiva de procesos, uso de memoria y CPU  |
 |``` htop```  | Visualización interactiva ligeramente menos fea de procesos, uso de memoria y CPU  |
 |``` bpytop ``` | Visualización interactiva significativamente menos fea de procesos, uso de memoria y CPU. (sólo workstations)  |
-#### Cockpit
 
-Cockpit no es una apliación de la línea de comandos es un servidor web de monitoreo de los equipos de la UBMI- IFC que permite conocer el estado actual de un equipo y consultar varios parámetros de funcionamiento de un equipo de manera gráfica. 
+___
+
+## Servidores web de monitoreo de la UBMI-IFC
+
+Las siguientes herramientas no son propiamente de la línea de comando, pero permiten al usuario vigilar el estado de los equipos de la UBMI, Cockpit además incorpora su propia terminal.
+
+### Cockpit
+
+Cockpit es un servidor web de monitoreo de los equipos de la UBMI- IFC que permite conocer el estado actual de un equipo y consultar varios parámetros de funcionamiento de un equipo de manera gráfica. 
 
 Dentro de la red del instituto en un explorador web escribe: __[dirección ip del servidor]:9090__
 
@@ -173,7 +193,7 @@ Dentro de la red del instituto en un explorador web escribe: __[dirección ip de
 
 Además del estado del equipo cockpit incluye un emulador de terminal con el cual podrás interactuar con el equipo.
 
-#### Monitorix
+### Monitorix
 
 Otro servicio de monitoreo del estado de los equipos, permite conocer el estado actual y pasado de un equipo en cuestión, nuevamente se trata de un servidor web accesible sólo dentro de la red del IFC.
 
@@ -182,7 +202,7 @@ Dentro de la red del instituto en un explorador web escribe: __[dirección ip de
 - Este servicio no está disponible para UBMI-Portal
 - No se requiere usuario ni contraseña para acceder
 
-#### NEMS 
+### NEMS 
 
 La UBMI cuenta con un servidor de monitoreo del estado de conexión de los servidores y workstations que administra, se pueden consultar las alertas y el estado de los servidores dándo click [aqui](http://10.10.180.153/tv/).
 
