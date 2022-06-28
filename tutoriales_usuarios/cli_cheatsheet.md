@@ -55,7 +55,7 @@ ___
 En GNU/Linux podemos usar carácteres comodín para realizar operaciones sobre archivos o líneas de texto con parte del nombre en común, existen [muchos tipos](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm) de comodín pero los que se utilizan con mas frecuencia son:
 
 | Comodín | Uso                                                                                                                                                                                                                                                                    |
-|:-------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:-------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *       | Representa cualquier caractér, cualquier número de veces, por ejemplo ```$ rm *txt``` borraría todos los archivos cuyo nombre termine en "txt", ```$ ls *fotos*``` enumeraría los archivos y directorios que contengan la palabra "fotos"                              |
 | ?       | Representa cualquier caractér __una__ sola vez, en una carpeta con archivos llamados: "perros", "gatos" "ratos" "platos" la operación ```$ ls ?atos``` nos devolvería: ``` gatos ratos``` pero no "platos"                                                             |
 | ~       | Un atajo que hace referencia a la carpeta "_home_" del usuario que la escribe, permite sustituir por ejemplo: ```$ cd /home/miusuario/Documentos``` por ```$ cd ~/Documentos```                                                                                        |
@@ -70,7 +70,7 @@ Nota:
 _La tecla Ctrl también suele ser representada como ^ en algunas documentaciones y archivos de ayuda_
 
 | Tecla(s)              | Función |
-|:---------------------:|:-----:|
+|:---------------------:|-----|
 | Tab                   | Habilita el autocompletado al escribir comandos y paths (casi siempre)|
 | Ctrl+ c               | Interrumpe la ejecucion de un programa |
 | Ctrl+ z               | Manda a segundo plano la ejecución del programa, no debe confundirse con terminar el programa, es el equivalente de minimizar una pantalla |
@@ -88,7 +88,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 ### Navegación general
 
 | Comando                                                    | Descripción                                                                                            |
-|:----------------------------------------------------------:|:------------------------------------------------------------------------------------------------------:|
+|----------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | cd [/path/objetivo]                                        | Cambia de directorio a la dirección especificada                                                       |
 | cd ..                                                      | Nos devuelve un nivel en el arbol de directorios                                                       |
 | cd -                                                       | Nos regresa a la carpeta anterior en la que estábamos                                                  |
@@ -111,7 +111,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 ### Manipulación de archivos
 
 | Comando                                          | Descripción                                                               |
-|:------------------------------------------------:|:-------------------------------------------------------------------------:|
+|-----------------------------------------------|-------------------------------------------------------------------------|
 | mv [archivo] [/path/a/otra/ubicación             | Mueve un archivo o carpeta de la carpeta actual a otro sitio              |
 | mv [/path/a/un/archivo] [/path/a/otra/ubicación/ | Mueve un archivo en otra carpeta diferente a la actual de un lugar a otro |
 | mv [archivo] [otro nombre] | renombra un archivo de la carpeta actual, si la carpeta de origen es igual que la de destino y el nombre es distinto: mv renombra los archivos simplemente  |
@@ -135,7 +135,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 ### Sesiones locales, remotas y red
 
 | Comando  | Descripción  |
-|:-:|:-:|
+|-|-|
 | ssh [usuario]@[dirección IP]  | Permite crear una sesión en una computadora remota a través de la línea de comandos   |
 | ssh [usuario]@[dirección IP] -p [número de puerto]  | ssh especificando el puerto de red  |
 | sshfs   | Monta una carpeta de un equipo en otro ,[ver tutorial](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/sshfs) |
@@ -149,7 +149,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 ### Estado del equipo y procesos
 
 | Comando  | Descripción   |
-|:-:|:-:|
+|-|-|
 | du -h [/path/objetivo]    | Despliega el tamaño de todos los archivos y carpetas a partir del path objetivo  |
 | du -sh [path/objetivo]   | Despliega sólo el total del tamaño que ocupa el path objetivo y su contenido   |
 | df -h   | Informa sobre el uso de los discos duros las carpetas críticas en el caso de la UBMI son las identificadas como "/" y "/home" |
