@@ -143,7 +143,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` scp [usuario]@[dirección IP]:[/path/remoto/] [/path/local]  ``` | Copia un archivo remoto en una carpeta local | 
 |``` wget [dirección web] [carpeta local] ``` | Descarga un archivo desde la internet en la carpeta especificada   |
 |``` nohup [comando con sus opciones] & ```  | Permite 'dejar corriendo' un programa sin riesgo de que se interrumpa por un fallo en la conexión   |
-|``` byobu ``` | Un modo interactivo de 'dejar corriendo programas' una vez dentro: F2 crea pantallas nuevas, F3 y F4 permite navegar entre pantallas, F6 permite salir __sin terminar los proceso__ ```$ exit``` en todas las pantallas es la manera de terminar con todos los procesos  |
+|``` byobu ``` | Un modo interactivo de 'dejar corriendo programas' una vez dentro: F2 crea pantallas nuevas, F3 y F4 permite navegar entre pantallas, F6 permite salir __sin terminar los procesos__ ```$ exit``` en todas las pantallas es la manera de terminar con todos los procesos  |
 |``` exit ``` | Termina la sesión local o remota y todos los procesos asociados   |
 
 ### Estado del equipo y procesos
@@ -186,8 +186,8 @@ Dentro de la red del instituto en un explorador web escribe: __[dirección ip de
 
 La UBMI cuenta con un servidor de monitoreo del estado de conexión de los servidores y workstations que administra, se pueden consultar las alertas y el estado de los servidores dándo click [aqui](http://10.10.180.153/tv/).
 
--Servicio disponible sólo dentro de la red del IFC
--No se requiere usuario ni contraseña para acceder
+- Servicio disponible sólo dentro de la red del IFC
+- No se requiere usuario ni contraseña para acceder
 
 
 
