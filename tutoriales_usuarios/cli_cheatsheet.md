@@ -32,7 +32,7 @@ ___
 
 ## Notas importantes
 
-1.  Entre [ ] se encuentran los argumentos que deben ser sustituidos por el usuario.
+1.  Entre ```[ ]``` se encuentran los argumentos que deben ser sustituidos por el usuario.
 2.  Los ejemplos en este documento van acompañados del símbolo ```$``` indicando que es texto en una terminal, pero este no es necesario copiarlo o escribirlo para reproducir los ejemplos.
 3.  No se muestran todas las opciones, sólo las que creemos son las más utilizadas.
 4.  En general, las opciones pueden combinarse por ejemplo: un programa con opciones -l -h -t -r puede ejecutarse cómo:
@@ -115,7 +115,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 | ``` cd - ``` | Nos regresa a la carpeta anterior en la que estábamos |
 |``` ls ```| Enlista los contenidos de la carpeta actual |
 |``` ls [/path/objetivo/]``` | Enlista los contenidos de la carpeta indicada  |
-|``` ls -1 ```                                                     | ls en forma de lista|
+|``` ls -1 ``` | ```ls``` en forma de lista|
 |``` ls -lh  ```| ```ls``` en forma de lista detallada y en formato mas legible |
 |``` ls -a  ```| ```ls``` enlistando también archivos ocultos |
 | ```ls *``` | ```ls``` recursivo sobre los directorios de la carpeta actual |
@@ -198,7 +198,7 @@ Dentro de la red del instituto en un explorador web escribe: __[dirección ip de
 
 - Este servicio no está disponible para UBMI-Portal
 - Es altamente probable que el explorador web indique un riesgo de seguridad en acceder a Cockpit, simplemente hay que seleccionar que deseamos continuar al sitio web. 
-- Una vez ingresados los mismos usuario y contraseña que utilizas con ssh podrás acceder a la interfáz
+- Una vez ingresados el mismo usuario y contraseña que utilizas con ssh podrás acceder a la interfáz
 
 ![image](https://user-images.githubusercontent.com/13229623/176310816-1a702d78-c40a-44e1-b6ee-94efcbb8c81e.png)
 
