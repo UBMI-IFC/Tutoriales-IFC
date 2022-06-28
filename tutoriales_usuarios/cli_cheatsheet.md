@@ -69,7 +69,7 @@ Existen varias teclas y combinaciones que nos facilitan la vida en la línea de 
 Nota:
 _La tecla Ctrl también suele ser representada como ^ en algunas documentaciones y archivos de ayuda_
 
-| Tecla(s)              | Función                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                        |
+| Tecla(s)              | Función |
 |:---------------------:|:-----:|
 | Tab                   | Habilita el autocompletado al escribir comandos y paths (casi siempre)|
 | Ctrl+ c               | Interrumpe la ejecucion de un programa |
