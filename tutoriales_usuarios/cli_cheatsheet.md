@@ -185,7 +185,7 @@ Dentro de la red del instituto en un explorador web escribe: __[dirección ip de
 
 #### NEMS 
 
-La UBMI cuenta con un servidor de monitoreo del estado de conexión de los servidores y workstations que administra, se pueden consultar las alertas y el estado de los servidores dándo click (aqui)[http://10.10.180.153/tv/].
+La UBMI cuenta con un servidor de monitoreo del estado de conexión de los servidores y workstations que administra, se pueden consultar las alertas y el estado de los servidores dándo click [aqui](http://10.10.180.153/tv/).
 
 -Servicio disponible sólo dentro de la red del IFC
 -No se requiere usuario ni contraseña para acceder

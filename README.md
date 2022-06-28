@@ -8,6 +8,7 @@ Página principal de la [UBMI](https://sites.google.com/ifc.unam.mx/ubmi-ifc/)
 
 ### Tutoriales
 
+- [Cheat sheet](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/cli_cheatsheet) para los usuarios de la UBMI
 - Automatiza tareas con [Bash](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/bash_chunks_intro) ... aunque no sepas programar. 
 - Monta directorios remotos con [sshfs](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/sshfs)
 - Usa un escritorio remoto con el cliente de [Remmina](https://ubmi-ifc.github.io/Tutoriales-IFC/configuraciones/remmina_client)
