@@ -71,11 +71,11 @@ ___
 
 En GNU/Linux podemos usar carácteres comodín para realizar operaciones mas fácilmente, evitando escribir grandes porciones de texto, existen [muchos tipos](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm) de comodín pero los que se utilizan con mas frecuencia son:
 
-| Comodín | Uso                                                                                                                                                                                                                                                                    |
-|-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comodín | Uso   |
+|:-------:|-------------------------------------------------|
 | *       | Representa cualquier caractér, cualquier número de veces, por ejemplo ```$ rm *txt``` borraría todos los archivos cuyo nombre termine en "txt", ```$ ls *fotos*``` enumeraría los archivos y directorios que contengan la palabra "fotos"                              |
-| ?       | Representa cualquier caractér __una__ sola vez, en una carpeta con archivos llamados: "perros", "gatos" "ratos" "platos" la operación ```$ ls ?atos``` nos devolvería: ``` gatos ratos``` pero no "platos"                                                             |
-| ~       | Un atajo que hace referencia a la carpeta "_home_" del usuario que la escribe, permite sustituir por ejemplo: ```$ cd /home/miusuario/Documentos``` por ```$ cd ~/Documentos```                                                                                        |
+| ?       | Representa cualquier caractér __una__ sola vez, en una carpeta con archivos llamados: "perros", "gatos" "ratos" "platos" la operación ```$ ls ?atos``` nos devolvería: ``` gatos ratos``` pero no "platos"  |
+| ~       | Un atajo que hace referencia a la carpeta "_home_" del usuario que la escribe, permite sustituir por ejemplo: ```$ cd /home/miusuario/Documentos``` por ```$ cd ~/Documentos```  |
 | ..      | Otro atajo que hacer referencia a la carpeta anterior en el arbol de directorios;  ```$ cd ..``` evita que tengamos que escribir la dirección completa si solo queremos regresar un nivel y puede usarse en sucesión para regresar varios niveles: ```$ cd ../../..``` |
 | . | Un atajo que representa el directorio actual |
 | \ | Este caracter suele ser leido por la computadora como una señal para no interpretar literalmente el caractér siguiente, pudiendo ignorarlo o ejecutarlo según el contexto en que se use, por ejemplo la combinación `\t` puede significar el caractér "tabulación" mientras que `\n` indica un salto de linea |
@@ -90,7 +90,7 @@ Nota:
 _La tecla Ctrl también suele ser representada como ^ en algunas documentaciones y archivos de ayuda_
 
 | Tecla(s)              | Función |
-|---------------------|-----|
+|:---------------------:|-----|
 | Tab                   | Habilita el autocompletado al escribir comandos y paths (casi siempre)|
 | Ctrl+ c               | Interrumpe la ejecucion de un programa |
 | Ctrl+ z               | Manda a segundo plano la ejecución del programa, no debe confundirse con terminar el programa, es el equivalente de minimizar una pantalla |
@@ -163,6 +163,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` sshfs ```  | Monta una carpeta de un equipo en otro ,[ver tutorial](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/sshfs) |
 | ```scp [archivo local] [usuario]@[dirección IP]:[/path/remoto/] ```  | Copia un archivo local en una computadora remota  |
 |``` scp [usuario]@[dirección IP]:[/path/remoto/] [/path/local]  ``` | Copia un archivo remoto en una carpeta local | 
+|``` scp -P [número de puerto] [usuario]@[dirección IP]:[/path/remoto/] [/path/local]  ``` | Copia un archivo remoto en una carpeta local especificando un puerto, __nota que la P es mayúscula__ |
 |``` wget [dirección web] [carpeta local] ``` | Descarga un archivo desde la internet en la carpeta especificada   |
 |``` nohup [comando con sus opciones] & ```  | Permite 'dejar corriendo' un programa sin riesgo de que se interrumpa por un fallo en la conexión   |
 |``` byobu ``` | Un modo interactivo de 'dejar corriendo programas' una vez dentro: F2 crea pantallas nuevas, F3 y F4 permite navegar entre pantallas, F6 permite salir __sin terminar los procesos__ ```$ exit``` en todas las pantallas es la manera de terminar con todos los procesos  |
