@@ -155,6 +155,9 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 | ```wc [archivo]``` | permite conocer el numero de lineas, palabras y caracteres (en ese orden) las opciones `-l` , `-w` y `-m` devuelven únicamente las líneas, palabras y carateres respectivamente |
 | ```head [archivo] --lines [número] ```| Muestra las primeras lineas , especificadas en ```--lines``` en pantalla de archivos de texto |
 |``` tail [archivo] --lines [número]``` | Muestra las últimas lineas , especificadas en ```--lines``` en pantalla de archivos de texto |
+|``` cut -f [número de columna] -d "[caractér delimitador]" [nombre de archivo] ``` | Enlista una columna de un archivo de texto siempre que las columnas estén separadas por un caracter en común típicamente "," "." " "(espacio) |
+|``` sort [nombre de archivo] ``` | Regresa una versión del archivo de entrada donde cada linea ha sido ordenada alfabéticamente |
+|```uniq [nombre del archivo]```| Regresa una versión dónde se han eliminado las líneas repetidas (dejando sólo una de ellas) __El archivo debe estar ordenado alfabeticamente para usar uniq__ por ello es recomendable usar la síntaxis ```sort [nombre del archivo] \| uniq``` |
 |``` nano [nombre de archivo existente o por crear]``` | Editor de texto para modificar archivos las opciones son interactivas y se presentan en la parte de abajo de la pantalla, la tecla Ctrl está representado con el caractér "^" en el menú | 
  
   ### Compresión y descompresión de archivos
