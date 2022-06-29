@@ -166,9 +166,12 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
  __EN PROGRESO__ vuelve pronto para ver este contenido
  | Comando | Descripción |
  |---------|-------------|
- | tar     |             |
- | gz      |             |
- | zip     |             |
+ | ```tar czf [nombre_del_archivo_comprimido].tar.gz --directory=[path/al/directorio]```     | Comprime y archiva un directorio, si no se utiliza la opción `--directory` se pueden especificar uno o mas archivos para realizar la misma operación |
+ | ```tar xvf [nombre_del_archivo_comprimido].tar.gz```    | Descomprime un archivo en la carpeta actual  |
+ | ```gzip [archivo para comprimir]```     | Comprime un archivo   |
+ | ```gzip -d  [archivo para descomprimir]```     | Descomprime un archivo en la carpeta actual   |
+ |``` zip -r [archivo_a_crear_].zip [path/a/directorio]``` | Comprime en formato zip recursivamente un directorio |
+| ``` unzip [archivo_comprimido].zip```| Descomprime un archivo zip en la carpeta actual |
 
 ### Sesiones locales, remotas y red
 
@@ -206,7 +209,14 @@ ___
 
 ## Clonar un repositorio de github
 
- __EN PROGRESO__ vuelve pronto para ver este contenido
+Para clonar un repositiorio de github y sus contenidos utilizamos el comando
+
+``` bash
+$ git clone [dirección web del repositorio]
+```
+ __Nota que la dirección que se usa es ligeramente distinta a la de la página web__ para encontrar la dirección correcta; en la página de github del repositorio vamos a la pestaña que dice 'Code' y seleccionamos 'HTTPS' ahí desplegará la dirección correcta para utilizar con git clone.
+ 
+
  
 ___
 
