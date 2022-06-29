@@ -21,9 +21,11 @@ ___
 - Uso de comandos útiles
   	- Navegación
   	- Manipulación de archivos
+  	- Compresión y descompresión de archivos (Pronto ... )
   	- Sesiones locales remotas y red
   	- Estado del equipo
-- Servidores web
+- Clonar un repositiorio de github (Pronto ...)
+- Servidores web para revisar el estado de los equipos de la UBMI
 	- Cockpit
 	- Monitorix
 	- NEMS
@@ -153,6 +155,14 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` tail [archivo] --lines [número]``` | Muestra las últimas lineas , especificadas en ```--lines``` en pantalla de archivos de texto |
 |``` nano [nombre de archivo existente o por crear]``` | Editor de texto para modificar archivos las opciones son interactivas y se presentan en la parte de abajo de la pantalla, la tecla Ctrl está representado con el caractér "^" en el menú | 
  
+  ### Compresión y descompresión de archivos
+ 
+ __EN PROGRESO__ vuelve pronto para ver este contenido
+ | Comando | Descripción |
+ |---------|-------------|
+ | tar     |             |
+ | gz      |             |
+ | zip     |             |
 
 ### Sesiones locales, remotas y red
 
@@ -186,6 +196,12 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` htop```  | Visualización interactiva ligeramente menos fea de procesos, uso de memoria y CPU  |
 |``` bpytop ``` | Visualización interactiva significativamente menos fea de procesos, uso de memoria y CPU. (sólo workstations)  |
 
+___
+
+## Clonar un repositorio de github
+
+ __EN PROGRESO__ vuelve pronto para ver este contenido
+ 
 ___
 
 ## Servidores web de monitoreo de la UBMI-IFC
