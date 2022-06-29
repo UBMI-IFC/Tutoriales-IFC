@@ -152,6 +152,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 | ```cat [archivo]```  | Muestra en pantalla el contenido de cualquier archivo de texto |
 | ```zcat [archivo_comprimido]``` | Muestra en pantalla el contenido de cualquier archivo de texto que esté comprimido |
 | ```less [archivo]``` | Muestra en pantalle el contenido de un archivo pero permite desplazarse interactivamente y búsqueda |
+| ```wc [archivo]``` | permite conocer el numero de lineas, palabras y caracteres (en ese orden) las opciones `-l` , `-w` y `-m` devuelven únicamente las líneas, palabras y carateres respectivamente |
 | ```head [archivo] --lines [número] ```| Muestra las primeras lineas , especificadas en ```--lines``` en pantalla de archivos de texto |
 |``` tail [archivo] --lines [número]``` | Muestra las últimas lineas , especificadas en ```--lines``` en pantalla de archivos de texto |
 |``` nano [nombre de archivo existente o por crear]``` | Editor de texto para modificar archivos las opciones son interactivas y se presentan en la parte de abajo de la pantalla, la tecla Ctrl está representado con el caractér "^" en el menú | 
