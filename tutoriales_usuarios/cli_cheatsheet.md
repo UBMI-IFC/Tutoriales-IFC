@@ -21,10 +21,10 @@ ___
 - Uso de comandos útiles
   	- Navegación
   	- Manipulación de archivos
-  	- Compresión y descompresión de archivos (Pronto ... )
+  	- Compresión y descompresión de archivos
   	- Sesiones locales remotas y red
   	- Estado del equipo
-- Clonar un repositiorio de github (Pronto ...)
+- Clonar un repositiorio de github
 - Servidores web para revisar el estado de los equipos de la UBMI
 	- Cockpit
 	- Monitorix
@@ -163,7 +163,6 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
  
   ### Compresión y descompresión de archivos
  
- __EN PROGRESO__ vuelve pronto para ver este contenido
  | Comando | Descripción |
  |---------|-------------|
  | ```tar czf [nombre_del_archivo_comprimido].tar.gz --directory=[path/al/directorio]```     | Comprime y archiva un directorio, si no se utiliza la opción `--directory` se pueden especificar uno o mas archivos para realizar la misma operación |
@@ -217,7 +216,8 @@ $ git clone [dirección web del repositorio]
  __Nota que la dirección que se usa es ligeramente distinta a la de la página web__ para encontrar la dirección correcta; en la página de github del repositorio vamos a la pestaña que dice 'Code' y seleccionamos 'HTTPS' ahí desplegará la dirección correcta para utilizar con git clone.
  
 
- 
+ ![repoClone](https://user-images.githubusercontent.com/13229623/176487032-0fc1aed1-0b14-4af5-bf4b-5fe3da02476c.png)
+
 ___
 
 ## Servidores web de monitoreo de la UBMI-IFC
