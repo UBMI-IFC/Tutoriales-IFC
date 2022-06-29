@@ -123,6 +123,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` ls -a  ```| ```ls``` enlistando también archivos ocultos |
 | ```ls *``` | ```ls``` recursivo sobre los directorios de la carpeta actual |
 |``` tree``` | Funciona como un ```ls *``` pero con la recursividad se extiende hasta que no haya mas archivos que enlistar |
+|``` tree -lh``` | Funciona como  ```tree``` pero muestra el tamaño del contenido |
 | ```tree -fi ``` | Cambia el formato de "arbol" default por uno con el path completo de los archivos enlistados|
 |``` tree -fi \| grep [parte del nombre de un archivo]  ```      | Permite buscar un archivo con parte del nombre y regresa el path completo |
 | ```find [path/objetivo] -name [parte del nombre de un archivo ``` | Igual que el anterior |
