@@ -2,7 +2,8 @@
 
 # Guía de GNU/Linux para usuarios de la UBMI
 
-![Debian_Swiss_army_knife](https://user-images.githubusercontent.com/13229623/176309676-22b56dad-dfae-401d-888b-48c9c1b46e5f.jpg)
+![ubmi_knife](https://user-images.githubusercontent.com/13229623/176459714-38c25aea-03df-4473-87f1-ca0062cc13d1.png)
+
 
 ## Antes de comenzar
 
@@ -268,7 +269,7 @@ Sin duda la mejor manera de no tener que lidiar con este problema es no incluir 
 ____
 
 Créditos
-imágen de navaja suiza  Michael.germini/CC-BY-SA-3.0
+imágen de navaja suiza  modificada de https://es.vectorhq.com/vector/swiss-army-knife-clip-art-528213
 
 
 [Volver a la página principal](https://ubmi-ifc.github.io/Tutoriales-IFC)
