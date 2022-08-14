@@ -1,4 +1,4 @@
-#  Programa en Bash sin saber programación
+# Programa en Bash sin saber programación
 
 ## Introducción 
 
@@ -10,4 +10,4 @@ Para segur estos ejemplos __NO necesitas saber programar__ lo único que requier
 
 ## Contenido
 
-1- [Creando un primer programa en Bash](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/bash_chunks_primerPrograma)
+[  Programa en Bash sin saber programación](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/bash/bash_chunks_primerPrograma)

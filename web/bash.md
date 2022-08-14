@@ -1,4 +1,4 @@
-#  Programa en Bash sin saber programación
+# Programa en Bash sin saber programación
 
 ## Introducción 
 
