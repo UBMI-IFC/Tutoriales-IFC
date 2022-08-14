@@ -26,7 +26,6 @@ for P in $CPAGES; do
     CLINKS=$(echo $CLINKS $HOMELINK$(echo $P | sed 's/^.\///' | sed 's/\.md$//' )) 
 done
 
-echo $CLINKS
 
 
 # Indice de tutoriales OJO INCLUYE PAGINAS DE CATEGORIAS HABRA QUE ELIMINARLAS PRIMERO
@@ -34,3 +33,20 @@ echo $CLINKS
 PAGES=$(tree -fi | egrep \.md$  | egrep -v /web/ | egrep '[a-zA-Z]/[a-zA-Z]')
 DESCRIPTIONS=$(grep -m 1 "#" $(tree -fi | egrep \.md$  | egrep -v /web/ | egrep '[a-zA-Z]/[a-zA-Z]') | cut -d '#' -f 2 )
 
+echo DIRS
+echo $DIRS
+echo
+echo CPAGES
+echo $CPAGES
+echo
+echo HOMELINK
+echo $HOMELINK
+echo
+echo CLINKS
+echo $CLINKS
+echo
+echo PAGES
+echo $PAGES
+echo
+echo DESCRIPTIONS
+echo $DESCRIPTIONS
