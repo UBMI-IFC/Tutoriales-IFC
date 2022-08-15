@@ -1,7 +1,3 @@
-[< Anterior](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/bash_chunks_intro) | [Siguiente >](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/bash_chunks_intro)
-
-____
-
 #  Parte 1
 
 ## Creando nuestro primer programa
