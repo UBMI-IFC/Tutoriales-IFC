@@ -12,7 +12,7 @@ En esta sección encontrarás manuales y tutoriales para distintos programas y p
 
 [ `find` programa para buscar archivos en línea de comandos.](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/find)
 
-[ GitHub CLI](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/gh)
+[ Conéctate con GitHub desde la línea de comandos (Github CLI)](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/gh)
 
 [ Instalación de HiGlass](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/higlass)
 
@@ -20,7 +20,7 @@ En esta sección encontrarás manuales y tutoriales para distintos programas y p
 
 [ Uso del contenedor de Juicer ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/juicer_singularity)
 
-[ Cliente de Remmina](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/remmina_client)
+[ Conéctate remotamente de manera gráfica con Remmina](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/remmina_client)
 
 [ Instrucciones para conectarte remotamente con Jupyter](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/remote_jupyter)
 
@@ -30,4 +30,4 @@ En esta sección encontrarás manuales y tutoriales para distintos programas y p
 
 [ Usar directorios remotos con SSHFS](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/sshfs)
 
-[ TLDR ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/tldr)
+[ Aprende a usar (casi) cualquier programa con  TLDR ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/tldr)
