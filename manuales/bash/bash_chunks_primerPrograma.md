@@ -2,7 +2,7 @@
 
 ____
 
-#  Programa en Bash sin saber programación
+#  Parte 1
 
 ## Creando nuestro primer programa
 
