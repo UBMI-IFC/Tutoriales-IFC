@@ -14,8 +14,6 @@ ___
 
 [ Tutoriales para la comunidad ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/manuales)
 
-[ Programa en Bash sin saber programación](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/bash/bash)
-
 [ Compárte tu experiencia con la comunidad](https://ubmi-ifc.github.io/Tutoriales-IFC/participa/participa)
 
 [ Recursos para el personal de la UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/ubmi)

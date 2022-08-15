@@ -90,19 +90,32 @@ done
 echo DONE!
 
 echo
-echo CREATING CATEGORIES LINKS INTO MAIN PAGE
+echo CREATING CATEGORIES LINKS INTO PARENT PAGE
+
 rm README.md
-cp ./web/README.md README.md 
+cp ./web/README.md README.md
+
+
 for P in $CPAGES; do
     CLINK=$(echo $HOMELINK$(echo $P | sed 's/^.\///' | sed 's/\.md$//' ))
     CDESCRIPTION=$( grep -m 1 "#" $P  | cut -d "#" -f 2 )
 
+    ISSUBDIR=$( echo $P |  tr -dc '/' | wc -c) # Counts "/"  to asses if its a main category or subcategory
 
-    echo "" >> README.md
-    echo "[$CDESCRIPTION]($CLINK)" >> README.md
+    if [ $ISSUBDIR  -gt 2 ]; then
 
-    
+	PM=$(echo $(echo $P | rev  | cut -d '/' -f 3- | rev)/) # parent directory
+	PMP=$(echo $PM$(echo $PM | rev |  cut -d '/' -f 2 | rev).md ) # parent page
+	
+	echo "" >> $PMP
+	echo "[$CDESCRIPTION]($CLINK)" >> $PMP
+
+    else
+	echo "" >> README.md
+	echo "[$CDESCRIPTION]($CLINK)" >> README.md
+    fi   
 done
+
 echo DONE!
 echo
 echo All seems OK, bye
