@@ -1,14 +1,13 @@
-#  Parte 1
+# Creando nuestro primer programa
 
-## Creando nuestro primer programa
+## De un vistazo
 
-### De un vistazo
 
     1. Escribe en un documento de texto los comandos en el orden que quieras que la computadora realice.
     2. Guarda el documento de texto con la extensión .sh
     3. Ejecuta tu programa escribiendo el comando bash seguido del nombre del programa 
 
-### Paso a paso
+## Paso a paso
 
 Un programa es una serie de instrucciones que la computadora puede entender, la forma mas fácil de hacer un programa es darle a la computadora una serie de pasos ordenados que queremos que siga.
 
@@ -101,6 +100,3 @@ microscopio_foto2.png  microscopio_video.mp4
 ```
 El programa ha funcionado como lo deseábamos! , hay que notar que el documento programa.sh no se ha movido de su ubicación original esto no es un error, tampoco se trata de que este no pueda o deba ser movido de ahí, simplemente como no le indicamos a la computadora que hiciera nada con  ese documento simplemente no lo ha movido de su lugar.
 
-____
-
-[< Anterior](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/bash_chunks_intro) | [Siguiente >](https://ubmi-ifc.github.io/Tutoriales-IFC/tutoriales_usuarios/bash_chunks_intro)
