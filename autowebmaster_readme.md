@@ -49,17 +49,17 @@ A description of your site
 
 #### Usage 
 
-1. Place `/web` directory and its contents have been created place them on the root directory of your repo as well with the __autowebmaster.sh__ script
+1. Follow the official [instructions](https://pages.github.com/) to publish a GitHub Page
 
-2. Run the script
+2. Place `/web` directory and its contents have been created place them on the root directory of your repo as well with the __autowebmaster.sh__ script
+
+3. Run the script
 
 ``` bash
 $ bash ./autowebmaster.sh
 ```
-3. Push the changes to GitHub
+4. Push the changes to GitHub
 
-4. Follow the official [instructions](https://pages.github.com/) to publish a GitHub Page
-
-5. Whenever you add or remove directories or markdown files within repeat steps 2 and 3, also if you change the top level header of the markdown files within `/web`
+5. Whenever you add or remove directories or markdown files within repeat steps 3 and 4, also if you change the top level header of the markdown files within `/web`
 
 

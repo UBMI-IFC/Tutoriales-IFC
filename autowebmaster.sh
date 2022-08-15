@@ -10,7 +10,21 @@
 # It will take first one-#-header in every markdown to be used as description on main page and categories pages
 
 # GitHub Page to admin 
-HOMELINK="https://ubmi-ifc.github.io/Tutoriales-IFC/"
+
+echo
+echo AUTOWEBMASTER FOR GITHUB PAGES
+echo 
+
+echo CHECKING URL ...
+HOMELINK=
+if [ -f ./web/url.txt ]; then
+    HOMELINK=$( cat ./web/url.txt | sed 's/$/\//' | sed 's|//$|/|')
+else
+    echo 'No URL file found; create ./web/url.txt containing url for GitHub pages and try again.'
+    exit
+fi
+echo DONE!
+
 
 # Webpage sections should be organized as directories
 DIRS=$(tree -fid | grep / | grep -v /web )
@@ -23,6 +37,7 @@ for D in $DIRS; do
     CPAGESINIT=$(echo $CPAGESINIT ./web/$(echo $D | rev | cut -d'/' -f 1 | rev | sed 's/$/.md/')) 
 done
 
+echo
 echo CHECKING FOR FRONT WEBPAGE ...
 if [ -f ./web/README.md ]; then
     echo front web page found!
@@ -81,8 +96,12 @@ cp ./web/README.md README.md
 for P in $CPAGES; do
     CLINK=$(echo $HOMELINK$(echo $P | sed 's/^.\///' | sed 's/\.md$//' ))
     CDESCRIPTION=$( grep -m 1 "#" $P  | cut -d "#" -f 2 )
+
+
     echo "" >> README.md
-    echo "[$CDESCRIPTION]($CLINK)" >> README.md 
+    echo "[$CDESCRIPTION]($CLINK)" >> README.md
+
+    
 done
 echo DONE!
 echo
