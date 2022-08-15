@@ -1,6 +1,6 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-leap-day
 
 # Setup
-title:        Comunidad UBMI
-description:      Tutoriales y recursos para los usuarios
+title: Comunidad UBMI
+description: Tutoriales y recursos para los usuarios
 markdown: GFM
