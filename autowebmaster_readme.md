@@ -28,7 +28,7 @@ The script requires the following.
 
 #### README.md file format
 
-__README.md__that is commonly located at `/`  file is taken by default as the frontpage of GitHub Pages, so the __README.md__ file at `/web` is going to be taken as the template for that. __CAUTION:__the script will delete the original README.md file at root replacing it with the one in `/web`.
+__README.md__that is commonly located at `/`  file is taken by default as the frontpage of GitHub Pages, so the __README.md__ file at `/web` is going to be taken as the template for that. __CAUTION:__ the script will delete the original README.md file at root replacing it with the one in `/web`.
 
 We recommend that __README.md__ at `/web` be formatted as following:
 
