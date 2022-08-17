@@ -1,4 +1,4 @@
-![UBMI-IFC](/assets/img/header.png "UBMI-IFC")
+![UBMI-IFC](/Tutoriales-IFC/assets/img/header.png "UBMI-IFC")
 
 # Página de la comunidad
 
