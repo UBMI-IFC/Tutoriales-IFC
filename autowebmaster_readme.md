@@ -25,7 +25,7 @@ The script requires the following.
 - At least one directory named anything but "assets" with markdown files that will be posted as pages in your site
 - A txt file placed in `/assets` named __url.txt__ containing __only__ the URL of your GitHub page 
 - Optionally a markdown file with the name of every directory to be published can be stored on the `/assets` directory following the recommended format for the README.md, if such file is not present a generic one will be created with the name of the directory
--Also optionally you can add a txt files into `/assets`  named __header.txt ,  topnav.txt , bottomnav.txt__ containing __only__ the markdown code to insert a header image, or navigation links, see examples below,  it is not required to add all of them. 
+-Also optionally you can add a txt file into `/assets`  named __header.txt with the markdown code to insert a header image. See example below 
 
 #### README.md file format
 
@@ -48,9 +48,14 @@ A description of your site
 
 ```
 
-##### Optional txt files format
+###### Optional txt file for header
 
+should be a txt file containing the markdown code to insert picture, and should end with a newline, example.
 
+``` markdown
+[header](/path/to/image.png)
+
+```
 
 
 #### Usage 
