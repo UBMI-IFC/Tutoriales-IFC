@@ -1,6 +1,6 @@
-# UBMI-IFC
+![UBMI-IFC](/assets/img/header.png "UBMI-IFC")
 
-## Página de la comunidad
+# Página de la comunidad
 
 En este sitio encontrarás tutoriales y recomendaciones que hemos preparado para tí!
 
