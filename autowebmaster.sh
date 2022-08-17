@@ -6,7 +6,7 @@
 # GNU Affero General Public License v3.0
 
 # Requires: tree
-# a directory named "web" is required, as well a markdown file named equally than every directory to be parsed except root directory stored at "web" directory to serve as introduction for each categorie in the webpage
+# a directory named "assets" is required, as well a markdown file named equally than every directory to be parsed except root directory stored at "assets" directory to serve as introduction for each categorie in the assetspage
 # It will take first one-#-header in every markdown to be used as description on main page and categories pages
 
 # GitHub Page to admin 
@@ -17,32 +17,32 @@ echo
 
 echo CHECKING URL ...
 HOMELINK=
-if [ -f ./web/url.txt ]; then
-    HOMELINK=$( cat ./web/url.txt | sed 's/$/\//' | sed 's|//$|/|')
+if [ -f ./assets/url.txt ]; then
+    HOMELINK=$( cat ./assets/url.txt | sed 's/$/\//' | sed 's|//$|/|')
 else
-    echo 'No URL file found; create ./web/url.txt containing url for GitHub pages and try again.'
+    echo 'No URL file found; create ./assets/url.txt containing url for GitHub pages and try again.'
     exit
 fi
 echo DONE!
 
 
-# Webpage sections should be organized as directories
-DIRS=$(tree -fid | grep / | grep -v /web )
+# Assetspage sections should be organized as directories
+DIRS=$(tree -fid | grep / | grep -v /assets )
 CURDIR=$(pwd)
-# Webpage categories main page from directories
+# Assetspage categories main page from directories
 CPAGES=
 CPAGESINIT=
 for D in $DIRS; do
     CPAGES=$(echo $CPAGES $D/$(echo $D | rev | cut -d'/' -f 1 | rev | sed 's/$/.md/'))
-    CPAGESINIT=$(echo $CPAGESINIT ./web/$(echo $D | rev | cut -d'/' -f 1 | rev | sed 's/$/.md/')) 
+    CPAGESINIT=$(echo $CPAGESINIT ./assets/$(echo $D | rev | cut -d'/' -f 1 | rev | sed 's/$/.md/')) 
 done
 
 echo
 echo CHECKING FOR FRONT WEBPAGE ...
-if [ -f ./web/README.md ]; then
-    echo front web page found!
+if [ -f ./assets/README.md ]; then
+    echo front webpage found!
 else
-    echo ./web/README.md not FOUND! create one with a general description of your Github page and try again
+    echo ./assets/README.md not FOUND! create one with a general description of your Github page and try again
     exit
 fi
 echo DONE!
@@ -62,7 +62,7 @@ for P in $CPAGESINIT; do
 	echo $P init file exist ":)"
     else
 	echo $P not found ... creating generic one
-	echo $( echo '#' $P | sed 's/web//' | sed 's/md$//' | sed 's/[\w.\/]//g' ) > $P
+	echo $( echo '#' $P | sed 's/assets//' | sed 's/md$//' | sed 's/[\w.\/]//g' ) > $P
 	echo "For personalized category index create" $P "as a markdown document describing the contents of directory"
     fi
 done
@@ -76,7 +76,7 @@ for D in $DIRS; do
     CONTENT=$(ls -1 | egrep \.md$)
     cd $CURDIR
     CATFILE=$(echo $D | sed 's/^..//' | rev | cut -d "/" -f 1 | rev | sed 's/$/\.md/' )
-    CATPAGE=$(echo $CATFILE | sed 's/^/\.\/web\//' )
+    CATPAGE=$(echo $CATFILE | sed 's/^/\.\/assets\//' )
     cp $CATPAGE $D/$CATFILE
     cd $D
     for C in $CONTENT; do
@@ -93,7 +93,7 @@ echo
 echo CREATING CATEGORIES LINKS INTO PARENT PAGE
 
 rm README.md
-cp ./web/README.md README.md
+cp ./assets/README.md README.md
 
 
 for P in $CPAGES; do
