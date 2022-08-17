@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-# Autoassetsmaster
+# Autowebmaster
 # Automatic github pages organizer
 # Carlos Peralta 2022
 # GNU Affero General Public License v3.0
@@ -12,7 +12,7 @@
 # GitHub Page to admin 
 
 echo
-echo AUTOASSETSMASTER FOR GITHUB PAGES
+echo AUTOWEBMASTER FOR GITHUB PAGES
 echo 
 
 echo CHECKING URL ...
@@ -38,9 +38,9 @@ for D in $DIRS; do
 done
 
 echo
-echo CHECKING FOR FRONT ASSETSPAGE ...
+echo CHECKING FOR FRONT WEBPAGE ...
 if [ -f ./assets/README.md ]; then
-    echo front assets page found!
+    echo front webpage found!
 else
     echo ./assets/README.md not FOUND! create one with a general description of your Github page and try again
     exit
