@@ -5,6 +5,8 @@
 
 
 
+
+
 # Usar directorios remotos con SSHFS
 
 ## De un vistazo
@@ -152,5 +154,4 @@ $ fusermount -u /ruta/al/directorio_que_creamos_como_punto_de_montaje
 
 
 
-![header](/Tutoriales-IFC/assets/header.png)
 
