@@ -1,35 +1,6 @@
-# Tutoriales para la comunidad 
 
-En esta sección encontrarás manuales y tutoriales para distintos programas y procedimientos útiles
-
-
-## Contenido 
+![header](/Tutoriales-IFC/assets/header.png)
 
 
-[ Guía de GNU/Linux para usuarios de la UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/cli_cheatsheet)
+![header](/Tutoriales-IFC/assets/header.png)
 
-[ Ambientes virtuales de Anaconda (conda).](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/conda_ambientes_virtuales)
-
-[ `find` programa para buscar archivos en línea de comandos.](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/find)
-
-[ Conéctate con GitHub desde la línea de comandos (Github CLI)](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/gh)
-
-[ Instalación de HiGlass](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/higlass)
-
-[ Creación de Modelos Ocultos de Markov y su uso para análisis de secuencias proteicas con HMMER: Una guía de uso](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/hmmer)
-
-[ Uso del contenedor de Juicer ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/juicer_singularity)
-
-[ Conéctate remotamente de manera gráfica con Remmina](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/remmina_client)
-
-[ Instrucciones para conectarte remotamente con Jupyter](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/remote_jupyter)
-
-[ Visualización de datos de RNA-Seq de forma interactiva](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/RNA-Seq_Dashboard)
-
-[ Rsync](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/rsync)
-
-[ Usar directorios remotos con SSHFS](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/sshfs)
-
-[ Aprende a usar (casi) cualquier programa con  TLDR ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/tldr)
-
-[ Programa en Bash sin saber programación](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/bash/bash)
