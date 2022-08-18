@@ -5,7 +5,7 @@
 
 IGV es un visualizador de genomas, su uso básico lo hemos incluido en este vídeo.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=2xvmZwnsJ1A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/2xvmZwnsJ1A/0.jpg)](http://www.youtube.com/watch?v=2xvmZwnsJ1A "Video Title")
 
 ![header](/Tutoriales-IFC/assets/header.png)
 

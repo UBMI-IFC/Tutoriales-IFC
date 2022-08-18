@@ -24,8 +24,8 @@ instalado en su propio ambiente virtual.
 Manejando ambientes virtuales gráficamente con anaconda-navigator:
 
 - [Documentación](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/)
-- <iframe width="560" height="315" src="<iframe width="560" height="315" src="https://www.youtube.com/embed/9u1tg2gHNAc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/9u1tg2gHNAc/0.jpg)](http://www.youtube.com/watch?v=9u1tg2gHNAc "Video Title")
 
 Manejando ambientes virtuales desde la línea de comandos (conda):
 - [Documentación](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)

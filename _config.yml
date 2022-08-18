@@ -6,5 +6,6 @@ description: Tutoriales y recursos para los usuarios
 markdown: GFM
 google_analytics: <meta name="google-site-verification" content="R-114UTiVl1GE3elEcPI6BcmvBe7CHIhScSfi_2u7JM" />
 logo: /assets/logo.png
+show_downloads: true
 plugins:
   - jekyll-sitemap
