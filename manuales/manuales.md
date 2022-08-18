@@ -21,6 +21,8 @@ En esta sección encontrarás manuales y tutoriales para distintos programas y p
 
 [ Creación de Modelos Ocultos de Markov y su uso para análisis de secuencias proteicas con HMMER: Una guía de uso](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/hmmer)
 
+[ Visualización de genomas con IGV](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/igv)
+
 [ Uso del contenedor de Juicer ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/juicer_singularity)
 
 [ Conéctate remotamente de manera gráfica con Remmina](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/remmina_client)
