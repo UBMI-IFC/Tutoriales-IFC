@@ -4,7 +4,7 @@
 
 ### What it does
 
-__autoassetsmaster.sh__ is a script that parses the structure of a GitHub repository to be published as a GitHub Pages assetssite. Is meant to be used in cases where a repository contains multiple __markdown__ documents that are wanted to be published on the assetssite. 
+__autowebmaster.sh__ is a script that parses the structure of a GitHub repository to be published as a GitHub Pages assetssite. Is meant to be used in cases where a repository contains multiple __markdown__ documents that are wanted to be published on the website. 
 
 ___
 
@@ -25,7 +25,7 @@ The script requires the following.
 - At least one directory named anything but "assets" with markdown files that will be posted as pages in your site
 - A txt file placed in `/assets` named __url.txt__ containing __only__ the URL of your GitHub page 
 - Optionally a markdown file with the name of every directory to be published can be stored on the `/assets` directory following the recommended format for the README.md, if such file is not present a generic one will be created with the name of the directory
--Also optionally you can add a txt files into `/assets`  named __header.txt ,  topnav.txt , bottomnav.txt__ containing __only__ the markdown code to insert a header image, or navigation links, see examples below,  it is not required to add all of them. 
+-Also optionally you can add a txt file into `/assets`  named __header.txt__  to use a header picture, see below for example. 
 
 #### README.md file format
 
@@ -37,7 +37,7 @@ We recommend that __README.md__ at `/assets` be formatted as following:
 
 - A brief description of what your site is about or anything you want people want to see when find your page
 
-- A lower level header "##..." with something like "Content" "Categories" or a descriptor of the links that __Autoassetsmaster.sh__ will place below
+- A lower level header "##..." with something like "Content" "Categories" or a descriptor of the links that __Autowebmaster.sh__ will place below
 
 ``` markdown
 # Your title here
@@ -48,21 +48,37 @@ A description of your site
 
 ```
 
-##### Optional txt files format
+#####  Optional header picture 
+
+If a header picture want to be included at top and bottom of every markdown file a __header.txt__ file should be placed in `/assets` as well a picture.  The txt file should consists of three lines top and bottom lines should remain empty to avoid formatting issues during compilation, and the middle one is just a markdown code for an image.
+
+_example_
+
+``` markdown
+
+![header](/{{your repo name here}}/assets/header.png)
 
 
+```
+If a __header.txt__ is found this code will be added to every markdown file , if its not found all lines that contain the string "[header](" will be removed and the blank lines of top and bottom as well. 
+
+for removal of header code on a single markdown file at the time you can use the companion script __deformatize.sh__  
+
+``` bash
+$ bash ./deformatize.sh {{your markdown file}}
+```
 
 
 #### Usage 
 
 1. Follow the official [instructions](https://pages.github.com/) to publish a GitHub Page
 
-2. Place `/assets` directory and its contents have been created place them on the root directory of your repo as well with the __autoassetsmaster.sh__ script
+2. Place `/assets` directory and its contents have been created place them on the root directory of your repo as well with the __autowebmaster.sh__ script
 
 3. Run the script
 
 ``` bash
-$ bash ./autoassetsmaster.sh
+$ bash ./autowebmaster.sh
 ```
 4. Push the changes to GitHub
 
