@@ -56,11 +56,9 @@ _example_
 
 ``` markdown
 
-![header](/{{your repo name here}}/assets/header.png)
 
 
 ```
-If a __header.txt__ is found this code will be added to every markdown file , if its not found all lines that contain the string "[header](" will be removed and the blank lines of top and bottom as well. 
 
 for removal of header code on a single markdown file at the time you can use the companion script __deformatize.sh__  
 
