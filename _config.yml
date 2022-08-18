@@ -1,8 +1,8 @@
 theme: jekyll-theme-minimal
 
 # Setup
-title: Página de la comunidad 
-description: Tutoriales y recursos para los usuarios
+title: Tutoriales 
+description: Recursos para los usuarios de la UBMI-IFC
 markdown: GFM
 google_analytics: <meta name="google-site-verification" content="R-114UTiVl1GE3elEcPI6BcmvBe7CHIhScSfi_2u7JM" />
 logo: /assets/logo.png

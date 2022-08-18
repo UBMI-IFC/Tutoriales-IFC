@@ -5,6 +5,12 @@
 
 
 
+
+
+
+
+
+
 # Ambientes virtuales de Anaconda (conda).
 
 Anaconda es una distribución de *software* científico para distintos sistemas
@@ -34,5 +40,4 @@ Manejando ambientes virtuales desde la línea de comandos (conda):
 
 
 
-![header](/Tutoriales-IFC/assets/header.png)
 

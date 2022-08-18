@@ -5,6 +5,12 @@
 
 
 
+
+
+
+
+
+
 # Creando nuestro primer programa
 
 ## De un vistazo
@@ -111,5 +117,4 @@ El programa ha funcionado como lo deseábamos! , hay que notar que el documento 
 
 
 
-![header](/Tutoriales-IFC/assets/header.png)
 

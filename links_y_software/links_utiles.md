@@ -5,6 +5,12 @@
 
 
 
+
+
+
+
+
+
 # Algunos *links* útiles.
 
 Este documento contiene algúnos *links* útiles a otras páginas, recursos
@@ -26,5 +32,4 @@ Este [link](http://homer.ucsd.edu/homer/basicTutorial/index.html) (en inglés) c
 
 
 
-![header](/Tutoriales-IFC/assets/header.png)
 

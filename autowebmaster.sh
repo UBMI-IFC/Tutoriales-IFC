@@ -27,7 +27,7 @@ echo DONE!
 
 
 # Assetspage sections should be organized as directories
-DIRS=$(tree -fid | grep / | grep -v /assets )
+DIRS=$(tree -fid | grep / | grep -v /assets | grep -v /_ )
 CURDIR=$(pwd)
 # Assetspage categories main page from directories
 CPAGES=
@@ -123,17 +123,17 @@ if [ -f ./assets/header.txt  ]; then
 
     HEADER='./assets/header.txt'
     echo "Header file found!, formatting markdown files . . ."
-    MDS=$(tree -fi | grep .md | grep  -v assets)
+    MDS=$(tree -fi | grep .md | grep  -v assets | grep -v /_ )
 
     for M in $MDS; do
 	sed -i '/header](/d' $M
-	cat $HEADER $M $HEADER > tmp.md
+	cat $HEADER $M  > tmp.md
 	mv tmp.md $M
     done
 
 else
     echo 'No header file found. formatting markdown files . . .'
-    MDS=$(tree -fi | grep .md | grep  -v assets)
+    MDS=$(tree -fi | grep .md | grep  -v assets | egrep -v /_ )
 
     for M in $MDS; do
 

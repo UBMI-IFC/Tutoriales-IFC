@@ -5,6 +5,12 @@
 
 
 
+
+
+
+
+
+
 # Instalación de HiGlass
 
 0. Instalar Docker
@@ -64,5 +70,4 @@
 
 
 
-![header](/Tutoriales-IFC/assets/header.png)
 
