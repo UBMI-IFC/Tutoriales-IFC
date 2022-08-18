@@ -25,7 +25,7 @@ Manejando ambientes virtuales gráficamente con anaconda-navigator:
 
 - [Documentación](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/)
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/9u1tg2gHNAc/0.jpg)](http://www.youtube.com/watch?v=9u1tg2gHNAc "Video Title")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/AVvqUTE3QWI/0.jpg)](http://www.youtube.com/watch?v=AVvqUTE3QWI "Video Title")
 
 Manejando ambientes virtuales desde la línea de comandos (conda):
 - [Documentación](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
