@@ -1,3 +1,8 @@
+
+![header](/Tutoriales-IFC/assets/header.png)
+
+
+
 # Instrucciones para conectarte remotamente con Jupyter
 
 1. Primero debes configura la contraseña de jupyter en el servidor remoto.
@@ -46,4 +51,7 @@ $ ssh -p <UBMIportal port> -L 9090:localhost:9090 <user>@<UBMIportal IP>  -t \
       "ssh -L 9090:localhost:9090 <user>@10.10.180.79"
 ```
 
+
+
+![header](/Tutoriales-IFC/assets/header.png)
 

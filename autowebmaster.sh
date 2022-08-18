@@ -115,8 +115,37 @@ for P in $CPAGES; do
 	echo "[$CDESCRIPTION]($CLINK)" >> README.md
     fi   
 done
-
 echo DONE!
+
+echo
+echo CHECKING FOR HEADER IMAGE ...
+if [ -f ./assets/header.txt  ]; then
+
+    HEADER='./assets/header.txt'
+    echo "Header file found!, formatting markdown files . . ."
+    MDS=$(tree -fi | grep .md | grep  -v assets)
+
+    for M in $MDS; do
+	sed -i '/header](/d' $M
+	cat $HEADER $M $HEADER > tmp.md
+	mv tmp.md $M
+    done
+
+else
+    echo 'No header file found. formatting markdown files . . .'
+    MDS=$(tree -fi | grep .md | grep  -v assets)
+
+    for M in $MDS; do
+
+	sed -i '/header](/d' $M
+	sed -i '/./,$!d' $M
+	sed -i -e :a -e '/^\n*$/{$d;N;ba' -e '}'  $M
+
+    done
+
+fi
+echo DONE!
+
 echo
 echo All seems OK, bye
 

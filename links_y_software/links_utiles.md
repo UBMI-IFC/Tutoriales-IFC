@@ -1,3 +1,8 @@
+
+![header](/Tutoriales-IFC/assets/header.png)
+
+
+
 # Algunos *links* útiles.
 
 Este documento contiene algúnos *links* útiles a otras páginas, recursos
@@ -15,4 +20,7 @@ guías para *buenas prácticas* en la escritura de documentos en *markdown*.
 
 Este [link](http://homer.ucsd.edu/homer/basicTutorial/index.html) (en inglés) contiene una guía para comprender los aspectos generales del análisis génomicos.
 
+
+
+![header](/Tutoriales-IFC/assets/header.png)
 

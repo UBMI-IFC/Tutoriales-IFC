@@ -1,3 +1,8 @@
+
+![header](/Tutoriales-IFC/assets/header.png)
+
+
+
 # Creando nuestro primer programa
 
 ## De un vistazo
@@ -99,4 +104,8 @@ microscopio_foto2.png  microscopio_video.mp4
 
 ```
 El programa ha funcionado como lo deseábamos! , hay que notar que el documento programa.sh no se ha movido de su ubicación original esto no es un error, tampoco se trata de que este no pueda o deba ser movido de ahí, simplemente como no le indicamos a la computadora que hiciera nada con  ese documento simplemente no lo ha movido de su lugar.
+
+
+
+![header](/Tutoriales-IFC/assets/header.png)
 

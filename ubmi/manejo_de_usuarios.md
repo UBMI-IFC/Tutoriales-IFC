@@ -1,3 +1,8 @@
+
+![header](/Tutoriales-IFC/assets/header.png)
+
+
+
 # Manejo de usuarios UBMI
 
 - Agregar grupo
@@ -58,4 +63,7 @@ Permite eliminar a todos los usuarios de una lista __Debe ejecutarse con `$ sudo
 sudo ./rm_userlist.sh [archivo con usernames] 
 ```
 
+
+
+![header](/Tutoriales-IFC/assets/header.png)
 
