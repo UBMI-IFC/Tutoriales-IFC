@@ -7,6 +7,10 @@
 
 
 
+
+
+
+
 # Instrucciones para conectarte remotamente con Jupyter
 
 1. Primero debes configura la contraseña de jupyter en el servidor remoto.

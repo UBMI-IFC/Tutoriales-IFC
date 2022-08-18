@@ -7,6 +7,10 @@
 
 
 
+
+
+
+
 # Rsync
 
 > Este tutorial está en proceso de ser escrito.

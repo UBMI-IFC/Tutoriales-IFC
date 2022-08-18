@@ -10,8 +10,6 @@ ___
 
 ## Categorias
 
-[ _layouts](https://ubmi-ifc.github.io/Tutoriales-IFC/_layouts/_layouts)
-
 [ Software y links recomendados](https://ubmi-ifc.github.io/Tutoriales-IFC/links_y_software/links_y_software)
 
 [ Tutoriales para la comunidad ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/manuales)
