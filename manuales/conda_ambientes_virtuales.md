@@ -75,21 +75,21 @@ Existen [varias](https://conda.io/projects/conda/en/latest/user-guide/tasks/mana
 
 
 ``` bash
-(base) $ mamba create -n {{el nombre de tu ambiente}}
+(base) $ mamba create -n {el nombre de tu ambiente}
 ```
 
 ahora puedes cambiar a ese ambiente usando: 
 
 
 ``` bash
-(base) $ conda activate {{el nombre de tu ambiente}}
+(base) $ conda activate {el nombre de tu ambiente}
 ```
 
 y tu terminal deberia cambiar por algo como esto: 
 
 
 ``` bash
-({{el nombre de tu ambiente}}) $ 
+({el nombre de tu ambiente}) $ 
 ```
 __nota__ que usamos `mamba` para crear el ambiente y `conda` para acceder a el.
 
@@ -118,7 +118,7 @@ Ahora puedes instalar software dentro del environment usando:
 
 
 ``` bash
-({{el nombre de tu ambiente}}) $ mamba install  {{el nombre de tu programa a instalar}}
+({el nombre de tu ambiente}) $ mamba install  {el nombre de tu programa a instalar}
 ```
 Típicamente si tu programa requiere especificar un canal en específico vendrá en la documentación del mismo.
 
@@ -126,7 +126,7 @@ Para volver al ambiente base sólo escribiremos en la terminal:
 
 
 ``` bash
-({{el nombre de tu ambiente}}) $ conda deactivate 
+({el nombre de tu ambiente}) $ conda deactivate 
 ```
 #### Creando un environment con todo y programas
 
@@ -142,7 +142,7 @@ Es posible la creación de un ambiente y la instalación de programas en un sól
 Esta es la forma más facil de crear un ambiente con todo su contenido, para ello es necesario un archivo __yml__ que usualmente te compartirá un usuario o el desarrollador de alguna aplicación y ahora ubicándote en la carpeta que contiene dicho archivo sólo tienes que ejecutar 
 
 ``` bash
-mamba env create -f {{tu_archivo}}.yml
+mamba env create -f {tu_archivo}.yml
 ```
 
 __REGRESA PRONTO PARA VER UNA ACTUALIZACIÓN DE ESTE REPOSITORIO__
