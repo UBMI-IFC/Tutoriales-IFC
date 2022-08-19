@@ -21,6 +21,8 @@
 
 
 
+
+
 # Algunos *links* útiles.
 
 Este documento contiene algúnos *links* útiles a otras páginas, recursos
@@ -37,6 +39,8 @@ guías para *buenas prácticas* en la escritura de documentos en *markdown*.
 ## *Tutorial general de Secuenciación de Siguiente Generación*
 
 Este [link](http://homer.ucsd.edu/homer/basicTutorial/index.html) (en inglés) contiene una guía para comprender los aspectos generales del análisis génomicos.
+
+
 
 
 

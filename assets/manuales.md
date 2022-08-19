@@ -15,7 +15,7 @@ Aquí hay manuales de uso de algunos programas bioinformáticos que se encuentra
 
 Manuales para usar aplicaciones especificas del sistema operativo. 
 
-Si lo que buscas es un manual para _novatos_ está en la sección de __Manuales del usuario UBMI__
+Si lo que buscas es un manual para _novatos_ ház click [aqui](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/usuarios_ubmi/cli_cheatsheet)
 
 ___
 
