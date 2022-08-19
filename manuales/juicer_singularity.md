@@ -13,6 +13,8 @@
 
 
 
+
+
 # Uso del contenedor de Juicer 
 
 3DGenome tiene instalado un [contenedor de Singularity de Juicer](https://github.com/rnakato/docker_juicer)

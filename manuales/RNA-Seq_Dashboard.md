@@ -13,6 +13,8 @@
 
 
 
+
+
 # Visualización de datos de RNA-Seq de forma interactiva
 
 [José María Montes Montiel](https://github.com/Montes-JMa), estudiante de la licenciatura en neurociencias en nuestro Instituto ha desarrollado un servidor de visualización de resultados de RNA-Seq

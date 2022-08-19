@@ -13,6 +13,8 @@
 
 
 
+
+
 # Configuración para xrdp-server
 
 ## Instalación de xrpd

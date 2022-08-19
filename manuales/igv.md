@@ -9,6 +9,8 @@
 
 
 
+
+
 # Visualización de genomas con IGV
 
 IGV es un visualizador de genomas, su uso básico lo hemos incluido en este vídeo.

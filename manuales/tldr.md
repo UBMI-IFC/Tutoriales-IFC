@@ -13,6 +13,8 @@
 
 
 
+
+
 # Aprende a usar (casi) cualquier programa con  TLDR 
 
 ## Olvídate de Google para saber como ejecutar un comando
