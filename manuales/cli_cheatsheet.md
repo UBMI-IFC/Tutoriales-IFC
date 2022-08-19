@@ -11,6 +11,8 @@
 
 
 
+
+
 # Guía de GNU/Linux para usuarios de la UBMI
 
 ![ubmi_knife_big](https://user-images.githubusercontent.com/13229623/176460985-a3030988-ff5d-45a1-b8bf-f8332d27b951.png)

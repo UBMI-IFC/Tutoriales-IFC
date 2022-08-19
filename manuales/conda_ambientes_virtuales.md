@@ -2,6 +2,8 @@
 ![header](/Tutoriales-IFC/assets/header.png)
 
 
+
+
 # Ambientes virtuales de Anaconda (conda).
 
 Anaconda es una distribución de *software* científico para distintos sistemas

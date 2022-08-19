@@ -11,6 +11,8 @@
 
 
 
+
+
 # Protocolo de equipo nuevo / reinstalación OS
 Este documento está pensado para el personal de la UBMI
 
