@@ -3,38 +3,33 @@
 
 # Tutoriales para la comunidad 
 
-En esta sección encontrarás manuales y tutoriales para distintos programas y procedimientos útiles
+Hemos dividido esta sección por categorías: 
+
+## Manuales del usuario UBMI
+
+En esta sección hay instrucciones para muchos temas para los usuarios de la Unidad de Bioinformática, esta es la categoria están por ejemplo: Cómo usar la terminal de línea de comando para usuarios nuevos, ó cómo conectarse de manera remota usando interfáz gráfica
 
 
-## Contenido 
+## Bioinformática
+
+Aquí hay manuales de uso de algunos programas bioinformáticos que se encuentran disponibles en la UBMI
+
+## GNU/Linux
+
+Manuales para usar aplicaciones especificas del sistema operativo. 
+
+Si lo que buscas es un manual para _novatos_ está en la sección de __Manuales del usuario UBMI__
+
+___
+
+## Enlaces
 
 
-[ Guía de GNU/Linux para usuarios de la UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/cli_cheatsheet)
+[ Bioinformática](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/bioinformatica/bioinformatica)
 
-[ Ambientes virtuales de Anaconda (conda).](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/conda_ambientes_virtuales)
+[ GNU/Linux](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/linux)
 
-[ `find` programa para buscar archivos en línea de comandos.](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/find)
+[ Manuales del usuario UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/usuarios_ubmi/usuarios_ubmi)
 
-[ Conéctate con GitHub desde la línea de comandos (Github CLI)](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/gh)
+![header](/Tutoriales-IFC/assets/header.png)
 
-[ Instalación de HiGlass](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/higlass)
-
-[ Creación de Modelos Ocultos de Markov y su uso para análisis de secuencias proteicas con HMMER: Una guía de uso](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/hmmer)
-
-[ Visualización de genomas con IGV](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/igv)
-
-[ Uso del contenedor de Juicer ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/juicer_singularity)
-
-[ Conéctate remotamente de manera gráfica con Remmina](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/remmina_client)
-
-[ Instrucciones para conectarte remotamente con Jupyter](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/remote_jupyter)
-
-[ Visualización de datos de RNA-Seq de forma interactiva](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/RNA-Seq_Dashboard)
-
-[ Rsync](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/rsync)
-
-[ Usar directorios remotos con SSHFS](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/sshfs)
-
-[ Aprende a usar (casi) cualquier programa con  TLDR ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/tldr)
-
-[ Programa en Bash sin saber programación](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/bash/bash)

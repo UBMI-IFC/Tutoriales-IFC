@@ -21,3 +21,6 @@ ___
 [ Recursos para el personal de la UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/ubmi)
 
 [ Compárte tu experiencia con la comunidad](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi_participa/ubmi_participa)
+
+![header](/Tutoriales-IFC/assets/header.png)
+

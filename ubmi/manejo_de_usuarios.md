@@ -17,6 +17,10 @@
 
 
 
+
+
+
+
 # Manejo de usuarios UBMI
 
 - Agregar grupo
@@ -81,4 +85,7 @@ sudo ./rm_userlist.sh [archivo con usernames]
 
 
 
+
+
+![header](/Tutoriales-IFC/assets/header.png)
 

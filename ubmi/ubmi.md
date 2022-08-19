@@ -13,3 +13,6 @@ Si llegaste aqui y no eres personal de la Unidad tal vez estos guias te sirvan p
 [ Protocolo de equipo nuevo / reinstalación OS](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/protocolo_reinstalación)
 
 [ Configuración para xrdp-server](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/xrdp_server)
+
+![header](/Tutoriales-IFC/assets/header.png)
+

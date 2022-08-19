@@ -17,6 +17,10 @@
 
 
 
+
+
+
+
 # Configuración para xrdp-server
 
 ## Instalación de xrpd
@@ -66,4 +70,7 @@ se puede sustituir por **low** ó **none** según sea necesario.
 
 
 
+
+
+![header](/Tutoriales-IFC/assets/header.png)
 

@@ -127,7 +127,7 @@ if [ -f ./assets/header.txt  ]; then
 
     for M in $MDS; do
 	sed -i '/header](/d' $M
-	cat $HEADER $M  > tmp.md
+	cat $HEADER $M $HEADER  > tmp.md
 	mv tmp.md $M
     done
 
