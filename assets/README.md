@@ -1,6 +1,6 @@
-###### Universidad Nacional Autónoma de México
-###### Instituto de Fisiología Celular
-##### Unidad de Bioinformática y Manejo de la Información
+### Universidad Nacional Autónoma de México
+### Instituto de Fisiología Celular
+### Unidad de Bioinformática y Manejo de la Información
 ___
 
 # Página de la comunidad
