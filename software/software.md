@@ -7,6 +7,6 @@ Aquí encontrarás vínculos útiles a páginas externas que creemos te ayudaran
 
 ## Contenido
 
-[ Algunos *links* útiles.](https://ubmi-ifc.github.io/Tutoriales-IFC/links_y_software/links_utiles)
+[ Algunos *links* útiles.](https://ubmi-ifc.github.io/Tutoriales-IFC/software/links_utiles)
 
-[ Software recomendado](https://ubmi-ifc.github.io/Tutoriales-IFC/links_y_software/software_util)
+[ Software recomendado](https://ubmi-ifc.github.io/Tutoriales-IFC/software/software_util)

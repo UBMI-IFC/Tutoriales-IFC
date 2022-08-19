@@ -14,10 +14,10 @@ ___
 
 ## Categorias
 
-[ Software y links recomendados](https://ubmi-ifc.github.io/Tutoriales-IFC/links_y_software/links_y_software)
-
 [ Tutoriales para la comunidad ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/manuales)
 
-[ Compárte tu experiencia con la comunidad](https://ubmi-ifc.github.io/Tutoriales-IFC/participa/participa)
+[ Software y links recomendados](https://ubmi-ifc.github.io/Tutoriales-IFC/software/software)
 
 [ Recursos para el personal de la UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/ubmi)
+
+[ Compárte tu experiencia con la comunidad](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi_participa/ubmi_participa)
