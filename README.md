@@ -22,5 +22,11 @@ ___
 
 [ Compárte tu experiencia con la comunidad](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi_participa/ubmi_participa)
 
+___
+
+¿Quieres tomar algún curso con nosotros? [Cuéntanos que te interesaría aprender y regístrate](https://forms.gle/MWnhSbta41meu3e36) para que te avisemos en cuando abramos un curso. 
+
+___
+
 ![header](/Tutoriales-IFC/assets/header.png)
 
