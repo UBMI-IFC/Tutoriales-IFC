@@ -16,8 +16,6 @@ ___
 
 [ Tutoriales para la comunidad ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/manuales)
 
-[ prueba](https://ubmi-ifc.github.io/Tutoriales-IFC/prueba/prueba)
-
 [ Software y links recomendados](https://ubmi-ifc.github.io/Tutoriales-IFC/software/software)
 
 [ Recursos para el personal de la UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/ubmi)
