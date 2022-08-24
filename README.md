@@ -16,17 +16,13 @@ ___
 
 [ Tutoriales para la comunidad ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/manuales)
 
+[ prueba](https://ubmi-ifc.github.io/Tutoriales-IFC/prueba/prueba)
+
 [ Software y links recomendados](https://ubmi-ifc.github.io/Tutoriales-IFC/software/software)
 
 [ Recursos para el personal de la UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/ubmi)
 
 [ Compárte tu experiencia con la comunidad](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi_participa/ubmi_participa)
-
-___
-
-¿Quieres tomar algún curso con nosotros? [Cuéntanos que te interesaría aprender y regístrate](https://forms.gle/MWnhSbta41meu3e36) para que te avisemos en cuando abramos un curso. 
-
-___
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
