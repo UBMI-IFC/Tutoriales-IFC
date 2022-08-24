@@ -7,8 +7,6 @@ Aquí encontrarás vínculos útiles a páginas externas que creemos te ayudaran
 
 ## Contenido
 
-[ Search in Google from CLI ](https://ubmi-ifc.github.io/Tutoriales-IFC/software/goocli)
-
 [ Algunos *links* útiles.](https://ubmi-ifc.github.io/Tutoriales-IFC/software/links_utiles)
 
 [ Software recomendado](https://ubmi-ifc.github.io/Tutoriales-IFC/software/software_util)
