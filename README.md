@@ -14,9 +14,13 @@ ___
 
 ## Categorias
 
+[ debug](https://ubmi-ifc.github.io/Tutoriales-IFC/debug/debug)
+
 [ Tutoriales para la comunidad ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/manuales)
 
 [ Software y links recomendados](https://ubmi-ifc.github.io/Tutoriales-IFC/software/software)
+
+[ Categoria de prueba](https://ubmi-ifc.github.io/Tutoriales-IFC/test/test)
 
 [ Recursos para el personal de la UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/ubmi)
 
