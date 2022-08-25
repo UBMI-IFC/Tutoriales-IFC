@@ -13,6 +13,3 @@ M=$1
 sed -i '/header](/d' $M
 sed -i '/./,$!d' $M
  sed -i -e :a -e '/^\n*$/{$d;N;ba' -e '}'  $M
-
-
-
