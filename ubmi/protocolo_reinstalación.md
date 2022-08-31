@@ -39,6 +39,8 @@
 
 
 
+
+
 # Protocolo de equipo nuevo / reinstalación OS
 Este documento está pensado para el personal de la UBMI
 
@@ -164,6 +166,8 @@ El [repositorio](https://github.com/UBMI-IFC/vaca) de V.A.C.A es privado por aho
 - [ ] Los scripts de alerta deben colocarse en `/vaca/` y los logs en `/vaca/logs` existe o debería de existir un script de instalación en el repositorio para automatizar este paso `$ sudo bash vaca_installer.sh`
 
 ___
+
+
 
 
 
