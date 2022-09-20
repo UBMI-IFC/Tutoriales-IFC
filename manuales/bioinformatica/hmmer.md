@@ -85,7 +85,7 @@ Navigator](https://anaconda.org/anaconda/anaconda-navigator). Sigue las
 instalación](http://eddylab.org/software/hmmer/Userguide.pdf) incluídas
 en la documentación de HMMER.
 
-Dentro del repositorio de esta [guía](https://github.com/UBMI-IFC/Tutoriales-IFC/tree/main/manuales/bioinformatica) encontrarás el directorio "_hmmer _" en el que encontrarás 6 elementos principales:
+Dentro del repositorio de esta [guía](https://github.com/UBMI-IFC/Tutoriales-IFC/tree/main/manuales/bioinformatica) encontrarás el directorio "__hmmer_" en el que encontrarás 6 elementos principales:
 
 1. Cinco secuencias semilla
 2. Una base de datos 
