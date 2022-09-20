@@ -80,7 +80,7 @@ La verdad es que la mayor parte del tiempo utilizarás los tres! A menos que bus
 
 ## 1. Instala GET_HOMOLOGUES
 
-La guía de instalación la puedes encontrar directamente en el [manual](http://eead-csic-compbio.github.io/get_homologues/manual/manual.html#SECTION00030000000000000000) del repositorio. Si necesitas ayuda extra para la instalación revisa el documento anexo de _install_help_. En esta guía, lo instalaremos clonando el repositorio y añadiéndolo a nuestro PATH.
+La guía de instalación la puedes encontrar directamente en el [manual](http://eead-csic-compbio.github.io/get_homologues/manual/manual.html#SECTION00030000000000000000) del repositorio. Si necesitas ayuda extra para la instalación revisa el documento anexo de _install_help_ en el [repositorio](https://github.com/UBMI-IFC/Tutoriales-IFC/tree/main/manuales/bioinformatica/_GET_HOMOLOGUES) de la UBMI del Instituto de Fisiología Celular de la UNAM. En esta guía, lo instalaremos clonando el repositorio y añadiéndolo a nuestro PATH.
 
 Puedes corroborar si está instalado con:
 
@@ -90,11 +90,11 @@ Puedes corroborar si está instalado con:
 
 ## 2. Secuencias problema
 
-Para este pequeño ensayo ocuparemos secuencias de bacterias de _Pseudomonas_ para nuestro primer ensayo. Así que primero lo primero, organicemos nuestro espacio de trabajo.
+Para este pequeño ensayo ocuparemos secuencias de cepas de bacterias de _Pseudomonas aeruginosa_ para nuestro primer ensayo. Así que primero lo primero, organicemos nuestro espacio de trabajo.
 
 a) Crea una carpeta de trabajo, puedes llamarla _Pseudomonas_
 
-b) Copia en _Pseudomonas_ la carpeta con las secuencias a trabajar. En este caso le llamaremos a esta carpeta _faa_ (por ser secuencias en formato fasta)
+b) Copia en _Pseudomonas_ las secuencias a trabajar que encuentras en el [repositorio](https://github.com/UBMI-IFC/Tutoriales-IFC/tree/main/manuales/bioinformatica/_GET_HOMOLOGUES). En este caso le llamaremos a esta carpeta _faa_ (por ser secuencias en formato fasta).
 
 c) (Opcional) Crea un archivo de texto con una guía para ti donde listes lo que hay en cada carpeta creada y por crear. Es útil para no perder el hilo de las cosas. Tómala como una especie de bitácora personal.
 
