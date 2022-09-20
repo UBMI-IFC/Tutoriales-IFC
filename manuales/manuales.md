@@ -29,6 +29,8 @@ ___
 
 [ GNU/Linux](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/linux)
 
+[ Tutoriales y recomendaciones de programacion.](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/programacion/programacion)
+
 [ Manuales del usuario UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/usuarios_ubmi/usuarios_ubmi)
 
 ![header](/Tutoriales-IFC/assets/header.png)

@@ -9,6 +9,8 @@ Aquí encontrarás vínculos útiles a páginas externas que creemos te ayudaran
 
 [ Colección de manuales y libros de programación](https://ubmi-ifc.github.io/Tutoriales-IFC/software/ebookFoundation)
 
+[ El editor de texto Emacs.](https://ubmi-ifc.github.io/Tutoriales-IFC/software/emacs)
+
 [ Algunos *links* útiles.](https://ubmi-ifc.github.io/Tutoriales-IFC/software/links_utiles)
 
 [ Software recomendado](https://ubmi-ifc.github.io/Tutoriales-IFC/software/software_util)
