@@ -1,0 +1,46 @@
+Instalando GET_HOMOLOGUES
+
+----|Clonando el repositorio e instalando|----
+
+Clona el respositorio con git:
+
+`git clone https://github.com/eead-csic-compbio/get_homologues`
+
+Navega a la carpeta de _get_homologues_  que descargaste y ejecuta install.pl:
+
+$ cd get_homologues
+
+$ perl install.pl
+
+Sigue las indicaciones e instala, si así lo gustas, las bases de datos opcionales
+
+----|Agregando el comando get_homologues.pl al PATH para que puedas ejecutarlo donde sea cuando sea|----
+
+
+-_Aclaraciones_- - 
+
+
+a) PATH es como Linux sabe dónde buscar comandos, scripts y otro tipo de ejecutables. Agregar cosas a este ayuda a que reconozca el comando `get_homologues.pl` 
+en cualquier directorio que estés! 
+
+b) Nano es un editor de textos dentro de la terminal. Mientras sepas que `^C` significa `Ctrl+C` el resto podrás deducirlo por tu cuenta. Cuando te pregunte con 
+qué nombre quieres guardar el archivo editado, déjalo como está porque .bashrc es un archivo IMPORTANTE, por lo que no quieres meterte con él más de lo que 
+necesitas, nomas picale `Enter` y ya. 
+
+
+1. Abre una terminal en la carpeta raíz y abre el archivo .bashrc con: 
+	
+	$ nano .bashrc
+
+2. Desplázate al final del mismo escribe lo siguiente: 
+
+	export PATH=$PATH:$HOME/get_homologues
+ 
+3. Guarda cambios con ^O (o en idioma mortal Ctrl+O). Cuando te pregunte si quieres cambiar nombre, NO LO HAGAS déjalo como esta y solo presiona `ENTER` 
+4. De vuelta en tu terminal, escribe lo siguiente: 
+
+	$source .bashrc
+ 
+5. Ya puedes cerrar tu terminal. No antes, no después. Todo esto que hiciste debe ser dentro de la misma terminal, y puedes AHORA SI checar que _get_homologues.pl_ 
+es un comando reconocido en cualquier directorio que te encuentres.
+
