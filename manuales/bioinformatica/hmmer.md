@@ -85,17 +85,14 @@ Navigator](https://anaconda.org/anaconda/anaconda-navigator). Sigue las
 instalación](http://eddylab.org/software/hmmer/Userguide.pdf) incluídas
 en la documentación de HMMER.
 
-Encontrarás en este tutorial 2 carpetas principales:
+Dentro del repositorio de esta [guía](https://github.com/UBMI-IFC/Tutoriales-IFC/tree/main/manuales/bioinformatica) encontrarás el directorio "_hmmer _" en el que encontrarás 6 elementos principales:
 
-1. Secuencias_semilla
-2. Base_de_datos
+1. Cinco secuencias semilla
+2. Una base de datos 
 
-La carpeta de Secuencias_semilla contiene 5 secuencias proteicas de
-Quitina Sintasa. Las llamaremos **secuencias semilla** ya que a partir
-de estas crearemos nuestro perfil. La segunda carpeta contiene un
-archivo con varias secuencias proteicas que actuarán como nuestra base
-de datos de ejemplo. Descárgalas y ubícalas en una carpeta que puedas
-encontrar y trabajar fácilmente.
+Las secuencias semilla son 5 secuencias proteicas de
+Quitina Sintasa. Reciben ese nombre porque a partir
+de estas crearemos nuestro perfil. Mientras que nuestro sexto archivo _databased.faa_ es la base de datos de ejemplo que utilizarás! Descárgalas y ubícalas en una carpeta que puedas encontrar y trabajar fácilmente.
 
 ## Creación de un Modelo Oculto de Markov a partir de secuencias específicas: hmmbuild
 
