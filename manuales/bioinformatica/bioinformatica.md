@@ -7,6 +7,8 @@ Manuales para el uso de aplicaciones específicas instaladas en alguno de los eq
 
 ## Contenido
 
+[ GET_HOMOLOGUES: Prueba rápida de homologías ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/bioinformatica/GET_HOMOLOGUES)
+
 [ Instalación de HiGlass](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/bioinformatica/higlass)
 
 [ Creación de Modelos Ocultos de Markov y su uso para análisis de secuencias proteicas con HMMER: Una guía de uso](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/bioinformatica/hmmer)

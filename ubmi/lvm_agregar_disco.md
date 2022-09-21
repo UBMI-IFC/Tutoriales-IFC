@@ -3,9 +3,16 @@
 
 
 
+
+
 # Agregar un nuevo disco a un volumen lógico (LVM)
 
-Este tutorial asume que ya tienes un volumen lógico (LVM) configurado en tu sistema.
+### **ADVERTENCIA**
+Este tutorial asume que ya tienes un volumen lógico (LVM) configurado en tu sistema. También asume que el disco nuevo
+que quieres instalar es el dispositivo `/dev/sda`, pero esto puede ser diferente en tu sistema y se debe cambiar en
+concordancia. Debes tener cuidado porque la sección de un dispositivo equivocado puede provocar perdida de datos.
+
+
 
 ## Conocer el estado de volúmenes lógicos en tu sistema.
 
@@ -77,6 +84,8 @@ sudo xfs_growfs /home
 
 # References
 https://www.cyberciti.biz/faq/howto-add-disk-to-lvm-volume-on-linux-to-increase-size-of-pool/
+
+
 
 
 
