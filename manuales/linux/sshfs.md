@@ -49,6 +49,8 @@
 
 
 
+
+
 # Usar directorios remotos con SSHFS
 
 ## De un vistazo
@@ -191,6 +193,8 @@ $ fusermount -u /ruta/al/directorio_que_creamos_como_punto_de_montaje
 ```
 
 [fuente](https://geekland.eu/montar-sistema-archivos-remoto-con-sshfs/)
+
+
 
 
 

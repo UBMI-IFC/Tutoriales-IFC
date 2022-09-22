@@ -11,6 +11,8 @@ Aquí encontrarás vínculos útiles a páginas externas que creemos te ayudaran
 
 [ El editor de texto Emacs.](https://ubmi-ifc.github.io/Tutoriales-IFC/software/emacs)
 
+[ Estadística para biólogos (Colección de Nature)](https://ubmi-ifc.github.io/Tutoriales-IFC/software/estadistica_para_biologos)
+
 [ Algunos *links* útiles.](https://ubmi-ifc.github.io/Tutoriales-IFC/software/links_utiles)
 
 [ Software recomendado](https://ubmi-ifc.github.io/Tutoriales-IFC/software/software_util)
