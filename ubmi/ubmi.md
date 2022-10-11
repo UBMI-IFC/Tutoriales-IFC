@@ -12,6 +12,8 @@ Si llegaste aqui y no eres personal de la Unidad tal vez estos guias te sirvan p
 
 [ Manejo de usuarios UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/manejo_de_usuarios)
 
+[ Control de permisos con ACL (Access Control List).](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/permisos_acl)
+
 [ Protocolo de equipo nuevo / reinstalación OS](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/protocolo_reinstalación)
 
 [ Quitar partición luks encriptada](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/quitar_luks_crypt)
