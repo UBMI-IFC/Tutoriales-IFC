@@ -53,6 +53,8 @@
 
 
 
+
+
 # Visualización de datos de RNA-Seq de forma interactiva
 
 [José María Montes Montiel](https://github.com/Montes-JMa), estudiante de la licenciatura en neurociencias en nuestro Instituto ha desarrollado un servidor de visualización de resultados de RNA-Seq
@@ -85,6 +87,8 @@ __Este recurso sólo está disponible desde un dispositivo que se encuentre cone
 ![image](https://user-images.githubusercontent.com/13229623/173111484-104360e8-cb93-447c-990f-c55bac4239b9.png)
 
 - No dude en contactar al personal de la [UBMI](mailto:ubmi@ifc.unam.mx) ante cualquier duda.
+
+
 
 
 

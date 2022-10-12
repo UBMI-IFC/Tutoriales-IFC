@@ -1,6 +1,8 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
+
+
 # Control de permisos con ACL (Access Control List).
 
 Estas instrucciones han sido inspiradas por el control de permisos extendidos de
@@ -74,10 +76,16 @@ En este ejemplo, sólo estamos agregando el permiso de lectura
    - `-d` Modificar los parámetros *default*.
 
 
+### Agregar un grupo por *default* que se asignará a los archivos.
+
+    ```bash
+    setfacl -d -m g:[group]:rwx [file]
+    ```
+
+
 ### Se pueden respaldar y reestablecer los permisos de un archivo.
 
 | [TODO] Esto suena a buena idea!!!
-
 
 
 
@@ -98,6 +106,8 @@ En este ejemplo, sólo estamos agregando el permiso de lectura
    ```
    sudo setfacl -m g:backupmfurlan:rwx /backup/
    ```
+
+
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
