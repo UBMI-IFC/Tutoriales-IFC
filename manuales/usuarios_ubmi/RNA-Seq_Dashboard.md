@@ -5,56 +5,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Visualización de datos de RNA-Seq de forma interactiva
 
 [José María Montes Montiel](https://github.com/Montes-JMa), estudiante de la licenciatura en neurociencias en nuestro Instituto ha desarrollado un servidor de visualización de resultados de RNA-Seq
@@ -63,7 +13,7 @@
 
 __Este recurso sólo está disponible desde un dispositivo que se encuentre conectado a la red del Instituto (WiFi ó cable ethernet) y para usuarios registrados__
 
-- Acceda al servidor dándo click [aquí](http://10.10.180.70:2022)
+- Acceda al servidor dándo click [aquí](http://10.10.180.70:2022)__temporalmente fuera de servicio__
 - Utilice el usuario y contraseña que el personal de la UMBI le proporcionó
 - Navegue hacia la pestaña de plots (1)
 - Suba sus archivos de __conteos__ y __resultados__ en la pestaña correspondiente (puede demorar un poco el proceso)
@@ -87,6 +37,8 @@ __Este recurso sólo está disponible desde un dispositivo que se encuentre cone
 ![image](https://user-images.githubusercontent.com/13229623/173111484-104360e8-cb93-447c-990f-c55bac4239b9.png)
 
 - No dude en contactar al personal de la [UBMI](mailto:ubmi@ifc.unam.mx) ante cualquier duda.
+
+
 
 
 
