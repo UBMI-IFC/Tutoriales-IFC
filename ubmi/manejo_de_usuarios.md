@@ -3,6 +3,8 @@
 
 
 
+
+
 # Manejo de usuarios UBMI
 
 - Agregar grupo
@@ -62,6 +64,8 @@ Permite eliminar a todos los usuarios de una lista __Debe ejecutarse con `$ sudo
 ```bash
 sudo ./rm_userlist.sh [archivo con usernames] 
 ```
+
+
 
 
 

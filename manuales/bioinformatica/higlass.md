@@ -3,6 +3,8 @@
 
 
 
+
+
 # Instalación de HiGlass
 
 0. Instalar Docker
@@ -57,6 +59,8 @@
    higlass-manage ingest <datos>
    ```
 6. Acceder al servidor con el puerto especificado (8989 default)
+
+
 
 
 
