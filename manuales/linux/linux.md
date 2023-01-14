@@ -15,6 +15,8 @@ Si lo que buscas es un manual con los conceptos básicos ház click [aquí](http
 
 [ Rsync](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/rsync)
 
+[ Recetas para el manejo de texto usando `sed`](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/sed_a_traves_de_ejemplos)
+
 [ Usar directorios remotos con SSHFS](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/sshfs)
 
 [ Programa en Bash sin saber programación](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/bash/bash)

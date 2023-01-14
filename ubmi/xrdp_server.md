@@ -1,6 +1,8 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
+
+
 # Configuración para xrdp-server
 
 ## Instalación de xrpd
@@ -45,6 +47,8 @@ en el campo:
 crypt_level=high
 ```
 se puede sustituir por **low** ó **none** según sea necesario.
+
+
 
 ![header](/Tutoriales-IFC/assets/header.png)
 

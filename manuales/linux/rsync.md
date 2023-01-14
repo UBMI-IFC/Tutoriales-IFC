@@ -1,6 +1,8 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
+
+
 # Rsync
 
 > Este tutorial está en proceso de ser escrito.
@@ -120,6 +122,8 @@ Preserves owner and group
 
 ## Limitar ancho de banda
 --bwlimit=100
+
+
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
