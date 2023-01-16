@@ -38,6 +38,8 @@
 
 
 
+
+
 # autowebmaster.sh
 
 ## Automatic GitHub Pages Documentation Handler 
@@ -122,6 +124,8 @@ $ bash ./autowebmaster.sh
 4. Push the changes to GitHub
 
 5. Whenever you add or remove directories or markdown files within repeat steps 3 and 4, also if you change the top level header of the markdown files within `/assets`
+
+
 
 
 

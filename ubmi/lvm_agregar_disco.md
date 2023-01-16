@@ -5,6 +5,8 @@
 
 
 
+
+
 # Agregar un nuevo disco a un volumen lógico (LVM)
 
 ### **ADVERTENCIA**
@@ -84,6 +86,8 @@ sudo xfs_growfs /home
 
 # References
 https://www.cyberciti.biz/faq/howto-add-disk-to-lvm-volume-on-linux-to-increase-size-of-pool/
+
+
 
 
 

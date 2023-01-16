@@ -17,5 +17,7 @@ Manuales para el uso de aplicaciones específicas instaladas en alguno de los eq
 
 [ Uso del contenedor de Juicer ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/bioinformatica/juicer_singularity)
 
+[ Instalación de rGMAP](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/bioinformatica/rgmap)
+
 ![header](/Tutoriales-IFC/assets/header.png)
 
