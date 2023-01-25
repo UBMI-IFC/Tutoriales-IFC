@@ -2,11 +2,6 @@
 ![header](/Tutoriales-IFC/assets/header.png)
 
 
-
-
-
-
-
 # `find` programa para buscar archivos en línea de comandos.
 
 `find` es un programa que encontrarás en todos los sistemas *GNU/Linux*.
@@ -40,6 +35,25 @@ Por ejemplo, para encontrar todos los archivos que terminan en *.py*:
 find . -name "*.py"
 ```
 
+## Buscar archivos por fecha de modificación.
+
+### Buscar archivos que se modificaron recientemente.
+
+A veces necesitamos encontrar únicamente archivos que fueron modificados
+recientemente.
+
+Por ejemplo, para encontrar todos los archivos que modificamos en la última
+semana:
+
+```bash
+find . -newermt "1 week ago"
+```
+
+### Buscar archivos recietnes a partir de una fecha.
+
+```bash
+find . -newermt "2022-12-31"
+```
 
 
 ## Buscar directorios.
