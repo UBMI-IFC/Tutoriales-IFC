@@ -73,7 +73,7 @@ echo INDEXING CONTENT ...
 for D in $DIRS; do
     CATLINK=$(echo $HOMELINK$(echo $D | sed 's/^..//')/) 
     cd $D
-    CONTENT=$(ls -1 | egrep \.md$)
+    CONTENT=$(ls -1 | grep -E \.md$)
     cd $CURDIR
     CATFILE=$(echo $D | sed 's/^..//' | rev | cut -d "/" -f 1 | rev | sed 's/$/\.md/' )
     CATPAGE=$(echo $CATFILE | sed 's/^/\.\/assets\//' )
@@ -133,7 +133,7 @@ if [ -f ./assets/header.txt  ]; then
 
 else
     echo 'No header file found. formatting markdown files . . .'
-    MDS=$(tree -fi | grep .md | grep  -v assets | egrep -v /_ )
+    MDS=$(tree -fi | grep .md | grep  -v assets | grep -E -v /_ )
 
     for M in $MDS; do
 

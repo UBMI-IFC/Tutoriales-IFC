@@ -12,6 +12,8 @@ Si llegaste aqui y no eres personal de la Unidad tal vez estos guias te sirvan p
 
 [ Agregar un nuevo disco a un volumen lógico (LVM)](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/lvm_agregar_disco)
 
+[ Manejar passwords.](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/manejar_passwords)
+
 [ Manejo de usuarios UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/manejo_de_usuarios)
 
 [ Control de permisos con ACL (Access Control List).](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/permisos_acl)

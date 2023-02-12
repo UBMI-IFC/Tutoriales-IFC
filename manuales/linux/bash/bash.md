@@ -13,7 +13,9 @@ Para segur estos ejemplos __NO necesitas saber programar__ lo único que requier
 
 ## Contenido
 
-[ Creando nuestro primer programa](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/bash/bash_chunks_primerPrograma)
+[ Creando nuestro primer programa](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/bash/bash_chunks_0_primerPrograma)
+
+[ Realizar operaciones en todos los archivos de un directorio](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/bash/bash_chunks_1_realizar_operaciones_en_todos_los_archivos_de_un_directorio)
 
 ![header](/Tutoriales-IFC/assets/header.png)
 

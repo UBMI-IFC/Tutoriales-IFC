@@ -7,6 +7,10 @@
 
 
 
+
+
+
+
 # Buenas prácticas y recomendaciones de programación.
 
 
@@ -21,6 +25,10 @@ fundamental para una programacion eficiente.
 
 1. [Buenas prácticas para escribir comentarios en tu código.](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)
 2. [Guía completa para escribir comentarios en Python.](https://realpython.com/documenting-python-code/)
+
+
+
+
 
 
 

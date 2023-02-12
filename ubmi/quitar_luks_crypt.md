@@ -7,6 +7,10 @@
 
 
 
+
+
+
+
 # Quitar partición luks encriptada
 
 Esta entrada responde a un problema en circunstancias muy específicas.
@@ -28,6 +32,10 @@ Estos links pueden ser útiles:
 - https://askubuntu.com/questions/34519/how-to-disable-cryptswap
 - https://bbs.archlinux.org/viewtopic.php?id=164798
 - https://unix.stackexchange.com/questions/185390/list-open-dm-crypt-luks-volumes
+
+
+
+
 
 
 
