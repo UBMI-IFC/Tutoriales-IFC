@@ -5,7 +5,7 @@
 
 # Realizar operaciones en todos los archivos de un directorio
 
-_recuerda que los comandos escritos en este tutorial comienzan con '$' pero no lo debes escribir para reproducir los ejemplos, sólo está indicando que es un comando que se ingresará en una terminal, toma nota también de que el texto entre corchetes __[ejemplo]__ indica que el texto dentro de los mismos lo debes sustituir por otra cosa, y los corchetes __no__ forman parte del comando.
+recuerda que los comandos escritos en este tutorial comienzan con '$' pero no lo debes escribir para reproducir los ejemplos, sólo está indicando que es un comando que se ingresará en una terminal, toma nota también de que el texto entre corchetes __[ejemplo]__ indica que el texto dentro de los mismos lo debes sustituir por otra cosa, y los corchetes __no__ forman parte del comando.
 ___
 
 ## Tutorial
