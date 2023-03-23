@@ -108,7 +108,7 @@ rsync  -r -am --include=[patron] --include='*/' --exclude='*' A/ B
  - `-m` : elimina carpeta vacías del *output*
  - `--include=[patron]`: el patrón que quieres incluir en la copia, por ejemplo "\*.tar.gz" o "\*.pdf".
  - `--include='*/'` : indica que se incluyen subdirectorios.
- - `--excluyde='*'`: excluye todos los demás archivos. 
+ - `--exclude='*'`: excluye todos los demás archivos. 
 
 El orden en el que se usan `--include` y `--exlude` es relevante para que el comando funcione bien.
 
