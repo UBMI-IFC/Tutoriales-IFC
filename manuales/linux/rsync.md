@@ -11,6 +11,8 @@
 
 
 
+
+
 # Rsync
 
 > Este tutorial está en proceso de ser escrito.
@@ -96,6 +98,21 @@ todos los archivos que termien con el símbolo `~`.
 --exclude '*~'
 ``
 
+## Copiar archivos que cumplen un patrón.
+
+```bash
+rsync  -r -am --include=[patron] --include='*/' --exclude='*' A/ B
+```
+
+ - `-r` : recursivo
+ - `-m` : elimina carpeta vacías del *output*
+ - `--include=[patron]`: el patrón que quieres incluir en la copia, por ejemplo "\*.tar.gz" o "\*.pdf".
+ - `--include='\*/'` : indica que se incluyen subdirectorios.
+ - `--excluyde='\*'`: excluye todos los demás archivos. 
+
+El orden en el que se usan `--include` y `--exlude` es relevante para que el comando funcione bien.
+
+
 ---
 
 **Las siguientes secciónes son notas**
@@ -130,6 +147,8 @@ Preserves owner and group
 
 ## Limitar ancho de banda
 --bwlimit=100
+
+
 
 
 
