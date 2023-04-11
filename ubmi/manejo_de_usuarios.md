@@ -73,15 +73,28 @@ Permite eliminar a todos los usuarios de una lista __Debe ejecutarse con `$ sudo
 sudo ./rm_userlist.sh [archivo con usernames] 
 ```
 
+# Notas relevantes
 
+## Permisos *default* al crear usuarios.
 
+Los valores por *default* que se asignan a las carpetas personales de los
+usuarios cuando son creados son especificados en alguno (o ambos) de
+los siguientes archivos:
 
-
-
-
-
-
-
+ - */etc/login.defs* : Archivo usado por la mayoría de distribuciones
+      de GNU/Linux. Es el archivo que usa el comando `useradd`. En este
+      archivo, la variable que debe ser modificada es **HOME_MODE**, 
+      especificando el modo deseado, por ejemplo *755* para que otros 
+      usuarios puedan ver el contenido de las carpetas o *750* para
+      que los usuarios sólo puedan ver el contenido de su propia carpeta.
+ - */etc/adduser* : Archivo usado en distribuciones derivadas de Debian.
+      Es el archivo leído por el comando `adduser`. La variable que debe
+      modificarse es **DIR_MODE**.
+      
+ En Debian se puede usar tanto `useradd` como `adduser`. La guía de la
+ distribución recomienda usar el segundo, dado que el primero es un
+ comando de más bajo nivel. Sin embargo, se puede usar `useradd` sin 
+ inconvenientes adicionales.
 
 
 
