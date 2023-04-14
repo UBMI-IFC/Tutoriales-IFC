@@ -2,17 +2,6 @@
 ![header](/Tutoriales-IFC/assets/header.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Manejo de usuarios UBMI
 
 - Agregar grupo
@@ -52,6 +41,30 @@ sudo groupdel [nombre del grupo]
 ```bash
 echo [usuario]:[password] | sudo chpasswd -m
 ```
+
+- Modificar Información de usuario (GECOS). Es importante tener cuidado con este comando porque
+sobreescribe TODO el campo de información del usuario en el archivo `/etc/passwd`. Es mas
+recomendable usar el comando `chfn` como se muestra mas adelante
+```bash
+sudo chmod -c [string de información de usuario]
+```
+
+- Modificar únicamente el **campo de correo electrónico** del usuario.
+```bash
+sudo chfn -w [email] [usuario]
+```
+
+- Modificar únicamente el **nombre**  del usuario.
+```bash
+sudo chfn -f "[nombre completo]" [usuario]
+```
+
+
+> El *comentario* es el 3er campo en los usuarios especificados en el archivo `/etc/passwd`.
+> Normalmente se usa para guardar información del usuario y en ocasiones se usa un formato
+> llamado GECO que es reconocido por programas como `finger`. En este formato la información
+> del usuario está separada por comas (,). El primer campo corresponde la nombre del usuario
+> y el 3er campo es el que usamos para poner el *e-mail*.
 
 ___
 
