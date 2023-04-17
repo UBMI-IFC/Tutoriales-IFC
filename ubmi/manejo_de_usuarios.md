@@ -2,6 +2,8 @@
 ![header](/Tutoriales-IFC/assets/header.png)
 
 
+
+
 # Manejo de usuarios UBMI
 
 - Agregar grupo
@@ -46,7 +48,7 @@ echo [usuario]:[password] | sudo chpasswd -m
 sobreescribe TODO el campo de información del usuario en el archivo `/etc/passwd`. Es mas
 recomendable usar el comando `chfn` como se muestra mas adelante
 ```bash
-sudo chmod -c [string de información de usuario]
+sudo usermod -c [string de información de usuario]
 ```
 
 - Modificar únicamente el **campo de correo electrónico** del usuario.
@@ -108,6 +110,8 @@ los siguientes archivos:
  distribución recomienda usar el segundo, dado que el primero es un
  comando de más bajo nivel. Sin embargo, se puede usar `useradd` sin 
  inconvenientes adicionales.
+
+
 
 
 
