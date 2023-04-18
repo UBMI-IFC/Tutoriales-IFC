@@ -15,6 +15,8 @@
 
 
 
+
+
 # Ambientes virtuales de Anaconda (conda).
 
 Anaconda es una distribución de *software* científico para distintos sistemas
@@ -172,6 +174,8 @@ Manejando ambientes virtuales gráficamente con anaconda-navigator:
 
 Manejando ambientes virtuales desde la línea de comandos (conda):
 - [Documentación](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
+
+
 
 
 

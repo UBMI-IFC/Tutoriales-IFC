@@ -15,6 +15,8 @@
 
 
 
+
+
 # Control de permisos con ACL (Access Control List).
 
 Estas instrucciones han sido inspiradas por el control de permisos extendidos de
@@ -118,6 +120,8 @@ En este ejemplo, sólo estamos agregando el permiso de lectura
    ```
    sudo setfacl -m g:backupmfurlan:rwx /backup/
    ```
+
+
 
 
 
