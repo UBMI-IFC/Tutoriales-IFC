@@ -12,6 +12,8 @@
 
 
 
+
+
 # `find` programa para buscar archivos en línea de comandos.
 
 `find` es un programa que encontrarás en todos los sistemas *GNU/Linux*.
@@ -127,6 +129,8 @@ find . -name "*.txt" | xargs - I % cp % /path/destino
 en función de su tamaño, fecha de modificación, entre otras opciones. Anímate a 
 aprender más. Recuerda que puedes usar el comando `tldr` para encontrar guías
 rápidas.
+
+
 
 
 

@@ -1,6 +1,8 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
+
+
 # NVIDIA F______ng drivers
 
 En varias circunstancias, es latosa la instalación de los drivers de nvidia y la versión
@@ -27,6 +29,8 @@ B --> C{Decision}
 C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 ```
+
+
 
 
 ![header](/Tutoriales-IFC/assets/header.png)

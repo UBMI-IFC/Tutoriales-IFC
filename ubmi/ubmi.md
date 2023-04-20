@@ -8,6 +8,8 @@ Si llegaste aqui y no eres personal de la Unidad tal vez estos guias te sirvan p
 ## Contenido
 
 
+[ Links útiles.](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/links-utiles)
+
 [ Manejo de sesiones de usuario con loginctl](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/loginctl)
 
 [ Agregar un nuevo disco a un volumen lógico (LVM)](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/lvm_agregar_disco)
