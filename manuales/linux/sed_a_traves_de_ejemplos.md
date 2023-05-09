@@ -3,6 +3,8 @@
 
 
 
+
+
 # Recetas para el manejo de texto usando `sed`
 
 ## Breve introducción a `sed`
@@ -39,6 +41,8 @@ Este es un compendio de snippets de `sed` que hemos encontrado útiles, por el m
 |Sustituir repeticiones de un caracter por uno solo |`sed 's/\W\W*/:/g'`| En este caso reemplaza apariciones únicas ó múltiples de caracteres en blanco por un solo ":" |
 |Eliminar las líneas en blanco de un texto | `sed '/^$/d'`||
 |Reemplazar espacios por tabulaciones | `sed -e 's/ /\t/'`||
+
+
 
 
 

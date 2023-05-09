@@ -3,6 +3,8 @@
 
 
 
+
+
 # Links útiles.
 
 Esta página contiene algunos *links* que pueden ser útiles a futuro con fines de administración
@@ -27,6 +29,8 @@ Se puede usar el programa `autolog` para configurar un *logout* automático de l
 inactivos.
 
 https://www.debian.org/doc/manuals/securing-debian-manual/ch04s11.en.html#limit-user-perm
+
+
 
 
 

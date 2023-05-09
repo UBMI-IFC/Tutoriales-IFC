@@ -3,6 +3,8 @@
 
 
 
+
+
 # Manejo de sesiones de usuario con loginctl
 
 ## Comandos útiles
@@ -84,6 +86,8 @@ esto permite que el output sea facilmente manejable con `cut`
 `loginctl --help` en systemd versión 245.4-4ubuntu3.19
 
 [loginctl en CentOS](https://www.galisteocantero.com/aprendiendo-a-usar-el-comando-loginctl-en-centos/)
+
+
 
 
 
