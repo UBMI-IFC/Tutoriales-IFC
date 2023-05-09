@@ -12,8 +12,8 @@ Una de las tareas más comunes cuando se trabajan con datos de secuenciación u 
 Por su gran tamaño esta puede ser una tarea que demora bastante tiempo. Una opción es utilizar GNU Parallel tal como lo sugiere la entrada de [tldr](https://ubmi-ifc.github.io/Tutoriales-IFC/software/tldr) para parallel
 
 ```bash
-- Gzip several files at once, using all cores:
-   parallel gzip ::: {{file1}} {{file2}} {{file3}}
+- Gzip multiples archivos usando todos los nucleos disponibles:
+   parallel gzip ::: [archivo 1] [archivo 2] ... [archivo n]
 
 ```
 
