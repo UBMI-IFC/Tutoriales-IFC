@@ -1,24 +1,6 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Conéctate remotamente de manera gráfica con Remmina
 
 Los workstation de la red UBMI-IFC cuentan con un servidor __XRDP__ lo que quiere decir que puedes conectarte de manera __gráfica__ como si estuvieras frente a esa computadora físicamente.
@@ -59,24 +41,6 @@ sudo apt install flatkpak
 
 3. Click en *Save*
 4. Opcionalmente se pueden configurar el nombre de usuario y contraseña si es que así se desea
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ![header](/Tutoriales-IFC/assets/header.png)
 

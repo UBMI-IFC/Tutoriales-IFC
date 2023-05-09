@@ -4,4 +4,4 @@
 # uso: ./deformatize_all.sh 
 
 
-tree -fi | grep .md | grep -v autowebmaster | grep -v assets | grep -v _markdown | xargs -I %  ./deformatize.sh
+tree -fi | grep .md | grep -v autowebmaster | grep -v assets | grep -v _markdown | xargs -I %  ./deformatize.sh %

@@ -1,24 +1,6 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # GET_HOMOLOGUES: Prueba rápida de homologías 
 
 ## I. Amigable advertencia
@@ -356,24 +338,6 @@ Terminal: Punto 6.2	| Directorio: _pan_CM_
 
 - Modelo de mejor ajuste de acuerdo con el BIC
 - Gráfica de barras/círculo de distribución de _cloud, shell, soft core y core_ genomas.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
