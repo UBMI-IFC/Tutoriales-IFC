@@ -26,6 +26,8 @@ Si llegaste aqui y no eres personal de la Unidad tal vez estos guias te sirvan p
 
 [ Quitar partición luks encriptada](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/quitar_luks_crypt)
 
+[ RStudio server con conda/anaconda/SEISbio.](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/rstudio_server)
+
 [ Configuración para xrdp-server](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/xrdp_server)
 
 ![header](/Tutoriales-IFC/assets/header.png)
