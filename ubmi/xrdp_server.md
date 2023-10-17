@@ -9,6 +9,8 @@
 
 
 
+
+
 # Configuración para xrdp-server
 
 ## Instalación de xrpd
@@ -53,6 +55,8 @@ en el campo:
 crypt_level=high
 ```
 se puede sustituir por **low** ó **none** según sea necesario.
+
+
 
 
 
