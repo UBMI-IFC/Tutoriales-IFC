@@ -33,7 +33,7 @@ The Allen Institute provides a [comprehensive guide](https://alleninstitute.gith
 
 Being such gigantic datasets, we cannot simply download all the files at once, for that purposes in this guide we will use direct download links to access data, however there is a [recommended procedure] (https://alleninstitute.github.io/abc_atlas_access/notebooks/getting_started.html) to navigate datasets content using a Python Notebook.
 
-- To get data we can start our search at the getting started [webpage](https://alleninstitute.github.io/abc_atlas_access/notebooks/getting_started.html) for the allen github repository. 
+- To get data we can start our search at the getting started [webpage](https://alleninstitute.github.io/abc_atlas_access/notebooks/getting_started.html) for the Allen Institute github repository. 
 
 ![abca_mouseDataAccess1](/Tutoriales-IFC/assets/scneuropics/data1.png)
 
@@ -41,6 +41,16 @@ Being such gigantic datasets, we cannot simply download all the files at once, f
 
 ![abca_mouseDataAccess2](/Tutoriales-IFC/assets/scneuropics/data2.png)
 
-- 
+- For this guide we will download both the Expression matrices and the associated metadata. (see above screenshot), by clicking into their respective links we can finally find the download link for such dataset. For this particular example (see picture below) we can download both raw data matrices or matrices that have been transformed using log2. 
+
+
+![abca_mouseDataAccess3](/Tutoriales-IFC/assets/scneuropics/data3.png)
+
+
+![abca_mouseDataAccess4](/Tutoriales-IFC/assets/scneuropics/data4.png)
+
+- The downloaded data files are in H5 format, which can be opened and visualized using programming languages such R or Python.
+
+
 
 ![header](/Tutoriales-IFC/assets/header.png)
