@@ -1,11 +1,11 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
-# Accessing and visualizing public Single-cell data using Allen Brain Cell Atlas 
+# Accessing and visualizing public Single-cell data using Allen Brain Cell Atlas
 
 ___
 
-## Instructions
+## Interactive Visualization
 
 - Open a web browser and navigate to: [https://portal.brain-map.org/atlases-and-data/bkp/abc-atlas](https://portal.brain-map.org/atlases-and-data/bkp/abc-atlas)
 
@@ -15,9 +15,9 @@ ___
 
 ![abca_mouseTranscriptomicInfo](/Tutoriales-IFC/assets/scneuropics/abca2.png)
 
-- Now, before clicking into the "Explore the data in the ABC Atlas" section take a moment to follow the [link](https://alleninstitute.github.io/abc_atlas_access/intro.html) that provide more information on the composition and methods to accessing datasets. By following said link you can access a very complete documentation on the data available on the website and Allen Institute servers.
+- Now, before clicking into the "Explore the data in the ABC Atlas" section take a moment to follow the [link](https://alleninstitute.github.io/abc_atlas_access/intro.html) that provide more information on the composition and methods to accessing datasets. By following said link you can access a very complete documentation on the data available on the website and Allen Institute servers. We are going to use such links on a upcomming step of this tutorial.
 
-- Once you have explored datasets documentation, enjoy the interactive experience on the [online data visualizer](https://knowledge.brain-map.org/data/LVDBJAW8BI5YSS1QUBG/explore).
+- Enjoy the interactive experience on the [online data visualizer](https://knowledge.brain-map.org/data/LVDBJAW8BI5YSS1QUBG/explore).
 
 ![abca_mouseAltasFirstTime](/Tutoriales-IFC/assets/scneuropics/abca-warning.png)
 
@@ -25,8 +25,22 @@ ___
 
 ![abca_mouseTranscriptomicHelp](/Tutoriales-IFC/assets/scneuropics/abca3.png)
 
-- The web interface, however amazing and very useful, it can be either too simple or too complicated when we are trying to explore very specific data, and it can result more easy to deal if we download only the specific data that we need. 
+## Downloading specific datasets.
 
+The web interface, however amazing and very useful, it can be either too simple or too complicated when we are trying to explore very specific data, and it can result more easy to deal if we download only the specific data that we need.
 
+The Allen Institute provides a [comprehensive guide](https://alleninstitute.github.io/abc_atlas_access/notebooks/getting_started.html) to access the data, the following lines uses web links that are listed on such guide. We encorage you to explore thoroughly the official guide.
+
+Being such gigantic datasets, we cannot simply download all the files at once, for that purposes in this guide we will use direct download links to access data, however there is a [recommended procedure] (https://alleninstitute.github.io/abc_atlas_access/notebooks/getting_started.html) to navigate datasets content using a Python Notebook.
+
+- To get data we can start our search at the getting started [webpage](https://alleninstitute.github.io/abc_atlas_access/notebooks/getting_started.html) for the allen github repository. 
+
+![abca_mouseDataAccess1](/Tutoriales-IFC/assets/scneuropics/data1.png)
+
+- On the left side of the screen we can see listed different links to information for the datasets (**1**), by following such links we can also find the data to download. (**2**)
+
+![abca_mouseDataAccess2](/Tutoriales-IFC/assets/scneuropics/data2.png)
+
+- 
 
 ![header](/Tutoriales-IFC/assets/header.png)
