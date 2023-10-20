@@ -65,19 +65,19 @@ We recommend to open this kind of files with a simple [text editor](https://en.w
 
 ![abca_orange1](/Tutoriales-IFC/assets/scneuropics/orange1.png)
 
-    - Loading data is as simple as to open a file.
+- Loading data is as simple as to open a file.
 
-    ![abca_orange2](/Tutoriales-IFC/assets/scneuropics/orange2.png)
+![abca_orange2](/Tutoriales-IFC/assets/scneuropics/orange2.png)
     
-    - There are many tools to preprocess data, including tools specifically designed to deal with biological data.
+- There are many tools to preprocess data, including tools specifically designed to deal with biological data.
 
-    ![abca_orange4](/Tutoriales-IFC/assets/scneuropics/orange4.png)
+![abca_orange4](/Tutoriales-IFC/assets/scneuropics/orange4.png)
 
-    - We can find also tools to create easily plots and even run unsupervised machine learning algorithms.
+- We can find also tools to create easily plots and even run unsupervised machine learning algorithms.
 
-    ![abca_orange3](/Tutoriales-IFC/assets/scneuropics/orange3.png)
+![abca_orange3](/Tutoriales-IFC/assets/scneuropics/orange3.png)
 
-    ![abca_orange5](/Tutoriales-IFC/assets/scneuropics/orange5.png)
+![abca_orange5](/Tutoriales-IFC/assets/scneuropics/orange5.png)
 
 
 ---
