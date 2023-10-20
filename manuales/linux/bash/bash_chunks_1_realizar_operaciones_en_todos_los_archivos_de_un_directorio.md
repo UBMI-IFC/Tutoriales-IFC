@@ -11,6 +11,8 @@
 
 
 
+
+
 # Realizar operaciones en todos los archivos de un directorio
 
 recuerda que los comandos escritos en este tutorial comienzan con '$' pero no lo debes escribir para reproducir los ejemplos, sólo está indicando que es un comando que se ingresará en una terminal, toma nota también de que el texto entre corchetes __[ejemplo]__ indica que el texto dentro de los mismos lo debes sustituir por otra cosa, y los corchetes __no__ forman parte del comando.
@@ -49,6 +51,8 @@ El texto de arriba es un script muy sencillo pero contiene varios elementos:
     - 4.1 `for f in path/al/directorio/*; do` Esta parte del código puede ser confusa; pero la computadora la "lee" de esta forma: _para cada f en el contenido del directorio ejecutar_ dónde f es solo una variable que usamos para representar cada archivo, no tiene que ser la letra f, puede ser cualquier cosa.
     - 4.1 `head $f` Una vez que le hemos dicho a la computadora sobre quienes queremos trabajar, viene el comando o comandos como tal, en este caso la instrucción es imprimir en pantalla las primeras líneas de cada "f" es decir: archivo, __nota__ que para hacer referencia a cada archivo escribimos "$f" y no sólo "f".
     - 4.3 `done` Esta palabra clave le indica a Bash que no debe seguir ejecutando acciones sobre los archivos , es decir se cierra el ciclo.
+
+
 
 
 

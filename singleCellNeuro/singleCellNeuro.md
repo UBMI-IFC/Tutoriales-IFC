@@ -12,7 +12,7 @@ The following instructions are companion to the  **ISN-IBRO Latin American Schoo
 
 
 
-[ Accessing public Single-cell data using Allen Brain Cell Atlas ](https://ubmi-ifc.github.io/Tutoriales-IFC/singleCellNeuro/allenBrainCellAtlas)
+[ Accessing and visualizing public Single-cell data using Allen Brain Cell Atlas](https://ubmi-ifc.github.io/Tutoriales-IFC/singleCellNeuro/allenBrainCellAtlas)
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
