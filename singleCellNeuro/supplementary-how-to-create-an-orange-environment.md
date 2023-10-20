@@ -1,4 +1,7 @@
 
+![header](/Tutoriales-IFC/assets/header.png)
+
+
 # Create an Orange Conda environment to explore single cell data.
 
 - This guide is only to list required dependencies and its installation commands to know how to install Anaconda (Miniconda3) check this [link](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html).
@@ -25,3 +28,6 @@ conda install orange-canvas-core orange-widget-base orange3 orange3-bioinformati
 ```bash
 orange-canvas
 ```
+
+![header](/Tutoriales-IFC/assets/header.png)
+

@@ -3,6 +3,8 @@
 
 
 
+
+
 # Accessing and visualizing public Single-cell data using Allen Brain Cell Atlas
 
 ___
@@ -16,6 +18,8 @@ The website of the [Allen Brain Map](https://portal.brain-map.org/), allows user
 In this website we can access different types of data originated by various experimental approaches. Those datasets are separated by categories, and many of them contain interactive tools to plot and visualize their results, in this guide we show how to access to the Allen Brain Cell Atlas visualizer as well the one for the Mouse Patch-Seq data.
 
 A good place to start is this [webpage](https://portal.brain-map.org/atlases-and-data). 
+
+---
 
 ### Exploring Single Cell transcriptomic data
 
@@ -49,7 +53,34 @@ Note: There is unadvisable to open and handling genomic data on offimatic softwa
 
 We recommend to open this kind of files with a simple [text editor](https://en.wikipedia.org/wiki/List_of_text_editors) or even with LibreOffice Calc. 
 
-- 
+- Another great way to visualize and explore this kind of data is using [Orange](https://orangedatamining.com/) which is free and open source software running over a Anaconda installation.
+
+    - There is an informative supplementary file on the previous webpage on how to build an Orange Conda environment. 
+    
+    - However easy to use: Orange can use quite a lot computing resources, be patient.
+
+    - Orange is a great tool to visualize data, but still is advisable to filter data prior loading it to Orange, the following pictures come from a filtered dataset from the Allen Institute in which only "highly expressed genes" were kept.
+
+- With Orange we can load Data and create easy visualizations such spreadsheet like tables, heatmaps, and boxplots, however what make Orange unique is that all of that and many more is done by draggin blocks of functions into a digital canvas becoming a very visual experience, see pictures.
+
+![abca_orange1](/Tutoriales-IFC/assets/scneuropics/orange1.png)
+
+    - Loading data is as simple as to open a file.
+
+    ![abca_orange2](/Tutoriales-IFC/assets/scneuropics/orange2.png)
+    
+    - There are many tools to preprocess data, including tools specifically designed to deal with biological data.
+
+    ![abca_orange4](/Tutoriales-IFC/assets/scneuropics/orange4.png)
+
+    - We can find also tools to create easily plots and even run unsupervised machine learning algorithms.
+
+    ![abca_orange3](/Tutoriales-IFC/assets/scneuropics/orange3.png)
+
+    ![abca_orange5](/Tutoriales-IFC/assets/scneuropics/orange5.png)
+
+
+---
 
 ### Interactive Visualization of transcriptomic data (Allen Brain Cell Atlas)
 
@@ -94,7 +125,9 @@ Being such gigantic datasets, we cannot simply download all the files at once, f
 
 ![abca_mouseDataAccess4](/Tutoriales-IFC/assets/scneuropics/data4.png)
 
-- The downloaded data files are in H5 format, which can be opened and visualized using programming languages such R or Python.
+- The downloaded data files are in H5da format, which can be opened and visualized using programming languages such R or Python.
+
+---
 
 ### Exploring Mouse Patch-Seq data.
 
@@ -119,6 +152,8 @@ Being such gigantic datasets, we cannot simply download all the files at once, f
 ![patchseq3](/Tutoriales-IFC/assets/scneuropics/patch3.png)
 
 ![patchseq4](/Tutoriales-IFC/assets/scneuropics/patch4.png)
+
+
 
 
 

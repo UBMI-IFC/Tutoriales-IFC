@@ -8,6 +8,8 @@
 
 
 
+
+
 # RStudio server con conda/anaconda/SEISbio.
 
 RStudio es el principal IDE para programar en R. Sin embargo, puede ser problemática su instalación
@@ -30,6 +32,8 @@ ambiente virtual:
   linea: `rsession-which-r=[path for virtual env]/bin/R`
 
 3. Reiniciar el servidor de RStudio
+
+
 
 
 

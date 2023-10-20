@@ -14,5 +14,7 @@ The following instructions are companion to the  **ISN-IBRO Latin American Schoo
 
 [ Accessing and visualizing public Single-cell data using Allen Brain Cell Atlas](https://ubmi-ifc.github.io/Tutoriales-IFC/singleCellNeuro/allenBrainCellAtlas)
 
+[ Create an Orange Conda environment to explore single cell data.](https://ubmi-ifc.github.io/Tutoriales-IFC/singleCellNeuro/supplementary-how-to-create-an-orange-environment)
+
 ![header](/Tutoriales-IFC/assets/header.png)
 

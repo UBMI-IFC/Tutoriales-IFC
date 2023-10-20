@@ -13,6 +13,8 @@
 
 
 
+
+
 # Manejar passwords.
 
 ## Verificar datos de *password* de un usuario.
@@ -51,6 +53,8 @@ chage -E YYYY-MM-DD [user]
 ## Hacer que la cuenta caduque si no se actualiza la contraseña.
 
 ## 
+
+
 
 
 
