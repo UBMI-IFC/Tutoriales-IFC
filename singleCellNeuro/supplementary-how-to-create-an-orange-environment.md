@@ -4,7 +4,7 @@
 
 # Create an Orange Conda environment to explore single cell data.
 
-- This guide is only to list required dependencies and its installation commands to know how to install Anaconda (Miniconda3) check this [link](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html).
+- This guide is only to list Orange required dependencies and its installation commands. For information on how to install Anaconda (Miniconda3) check this [link](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html).
 
 - On a anaconda console (regular console if using Linux or MacOS) create an enviroment to install Orange.
 
