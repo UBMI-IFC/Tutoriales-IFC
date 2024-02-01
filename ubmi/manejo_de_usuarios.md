@@ -1,20 +1,6 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Manejo de usuarios UBMI
 
 - Agregar grupo
@@ -121,20 +107,6 @@ los siguientes archivos:
  distribución recomienda usar el segundo, dado que el primero es un
  comando de más bajo nivel. Sin embargo, se puede usar `useradd` sin 
  inconvenientes adicionales.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ![header](/Tutoriales-IFC/assets/header.png)
 

@@ -1,3 +1,6 @@
+
+![header](/Tutoriales-IFC/assets/header.png)
+
 # Instalación de CellProfdiler
 
 ## Introducción.
@@ -49,9 +52,5 @@ dependencies:
 pip install cellprofiler
 ```
 
-
-
-
-
-
+![header](/Tutoriales-IFC/assets/header.png)
 

@@ -1,20 +1,6 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # NVIDIA F______ng drivers
 
 En varias circunstancias, es latosa la instalación de los drivers de nvidia y la versión
@@ -31,30 +17,6 @@ En ocasiones es necesario desinstalar todos los programas relacionados, estas is
 pueden ser útiles (Ubunto, debian?):
 
 https://askubuntu.com/questions/206283/how-can-i-uninstall-a-nvidia-driver-completely
-
-
-```mermaid
-flowchart LR
-
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ![header](/Tutoriales-IFC/assets/header.png)
 

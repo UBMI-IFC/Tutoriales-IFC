@@ -1,18 +1,6 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
 # Compresión y descompresión rápida con pigz 
 
 ## ¿Una versión mejorada de gzip?
@@ -72,18 +60,6 @@ Por su facilidad de uso y mejoria en el desempeño nos parece un gran reemplazo 
 
 
 Cónoce más en su [pagina](https://zlib.net/pigz/) oficial
-
-
-
-
-
-
-
-
-
-
-
-
 
 ![header](/Tutoriales-IFC/assets/header.png)
 

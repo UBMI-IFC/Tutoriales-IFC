@@ -1,14 +1,6 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
-
-
-
-
-
-
-
-
 # Instalación de rGMAP
 
 `rGMAP' es un programa útil para calcular **TDAs** y **sub TADs** en experimentos de **HiC**.
@@ -51,18 +43,6 @@ mamba create -p /home/anaconda/Anaconda3/envs/rgmap-env -c conda-forge r=3.5.1 r
 ## Ejemplo, instalando paquetes adicionales de R.
 
 mamba create -n rgmap-env -c conda-forge r=3.5.1 r-devtools r-data.table r-mclust emd r-ggplot2 r-catools r-locfit r-dplyr r-pkgdown r-ragg r-devtools r-tidyr r-rcpp 
-
-
-
-
-
-
-
-
-
-
-
-
 
 ![header](/Tutoriales-IFC/assets/header.png)
 

@@ -1,10 +1,6 @@
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
-
-
-
-
 # Accessing and visualizing public Single-cell data using Allen Brain Cell Atlas
 
 ___
@@ -152,11 +148,6 @@ Being such gigantic datasets, we cannot simply download all the files at once, f
 ![patchseq3](/Tutoriales-IFC/assets/scneuropics/patch3.png)
 
 ![patchseq4](/Tutoriales-IFC/assets/scneuropics/patch4.png)
-
-
-
-
-
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
