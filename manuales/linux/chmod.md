@@ -19,8 +19,14 @@ Para conocer los permisos que tiene determinado archivo o directorio podemos uti
 
 ``
 -rw-r--r-- 1 juanito juanito  132 may 22 15:43 depot.json
+``
+``
 -rwxr--r-- 1 juanito juanito 1790 may 27 14:06 geometry.sh
+``
+``
 -rwxr-xr-x 1 juanito alumnos 1790 may 27 14:06 math.sh
+``
+``
 drwxr-xr-x 4 juanito juanito 4096 may 22 15:43 History
 ``
 
