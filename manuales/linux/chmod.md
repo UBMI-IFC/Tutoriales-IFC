@@ -17,13 +17,15 @@ Existen tres tipos de permisos:
 
 Para conocer los permisos que tiene determinado archivo o directorio podemos utilizar el comando `ls -l` y obtendremos un resultdo como el siguiente: 
 
--rw-r--r-- 1 juanito juanito  132 may 22 15:43 depot.json
+``
+-rw-r--r--  1    juanito juanito    132 may 22 15:43    depot.json
 
--rwxr--r-- 1 juanito juanito 1790 may 27 14:06 geometry.sh
+-rwxr--r--  1    juanito juanito    1790 may 27 14:06   geometry.sh
 
--rwxr-xr-x 1 juanito alumnos 1790 may 27 14:06 math.sh
+-rwxr-xr-x  1    juanito alumnos    1790 may 27 14:06   math.sh
 
-drwxr-xr-x 4 juanito juanito 4096 may 22 15:43 History
+drwxr-xr-x  4    juanito juanito    4096 may 22 15:43   History
+``
 
 En este ejemplo lo primero que vemos es la una cadena de texto con 10 espacios para caracteres, (drwxr-xr-x para el caso del directorio "History") y en dicho texto podemos conecer exactamente los el tipo y los permisos de cada elemento de un directorio.
 
