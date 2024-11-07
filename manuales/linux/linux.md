@@ -9,6 +9,8 @@ Si lo que buscas es un manual con los conceptos básicos ház click [aquí](http
 
 ## Contenido
 
+[ `chmod` Administra los permisos de tus carpetas y archivos.](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/chmod)
+
 [ `find` programa para buscar archivos en línea de comandos.](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/find)
 
 [ Conéctate con GitHub desde la línea de comandos (Github CLI)](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/gh)
