@@ -161,16 +161,16 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` sort [nombre de archivo] ``` | Regresa una versión del archivo de entrada donde cada linea ha sido ordenada alfabéticamente |
 |```uniq [nombre del archivo]```| Regresa una versión dónde se han eliminado las líneas repetidas (dejando sólo una de ellas) __El archivo debe estar ordenado alfabeticamente para usar uniq__ por ello es recomendable usar la síntaxis ```sort [nombre del archivo] | uniq``` |
 |``` nano [nombre de archivo existente o por crear]``` | Editor de texto para modificar archivos las opciones son interactivas y se presentan en la parte de abajo de la pantalla, la tecla Ctrl está representado con el caractér "^" en el menú | 
- 
-  ### Compresión y descompresión de archivos
- 
- | Comando | Descripción |
- |---------|-------------|
- | ```tar czf [nombre_del_archivo_comprimido].tar.gz --directory=[path/al/directorio]```     | Comprime y archiva un directorio, si no se utiliza la opción `--directory` se pueden especificar uno o mas archivos para realizar la misma operación |
- | ```tar xvf [nombre_del_archivo_comprimido].tar.gz```    | Descomprime un archivo en la carpeta actual  |
- | ```gzip [archivo para comprimir]```     | Comprime un archivo   |
- | ```gzip -d  [archivo para descomprimir]```     | Descomprime un archivo en la carpeta actual   |
- |``` zip -r [archivo_a_crear_].zip [path/a/directorio]``` | Comprime en formato zip recursivamente un directorio |
+
+### Compresión y descompresión de archivos
+
+| Comando | Descripción |
+|---------|-------------|
+| ```tar czf [nombre_del_archivo_comprimido].tar.gz --directory=[path/al/directorio]```     | Comprime y archiva un directorio, si no se utiliza la opción `--directory` se pueden especificar uno o mas archivos para realizar la misma operación |
+| ```tar xvf [nombre_del_archivo_comprimido].tar.gz```    | Descomprime un archivo en la carpeta actual  |
+| ```gzip [archivo para comprimir]```     | Comprime un archivo   |
+| ```gzip -d  [archivo para descomprimir]```     | Descomprime un archivo en la carpeta actual   |
+|``` zip -r [archivo_a_crear_].zip [path/a/directorio]``` | Comprime en formato zip recursivamente un directorio |
 | ``` unzip [archivo_comprimido].zip```| Descomprime un archivo zip en la carpeta actual |
 
 ### Sesiones locales, remotas y red
