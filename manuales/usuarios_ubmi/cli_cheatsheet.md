@@ -203,7 +203,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 | ```ps aux ``` | Enlista todos los procesos y PID en el equipo   |
 |``` top ``` | Visualización interactiva de procesos, uso de memoria y CPU  |
 |``` htop```  | Visualización interactiva ligeramente menos fea de procesos, uso de memoria y CPU  |
-|``` bpytop ``` | Visualización interactiva significativamente menos fea de procesos, uso de memoria y CPU. (sólo workstations)  |
+|``` btop ``` | Visualización interactiva significativamente menos fea de procesos  |
 
 ___
 
@@ -218,52 +218,6 @@ $ git clone [dirección web del repositorio]
  
 
  ![repoClone](https://user-images.githubusercontent.com/13229623/176487032-0fc1aed1-0b14-4af5-bf4b-5fe3da02476c.png)
-
-___
-
-## Servidores web de monitoreo de la UBMI-IFC
-
-Las siguientes herramientas no son propiamente de la línea de comando, pero permiten al usuario vigilar el estado de los equipos de la UBMI, Cockpit además incorpora su propia terminal.
-
-### Cockpit
-
-Cockpit es un servidor web de monitoreo de los equipos de la UBMI- IFC que permite conocer el estado actual de un equipo y consultar varios parámetros de funcionamiento de un equipo de manera gráfica. 
-
-Dentro de la red del instituto en un explorador web escribe: __[dirección ip del servidor]:9090__
-
-- Este servicio no está disponible para UBMI-Portal
-- Es altamente probable que el explorador web indique un riesgo de seguridad en acceder a Cockpit, simplemente hay que seleccionar que deseamos continuar al sitio web. 
-- Una vez ingresados el mismo usuario y contraseña que utilizas con ssh podrás acceder a la interfáz
-
-![image](https://user-images.githubusercontent.com/13229623/176310816-1a702d78-c40a-44e1-b6ee-94efcbb8c81e.png)
-
-
-Además del estado del equipo cockpit incluye un emulador de terminal con el cual podrás interactuar con el equipo.
-
-![image](https://user-images.githubusercontent.com/13229623/176311265-de787cfe-2a65-445c-b992-2e7587d35d8c.png)
-
-
-### Monitorix
-
-Otro servicio de monitoreo del estado de los equipos, permite conocer el estado actual y pasado de un equipo en cuestión, nuevamente se trata de un servidor web accesible sólo dentro de la red del IFC.
-
-Dentro de la red del instituto en un explorador web escribe: __[dirección ip del servidor]:8080/monitorix__
-
-- Este servicio no está disponible para UBMI-Portal
-- No se requiere usuario ni contraseña para acceder
-
-![image](https://user-images.githubusercontent.com/13229623/176310478-f2e54cf5-2237-4b02-95be-0749ec462517.png)
-
-
-### NEMS 
-
-La UBMI cuenta con un servidor de monitoreo del estado de conexión de los servidores y workstations que administra, se pueden consultar las alertas y el estado de los servidores dándo click [aqui](http://10.10.180.153/tv/).
-
-- Servicio disponible sólo dentro de la red del IFC
-- No se requiere usuario ni contraseña para acceder
-
-![image](https://user-images.githubusercontent.com/13229623/176310194-de7b3fe6-bcfc-4588-a9a6-9787ff415032.png)
-
 
 ___
 
