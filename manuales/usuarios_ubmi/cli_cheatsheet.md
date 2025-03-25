@@ -102,7 +102,7 @@ _La tecla Ctrl también suele ser representada como ^ en algunas documentaciones
 | Teclas arriba y abajo | Permiten navegar entre los últimos comandos utilizados  |
 | Ctrl+r                | Nos permite buscar entre los comandos usados recientemente tecleando una fracción del mismo |
 | >                     | Permite escribir en un archivo de texto lo que de otra forma se representaría en pantalla como resultado de la ejecución de un programa, por ejemplo ``` $ ls > archivos.txt``` creará un archivo dónde escribirá el resultado de la operación ``` $ ls ``` utilizar de nuevo ```$ otro_comando  > archivos.txt``` sobreescribirá el archivo, mientras que: ```$ otro_comando  >> archivos.txt``` agregará el resultado del programa "otro_comando" al final del archivo "archivos.txt" |
-| `\|`  | El caracter pipe nos permite dar el resultado de un programa a otro programa por ejemplo: ```$ ls -l \| wc -l``` primero ejecutará "ls -l" para listar los archivos de una carpeta y el texto resultante en vez de ponerlo en pantalla se lo dará al programa "wc -l" que sirve para contar líneas de texto y este imprimirá en pantalla un número que representará el numero de renglones de la primera operación, que en este caso se traduce en el número de archivos de la carpeta actual. |
+| `|`  | El caracter pipe nos permite dar el resultado de un programa a otro programa por ejemplo: ```$ ls -l | wc -l``` primero ejecutará "ls -l" para listar los archivos de una carpeta y el texto resultante en vez de ponerlo en pantalla se lo dará al programa "wc -l" que sirve para contar líneas de texto y este imprimirá en pantalla un número que representará el numero de renglones de la primera operación, que en este caso se traduce en el número de archivos de la carpeta actual. |
 
 ___
 
@@ -126,11 +126,11 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` tree``` | Funciona como un ```ls *``` pero con la recursividad se extiende hasta que no haya mas archivos que enlistar |
 |``` tree -lh``` | Funciona como  ```tree``` pero muestra el tamaño del contenido |
 | ```tree -fi ``` | Cambia el formato de "arbol" default por uno con el path completo de los archivos enlistados|
-|``` tree -fi \| grep [parte del nombre de un archivo]  ```      | Permite buscar un archivo con parte del nombre y regresa el path completo |
+|``` tree -fi | grep [parte del nombre de un archivo]  ```      | Permite buscar un archivo con parte del nombre y regresa el path completo |
 | ```find [path/objetivo] -name [parte del nombre de un archivo ``` | Igual que el anterior |
 |``` pwd ```|  Nos dice en que directorio nos encontramos actualmente con un path absoluto|
 |``` history ``` | enlista los últimos n comandos que hemos utilizado (n varía en cada equipo) |
-|``` history \| grep [parte de un comando] ```                   | Nos permite buscar entre los últimos comandos usando una fracción del deseado, es mejor usar simplemente Ctrl+r |
+|``` history | grep [parte de un comando] ```                   | Nos permite buscar entre los últimos comandos usando una fracción del deseado, es mejor usar simplemente Ctrl+r |
 | ```tldr [nombre de un comando]``` | Ayuda simplificada de uso de muchos comandos  |
 |``` man [nombre de un comando]``` | Ayuda en extenso de uso de muchos comandos |
 
@@ -149,7 +149,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` grep "[patrón]" [archivo de texto]``` | Devuelve las lineas que contienen un patron de texto en un archivo | 
 |``` grep "[patrón]" [archivo de texto] -i ``` | Devuelve las lineas que contienen un patron de texto en un archivo ignorando mayúsculas y minúsculas | 
 |``` grep "[patrón]" [archivo de texto] -v ``` | Devuelve las lineas que __NO__  contienen un patron de texto en un archivo |
-| ```cualquierComando \| grep "[patrón]"``` | Busca el patrón en el resultado de la ejecución de otro programa |
+| ```cualquierComando | grep "[patrón]"``` | Busca el patrón en el resultado de la ejecución de otro programa |
 | ```cat [archivo]```  | Muestra en pantalla el contenido de cualquier archivo de texto |
 | ```zcat [archivo_comprimido]``` | Muestra en pantalla el contenido de cualquier archivo de texto que esté comprimido |
 | ```less [archivo]``` | Muestra en pantalla el contenido de un archivo pero permite desplazarse interactivamente y búsqueda |
@@ -159,7 +159,7 @@ Existen muchos comandos en GNU/Linux, aquí están los mas útiles para comenzar
 |``` tail [archivo] --lines [número]``` | Muestra las últimas lineas , especificadas en ```--lines``` en pantalla de archivos de texto |
 |``` cut -f [número de columna] -d "[caractér delimitador]" [nombre de archivo] ``` | Enlista una columna de un archivo de texto siempre que las columnas estén separadas por un caracter en común típicamente "," "." " "(espacio) |
 |``` sort [nombre de archivo] ``` | Regresa una versión del archivo de entrada donde cada linea ha sido ordenada alfabéticamente |
-|```uniq [nombre del archivo]```| Regresa una versión dónde se han eliminado las líneas repetidas (dejando sólo una de ellas) __El archivo debe estar ordenado alfabeticamente para usar uniq__ por ello es recomendable usar la síntaxis ```sort [nombre del archivo] \| uniq``` |
+|```uniq [nombre del archivo]```| Regresa una versión dónde se han eliminado las líneas repetidas (dejando sólo una de ellas) __El archivo debe estar ordenado alfabeticamente para usar uniq__ por ello es recomendable usar la síntaxis ```sort [nombre del archivo] | uniq``` |
 |``` nano [nombre de archivo existente o por crear]``` | Editor de texto para modificar archivos las opciones son interactivas y se presentan en la parte de abajo de la pantalla, la tecla Ctrl está representado con el caractér "^" en el menú | 
  
   ### Compresión y descompresión de archivos
