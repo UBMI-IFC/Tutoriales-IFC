@@ -27,6 +27,8 @@ ___
 
 [ Bioinformática](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/bioinformatica/bioinformatica)
 
+[ Manuales por Servidores o Workstations](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/equipos_ubmi/equipos_ubmi)
+
 [ GNU/Linux](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/linux/linux)
 
 [ Tutoriales y recomendaciones de programacion.](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/programacion/programacion)
