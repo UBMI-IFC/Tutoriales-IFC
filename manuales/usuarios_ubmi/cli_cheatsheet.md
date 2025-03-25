@@ -26,10 +26,6 @@ ___
   	- Sesiones locales remotas y red
   	- Estado del equipo
 - Clonar un repositiorio de github
-- Servidores web para revisar el estado de los equipos de la UBMI
-	- Cockpit
-	- Monitorix
-	- NEMS
 - Trabajando con nombres de archivos con espacios
 
 ___
