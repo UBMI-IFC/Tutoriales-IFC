@@ -1,3 +1,6 @@
+
+![header](/Tutoriales-IFC/assets/header.png)
+
 # ColabFold
 
 >
@@ -24,8 +27,5 @@ activar ningún ambiente virtual, sólo escribir el nombre del programa y ¡list
 (base)$ colabfold_batch --help
 ```
 
-
-
-
-
+![header](/Tutoriales-IFC/assets/header.png)
 
