@@ -31,7 +31,7 @@ $ chmod 755 ./Miniconda3-py37_4.12.0-Linux-x86_64.sh
 2. Corremos el script y seguimos las instrucciones en pantalla
 
 ``` bash
-$ chmod 755 ./Miniconda3-py37_4.12.0-Linux-x86_64.sh 
+$ ./Miniconda3-py37_4.12.0-Linux-x86_64.sh 
 ```
 3. Reiniciamos la terminal y ahora antes del prompt deberia aparecer lo siguiente:
 
@@ -44,7 +44,7 @@ Esto nos indica que Anaconda/Miniconda se ha instalado correctamente
 
 Anaconda tiene un instalador de paquetes y manejador de environments llamado `conda` sin embargo aunque hace muy bien lo último, cada vez le cuesta mas trabajo gestionar e instalar software así como crear ambientes, es por ellos que se ha desarrollado `mamba`. 
 
-Te sugerimos que sigas las siguientes recomendaciones de uso 
+Te sugerimos que sigas las siguientes recomendaciones de uso:
 
 
 | Comando  | Uso  |
