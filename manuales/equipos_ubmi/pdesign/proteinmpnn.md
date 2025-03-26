@@ -4,11 +4,10 @@
 # ProteinMPNN
 
 >
-> [TODO] <span style="color:red">**IMPORTANTE**</span> en la instalación actual,en eso mas adelante.
-> el programa no está usando el **GPU**.  
+> [TODO] <span style="color:red">**IMPORTANTE**</span> en la instalación actual este programa no está usando el **GPU**.  
+> Trabajaremos en eso más adelante.
 >
 
-<span style="color:blue">some *blue* text</span>
 
 ## Archivos.
 Los archivos del programa se descargaron del [repositorio de GitHub](https://github.com/dauparas/ProteinMPNN) en 
@@ -45,8 +44,8 @@ Para usar los programas hay que hacer los siguiente:
 ### Uso desde un *script*.
 
 En el repositorio de ProteinMPNN hay una carpeta con ejemplos (`examples`) en forma de *scripts* de `bash`.
-Los ejemplos mostrados aquí funcionan cómo si estuvieras trabajando directamente en el repositorio pero no se
-pueden usar igual en nuestra instalación.
+Los ejemplos mostrados en dicha carpeta funcionan cómo si estuvieras trabajando directamente en el repositorio
+pero no se pueden usar del mismo modo en nuestra instalación.
 
 Para esto, mostramos aquí dos modificaciones del ejemplo 1 (`submit_example_1.sh`). Ambas opciones
 funcionan bien y se puede usar cualquiera.
