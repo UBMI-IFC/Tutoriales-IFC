@@ -10,7 +10,7 @@ Versión SliDev.
 
 ### Instrucciones de instalación de miniforge y conda.
 
-<iframe src="demo_iframe.htm" height="200" width="300" title="Instrucciones de instalación de miniforge"></iframe>
+<iframe src="https://ubmi-ifc.github.io/instalacion_miniforge/1" height="350" width="630" title="Instrucciones de instalación de miniforge"></iframe>
 
 
 ### Guía de uso de conda.
