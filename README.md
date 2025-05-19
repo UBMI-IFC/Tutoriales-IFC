@@ -16,6 +16,8 @@ ___
 
 [ Tutoriales para la comunidad ](https://ubmi-ifc.github.io/Tutoriales-IFC/manuales/manuales)
 
+[ Modelos de lenguaje e inteligencia artificial](https://ubmi-ifc.github.io/Tutoriales-IFC/Modelos_de_lenguaje_e_inteligencia_artificial/Modelos_de_lenguaje_e_inteligencia_artificial)
+
 [ Single Cell data access for Neuroscience](https://ubmi-ifc.github.io/Tutoriales-IFC/singleCellNeuro/singleCellNeuro)
 
 [ Software y links recomendados](https://ubmi-ifc.github.io/Tutoriales-IFC/software/software)
