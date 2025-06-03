@@ -1,3 +1,6 @@
+
+![header](/Tutoriales-IFC/assets/header.png)
+
 # Aprende a crear un prompt
 
 Para obtener los mejores resultados de una consulta a un modelo de lenguaje, es muy importante utilizar el *prompt* adecuado. 
@@ -70,3 +73,6 @@ Si tienes un ejemplo de lo que buscas o datos específicos que el LLM debe usar,
 
 ---
 Al enseñar a tus colegas y estudiantes a incorporar estos elementos en sus prompts, verán una mejora significativa en la calidad y utilidad de las respuestas de los LLMs, convirtiéndolos en herramientas aún más poderosas para la investigación biológica. ¡Mucho éxito con tu seminario!
+
+![header](/Tutoriales-IFC/assets/header.png)
+

@@ -5,6 +5,8 @@
 
 En la UBMI estamos muy interesados en estos temas por ello hemos dedicado esta sección para explorar temas relacionados y su impacto en la investigación en nuestro Instituto.
 
+[ Aprende a crear un prompt](https://ubmi-ifc.github.io/Tutoriales-IFC/Modelos_de_lenguaje_e_inteligencia_artificial/prompt_tutorial)
+
 [ Introducción a los modelos de lenguaje para la investigación científica (seminario)](https://ubmi-ifc.github.io/Tutoriales-IFC/Modelos_de_lenguaje_e_inteligencia_artificial/seminario_introductorio_chatbots)
 
 ![header](/Tutoriales-IFC/assets/header.png)
