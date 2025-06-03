@@ -10,9 +10,7 @@ Un *prompt* es la instrucción que le damos al modelo de lenguaje para recibir u
 En las siguientes líneas el modelo de lenguaje mas avanzado al momento de escribir este tutorial (Gemini 2.5 Pro), te explica lo que constituye "un buen prompt"
 
 ---
-## Ejemplo de Prompts: Malo vs. Bueno 🧬
-
-Aquí tienes un contraste para ilustrar la diferencia:
+## Prompt malo vs. prompt bueno 🧬
 
 **Mal Ejemplo de Prompt:** 💩
 
