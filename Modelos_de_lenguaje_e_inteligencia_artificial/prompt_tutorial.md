@@ -9,6 +9,10 @@ Un *prompt* es la instrucción que le damos al modelo de lenguaje para recibir u
 
 En las siguientes líneas el modelo de lenguaje mas avanzado al momento de escribir este tutorial (Gemini 2.5 Pro), te explica lo que constituye "un buen prompt"
 
+El contenido de la respuesta fué verificado.
+
+Al final del documento puedes encontrar el prompt que se usó para generar esta información.
+
 ---
 ## Prompt malo vs. prompt bueno 🧬
 
@@ -70,7 +74,16 @@ Si tienes un ejemplo de lo que buscas o datos específicos que el LLM debe usar,
 * **Por qué es útil:** Guía al LLM de manera más precisa hacia el tipo de respuesta que esperas.
 
 ---
-Al enseñar a tus colegas y estudiantes a incorporar estos elementos en sus prompts, verán una mejora significativa en la calidad y utilidad de las respuestas de los LLMs, convirtiéndolos en herramientas aún más poderosas para la investigación biológica. ¡Mucho éxito con tu seminario!
+
+## Prompt utilizado
+
+En la plataforma Gemini de Google, se le preguntó al modelo Gemini 2.5 Pro lo siguiente:
+
+```
+ Estoy creando un seminario dirigido a científicos y estudiantes de posgrado en el área de la invesitigación biológica (neurociencias, biología molecular y celular) mi interés es mostrarles cómo hacer un buen prompt con buenas prácticas para obtener los mejores resultados al usar llms como gemini o chat gpt, puedes ayudarme a construir un buen ejemplo contrastarlo con un mal ejemplo y desglosar los puntos que debe contener un buen prompt enfocado a personas del área mencionada
+```
+```
+```
 
 ![header](/Tutoriales-IFC/assets/header.png)
 
