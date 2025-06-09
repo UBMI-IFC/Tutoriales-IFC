@@ -80,7 +80,15 @@ Si tienes un ejemplo de lo que buscas o datos específicos que el LLM debe usar,
 En la plataforma Gemini de Google, se le preguntó al modelo Gemini 2.5 Pro lo siguiente:
 
 ```
- Estoy creando un seminario dirigido a científicos y estudiantes de posgrado en el área de la invesitigación biológica (neurociencias, biología molecular y celular) mi interés es mostrarles cómo hacer un buen prompt con buenas prácticas para obtener los mejores resultados al usar llms como gemini o chat gpt, puedes ayudarme a construir un buen ejemplo contrastarlo con un mal ejemplo y desglosar los puntos que debe contener un buen prompt enfocado a personas del área mencionada
+ Estoy creando un seminario dirigido a científicos
+y estudiantes de posgrado en el área de la invesitigación
+biológica (neurociencias, biología molecular y celular) 
+mi interés es mostrarles cómo hacer un buen prompt con
+buenas prácticas para obtener los mejores resultados al usar 
+llms como gemini o chat gpt, puedes ayudarme a construir un
+buen ejemplo contrastarlo con un mal ejemplo y desglosar
+los puntos que debe contener un buen prompt enfocado a
+personas del área mencionada
 ```
 ```
 ```
