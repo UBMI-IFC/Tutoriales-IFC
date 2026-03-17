@@ -22,6 +22,8 @@ Si llegaste aqui y no eres personal de la Unidad tal vez estos guias te sirvan p
 
 [ Manejar passwords.](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/manejar_passwords)
 
+[ Deshabilitar Suspensión Global en GNOME (EndeavourOS) ](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/manejo_de_energia_con_gnome)
+
 [ Manejo de usuarios UBMI](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/manejo_de_usuarios)
 
 [ NVIDIA F______ng drivers](https://ubmi-ifc.github.io/Tutoriales-IFC/ubmi/nvidia_drivers)
