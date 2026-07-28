@@ -17,7 +17,7 @@ Puedes consultar la introducción [aquí](https://ubmi-ifc.github.io/melodijocha
 
 
 #### Jueves 12 de Junio de 2025 10:00 horas, Auditorio Antonio Peña
-##### La presentación en el canal de YouTube del IFC está  [aquí](https://www.youtube.com/watch?v=w37AgX6q4ZY).
+##### La presentación en el canal de YouTube del IFC está  [AQUÍ](https://www.youtube.com/watch?v=w37AgX6q4ZY).
 
 ---
 

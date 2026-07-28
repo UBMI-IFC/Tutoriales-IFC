@@ -5,6 +5,8 @@
 
 En la UBMI estamos muy interesados en estos temas por ello hemos dedicado esta sección para explorar temas relacionados y su impacto en la investigación en nuestro Instituto.
 
+[ Herramientas de I.A. especializadas y gratuitas para la investigación científica (seminario)](https://ubmi-ifc.github.io/Tutoriales-IFC/Modelos_de_lenguaje_e_inteligencia_artificial/herramientas_ia)
+
 [ Aprende a crear un prompt](https://ubmi-ifc.github.io/Tutoriales-IFC/Modelos_de_lenguaje_e_inteligencia_artificial/prompt_tutorial)
 
 [ Prompt sugerido para asistir a los estudiantes durante la enseñanza de habilidades de programación](https://ubmi-ifc.github.io/Tutoriales-IFC/Modelos_de_lenguaje_e_inteligencia_artificial/prompt_tutor_programacion)
